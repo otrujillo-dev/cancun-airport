@@ -1,0 +1,506 @@
+{
+    "empty": {
+        "languages": {
+            "en": {
+                "path": "",
+                "metas": {
+                    "title": "",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "",
+                "metas": {
+                    "title": "",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "",
+            "es": ""
+        }
+    },
+    "home": {
+        "languages": {
+            "en": {
+                "path": "/",
+                "metas": {
+                    "title": "Punta Cana International Airport (PUJ) - Information",
+                    "description": "Key information for your arrival or departure from Punta Cana International Airport (PUJ). Transportation services, car rentals, and essential tourist details.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es",
+                "metas": {
+                    "title": "Aeropuerto Internacional de Punta Cana (PUJ) | Información",
+                    "description": "Información clave para tu llegada o salida del Aeropuerto Internacional de Punta Cana (PUJ). Servicios de transporte, renta de autos, y detalles turísticos esenciales.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/",
+            "es": "/es"
+        }
+    },
+    "transportation": {
+        "languages": {
+            "en": {
+                "path": "/punta-cana-airport-transfers",
+                "metas": {
+                    "title": "Punta Cana Airport Transfers & Shuttles | Punta Cana Airport",
+                    "description": "Private and Comfortable Punta Cana Airport Transfers to all Punta Cana hotels. Punta Cana Airport Round Trip Transfer from Punta Cana International Airport to all destinations on the island.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/traslados-en-punta-cana",
+                "metas": {
+                    "title": "Traslados en Punta Cana | Aeropuerto de Punta Cana",
+                    "description": "Traslados Privados y Cómodos desde el Aeropuerto de Punta Cana a todos los hoteles de Punta Cana. Traslados en Punta Cana ida y vuelta desde el Aeropuerto Internacional de Punta Cana a todos los destinos de la isla.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/punta-cana-airport-transfers",
+            "es": "/es/traslados-en-punta-cana"
+        }
+    },
+    "terminals": {
+        "languages": {
+            "en": {
+                "path": "/terminals",
+                "metas": {
+                    "title": "Punta Cana Airport four Terminals information | TA, TB, VIP, FBO",
+                    "description": "Punta Cana Airport Terminals, A, B, VIP, FBO, and more. Find all the information about Terminals in Punta Cana International Airport (PUJ).",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/terminales",
+                "metas": {
+                    "title": "Aeropuerto de Punta Cana, información sobre terminales A, B, VIP y FBO",
+                    "description": "Terminales del aeropuerto de Punta Cana, A, B, VIP, FBO, y más. Encuentra toda la información sobre Terminales en el Aeropuerto Internacional de Punta Cana (PUJ).",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/terminals",
+            "es": "/es/terminales"
+        }
+    },
+    "terminal-a": {
+        "languages": {
+            "en": {
+                "path": "/terminals/terminal-a-punta-cana",
+                "metas": {
+                    "title": "Punta Cana airport, information about Terminal A (TA)",
+                    "description": "All the information about Punta Cana Airport Terminal A, Airport Map, arrivals, departures, services, gate, and airlines.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/terminales/terminal-a-punta-cana",
+                "metas": {
+                    "title": "Aeropuerto de Punta Cana, información sobre la Terminal A (TA)",
+                    "description": "Toda la información sobre el aeropuerto de Punta Cana Terminal A, mapa del aeropuerto, llegadas, salidas, servicios, puertas de embarque y compañías aéreas.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/terminals/terminal-a-punta-cana",
+            "es": "/es/terminales/terminal-a-punta-cana"
+        }
+    },
+    "terminal-b": {
+        "languages": {
+            "en": {
+                "path": "/terminals/terminal-b-punta-cana",
+                "metas": {
+                    "title": "Punta Cana airport, information about Terminal B (TB)",
+                    "description": "All information about Punta Cana Airport Terminal B, Terminal B airport map, arrivals, departures, services, boarding gates, airlines, and more.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/terminales/terminal-b-punta-cana",
+                "metas": {
+                    "title": "Aeropuerto de Punta Cana, información sobre la Terminal B (TB)",
+                    "description": "Toda la información sobre la terminal B del Aeropuerto de Punta Cana, mapa del aeropuerto Terminal B, llegadas, salidas, servicios, puertas de embarque, aerolíneas y más.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/terminals/terminal-b-punta-cana",
+            "es": "/es/terminales/terminal-b-punta-cana"
+        }
+    },
+    "arrivals": {
+        "languages": {
+            "en": {
+                "path": "/arrivals",
+                "metas": {
+                    "title": "Punta Cana Airport - Arrivals Information",
+                    "description": "Punta Cana Real-Time Flight Arrivals Information, Delays, and Airlines Information",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/llegadas",
+                "metas": {
+                    "title": "Punta Cana Aeropuerto - Información de llegadas",
+                    "description": "Información en tiempo real sobre llegadas de vuelos del Aeropuerto de Punta Cana, retrasos y aerolíneas",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/arrivals",
+            "es": "/es/llegadas"
+        }
+    },
+    "departures": {
+        "languages": {
+            "en": {
+                "path": "/departures",
+                "metas": {
+                    "title": "Punta Cana Airport - Departures Information",
+                    "description": "Punta Cana Real-Time Flight Departures Information, Delays, and Airlines Information",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/salidas",
+                "metas": {
+                    "title": "Punta Cana Aeropuerto - Información de Salidas",
+                    "description": "Información de Salidas del Aeropuerto de Punta Cana. Vuelos en Tiempo Real, Retrasos e Información de Aerolíneas",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/departures",
+            "es": "/es/salidas"
+        }
+    },
+    "airport-parking": {
+        "languages": {
+            "en": {
+                "path": "/parking",
+                "metas": {
+                    "title": "Punta Cana Airport - Parking Information",
+                    "description": "Information about parking at Punta Cana International Airport. Location and cost of parking",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/estacionamiento",
+                "metas": {
+                    "title": "Aeropuerto de Punta Cana - Información de Estacionamiento",
+                    "description": "Información sobre el estacionamiento en el Aeropuerto Internacional de Punta Cana. Ubicación y coste del aparcamiento",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/parking",
+            "es": "/es/estacionamiento"
+        }
+    },
+    "transportation.process.list": {
+        "languages": {
+            "en": {
+                "path": "/transportation/list",
+                "metas": {
+                    "title": "Search Result",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/listado",
+                "metas": {
+                    "title": "Resultados de búsqueda",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/list",
+            "es": "/es/transportacion/listado"
+        }
+    },
+    "transportation.process.detail": {
+        "languages": {
+            "en": {
+                "path": "/transportation/detail",
+                "metas": {
+                    "title": "Details",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/detalle",
+                "metas": {
+                    "title": "Detalle",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/detail",
+            "es": "/es/transportacion/detalle"
+        }
+    },
+    "transportation.process.payment": {
+        "languages": {
+            "en": {
+                "path": "/transportation/payment/{uuid}",
+                "metas": {
+                    "title": "Secure payment",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/pago/{uuid}",
+                "metas": {
+                    "title": "Pago seguro",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/payment/{uuid}",
+            "es": "/es/transportacion/pago/{uuid}"
+        }
+    },
+    "transportation.process.payment.success": {
+        "languages": {
+            "en": {
+                "path": "/transportation/success",
+                "metas": {
+                    "title": "Successful payment!",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/exitoso",
+                "metas": {
+                    "title": "Pago exitoso!",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/success",
+            "es": "/es/transportacion/exitoso"
+        }
+    },
+    "transportation.process.payment.error": {
+        "languages": {
+            "en": {
+                "path": "/transportation/error",
+                "metas": {
+                    "title": "Payment denied",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/error",
+                "metas": {
+                    "title": "Pago denegado",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/error",
+            "es": "/es/transportacion/error"
+        }
+    },
+    "transportation.process.reservation.details": {
+        "languages": {
+            "en": {
+                "path": "/transportation/my-booking/{uuid}",
+                "metas": {
+                    "title": "My booking detail",
+                    "description": "",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/mi-reservacion/{uuid}",
+                "metas": {
+                    "title": "Detalles de mi reservación",
+                    "description": "",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/my-booking/{uuid}",
+            "es": "/es/transportacion/mi-reservacion/{uuid}"
+        }
+    },
+    "transportation.login": {
+        "languages": {
+            "en": {
+                "path": "/transportation/login",
+                "metas": {
+                    "title": "Get to know more close to your reservation - Punta Cana Airport (PUJ)",
+                    "description": "Learn more about your reservation: price, schedules and type of service. Punta Cana Airport.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/login",
+                "metas": {
+                    "title": "Conoce más cerca de tu reserva - Punta Cana Airport (PUJ)",
+                    "description": "Conoce más acerca de tu reservación: precio, horarios y tipo de servicio. Punta Cana Airport",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/login",
+            "es": "/es/transportacion/login"
+        }
+    },
+    "transportation.terms": {
+        "languages": {
+            "en": {
+                "path": "/transportation/terms-and-conditions",
+                "metas": {
+                    "title": "Terms and conditions of Punta Cana Airport",
+                    "description": "Read our terms and conditions",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/transportacion/terminos-y-condiciones",
+                "metas": {
+                    "title": "Términos y condiciones de los servicios de Punta Cana Airport",
+                    "description": "Conoce nuestros Términos y condiciones",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/transportation/terms-and-conditions",
+            "es": "/es/transportacion/terminos-y-condiciones"
+        }
+    },
+    "privacy-policy": {
+        "languages": {
+            "en": {
+                "path": "/privacy-policy",
+                "metas": {
+                    "title": "Punta Cana Airport Privacy Policy",
+                    "description": "Punta Cana Airport Privacy Policy. Check our Privacy Policy and get all the information you need to enjoy a safe and reliable experience.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/politicas-de-privacidad",
+                "metas": {
+                    "title": "Politica de privacidad de Punta Cana Airport",
+                    "description": "Política de privacidad de Punta Cana Airport. Consulta nuestra Política de Privacidad y obtenga toda la información que necesita para disfrutar de una experiencia segura y fiable.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/privacy-policy",
+            "es": "/es/politicas-de-privacidad"
+        }
+    },
+    "cookies": {
+        "languages": {
+            "en": {
+                "path": "/cookie-policy",
+                "metas": {
+                    "title": "Cookies Policy - Punta Cana Airport",
+                    "description": "This is Punta Cana Airport's Cookie Policy",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/politicas-de-cookies",
+                "metas": {
+                    "title": "Política de Cookies - Punta Cana Airport",
+                    "description": "Esta es la Política de Cookies de Punta Cana Airport",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/cookie-policy",
+            "es": "/es/politicas-de-cookies"
+        }
+    },
+    "car-rental": {
+        "languages": {
+            "en": {
+                "path": "/punta-cana-car-rental",
+                "metas": {
+                    "title": "Punta Cana Airport Car Rentals for a Hassle-Free Travel",
+                    "description": "Find the best car rental services in Punta Cana and travel comfortably to and from Punta Cana International Airport (PUJ).",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/alquiler-de-coches-en-punta-cana",
+                "metas": {
+                    "title": "Alquiler de Coches en Punta Cana desde $40 por día.",
+                    "description": "Encuentra el mejor servicio de Alquiler de Coches en Punta Cana, y viaja cómodamente desde y hacia el aeropuerto internacional de Punta Cana (PUJ).",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/punta-cana-car-rental",
+            "es": "/es/politicas-de-cookies"
+        }
+    },
+    "blog": {
+        "languages": {
+            "en": {
+                "path": "/press",
+                "metas": {
+                    "title": "Press | Blog and info about Punta Cana",
+                    "description": "Explore the gateway to paradise at Punta Cana International Airport. Get information about flights, services, and amenities. Plan your trip with us and enjoy an unparalleled travel experience in the Caribbean.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/prensa",
+                "metas": {
+                    "title": "Prensa | Blog e info sobre Punta Cana",
+                    "description": "Explora la puerta de entrada al paraíso en el Aeropuerto Internacional de Punta Cana. Obtén información sobre vuelos, servicios, y comodidades. Planifica tu viaje con nosotros y disfruta de una experiencia de viaje sin igual en el Caribe.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/press",
+            "es": "/es/prensa"
+        }
+    }
+}

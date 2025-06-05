@@ -1,0 +1,53 @@
+@import '../../base/variables';
+@import "../../header/general";
+@import "../../footer/general";
+
+body{
+    background-color: #f0f2f5;
+}
+
+div.main-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 10px;
+    > div.wrapper{        
+        background: #fff;
+        margin: 16px auto;
+        width: 670px;
+        border-radius: 8px;
+        padding: 24px 24px 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        > div.top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:15px;
+            > div{
+                display: flex;
+                &::before{
+                    content: '';
+                    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23dc3545" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            > p{
+                font-size: 15pt;
+            }
+            > a{
+                border: 1px solid #000403;
+                cursor: pointer;
+                background-color: #000403;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 4px;
+                gap: 8px;
+            }
+        }
+    }
+}

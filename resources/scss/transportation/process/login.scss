@@ -1,0 +1,173 @@
+@import '../../base/variables';
+@import "../../header/general";
+@import "../../footer/general";
+@import "../../components/transportation/bookingbox";
+
+body{
+    background-color: #f0f2f5;
+}
+
+div.main-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 10px;
+    > div.wrapper{        
+        background: #fff;
+        margin: 16px auto;
+        width: 670px;
+        border-radius: 8px;
+        padding: 24px 24px 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-image: url('/assets/img/login/background.png');
+        background-repeat: no-repeat;
+        background-size: 288px 188px;
+        background-position: right 0 top 0;
+        > div.top{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            > h1{
+                font-size: 18pt;
+            }
+            > p{
+                color: $two;
+            }
+            > ul{
+                padding-left: 15px;
+                margin: 0px;
+                margin-top: 5px;
+                li{
+                    color: $two;
+                    font-size: 11pt;
+                    line-height: 1.5;
+                }
+            }
+            > div.error{
+                background-color: #fa503f;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 8pt;
+                font-weight: 700;
+                letter-spacing: 1pt;
+                padding: 5px 8px;
+                text-transform: lowercase;
+                &:empty{
+                    padding: 0px;
+                }
+            }
+        }
+        > form.bottom{
+            display: flex;
+            flex-direction: column;
+            > div{
+                position: relative;
+            }
+            > button{
+                border: 1px solid #000403;
+                cursor: pointer;
+                background-color: #000403;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 4px;
+                align-self: flex-start;
+                gap: 8px;
+            }
+        }
+    }
+}
+
+
+input, select, textarea{
+    padding: 15px 15px;
+    border-radius: 4px;
+    min-height: 45px;
+    border: 1px solid #dadfe6;
+}
+.form__input {
+    border: 1px solid #dadfe6;     
+    transition: all 250ms;
+    width: 100%;
+    @media (min-width: 768px) {
+        //width: clamp(120px, 35vw, 420px);
+    }
+
+    // This is basically saying when the form__input class is in focus
+    &:focus {
+        outline: none;
+        border-top-color: rgba(0, 0, 0, 0.1);
+    }
+
+    // How to read this:
+    /* When the input field (.form__input) is in focus, 
+         transform the .form__label and change colors*/
+    /* ALSO, if the input field's placeholder is NOT shown (when the input field has content),
+         transform the .form__label and change colors. */
+    &:focus ~ .form__label,
+    &:not(:placeholder-shown) ~ .form__label {
+      transform: translateY(-3.7rem) scale(1);
+      margin-left: 15px;
+      display: flex;
+      justify-self: flex-start;
+      padding: 0px 5px;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    /* THIS PART IS IMPORTANT!! */
+    /* The block below hides the placeholder entirely. */
+    /* For all intents and purposes, the placeholder no longer exists. */
+    /* What shows on the input field is only the label*. */
+    /* HOWEVER, the input fields still recognizes that the placeholder exists!*/
+    /* The placeholder is just invisible. We need the placeholder to exist for
+         some weird CSS stuff. If we skip this, we can't make it CSS-only. */
+    &::placeholder {
+        display: none;
+        color: transparent;
+
+        // Prevents users from highlighting the placeholder.
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    // How to read this:
+    /* When the placeholder is NOT shown,
+         style the top border. */
+    /* This makes the top border fade-out when the placeholder disappears. */
+    &:not(:placeholder-shown) {
+        //border-top-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.form__label {
+    font-size: 11pt;
+    color: #606d7a;
+    display: flex;
+    justify-self: flex-start;
+    width: auto;
+
+    /* Moves the label on TOP of the placeholder */
+    /* You'll need to change this as needed */
+    transform: translate(1.25rem, -2.1rem);
+    transform-origin: 0 0; /* Used later for transitions */
+    transition: all 500ms;
+
+    // Prevents users from highlighting the label.
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+    /* THIS PART IS IMPORTANT! */
+    /* This line prevents the label from being selected.*/
+    /* This is crucial because if this line doesn't exist, users can
+            click on the label, instead of the input field. That's bad UX! */
+    pointer-events: none;
+    > span{
+        margin-top: -5px;
+        margin-left: 4px;
+        color: #d92917;
+    }
+}

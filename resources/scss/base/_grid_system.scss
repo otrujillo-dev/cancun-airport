@@ -1,0 +1,22 @@
+.main {
+    flex: 1 0 auto;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 15px;
+}
+/*
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    @media (min-width: 992px) {
+        max-width: 980px;
+    }
+    @media (min-width: 1280px) {
+        max-width: 1280px;
+    }
+}
+*/

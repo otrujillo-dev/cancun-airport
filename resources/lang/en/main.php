@@ -1,0 +1,20 @@
+<?php
+    return [
+        "home" => "Home",        
+        "arrivals" => "Arrivals",
+        "departures" => "Departures",
+        "airport_transfers" => "Airport Transfers",
+        "car_rental" => "Car Rental",
+        "my_booking" => "My Shuttle",
+        "rights_reserved" => "All rights reserved",
+        "privacy" => "Privacy Policy",
+        "terms" => "Terms & Conditions",
+        "cookie" => "Cookie Policy",
+        "terminals" => "Terminals",
+        "airport_parking" => "Airport Parking",
+        "services" => "Services",
+        "information" => "Information",
+        "transportation" => "Transportation",
+        "go_top" => "Back to top",
+        "blog" => "Press",
+    ];

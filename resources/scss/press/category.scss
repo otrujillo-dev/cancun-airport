@@ -1,0 +1,162 @@
+@import '../base/variables';
+@import "../header/general";
+@import "../footer/general";
+
+body{
+    background-color: rgb(28 28 32/1)
+}
+
+header{
+    backdrop-filter: inherit;
+    background-color: transparent;
+    border-bottom: 0px;
+    position: relative;
+    > div.container{
+        > div.header-holder {
+            nav.nav{
+                > div.nav-drop{
+                    > div.menu-holder{
+                        > div.left{
+                            > a{
+                                color: white;
+                            }
+                        }
+                        > div.right{
+                            > a{
+                                border-color: white;
+                                > svg{
+                                    fill: white;
+                                }
+                            }
+                        }
+                    }                    
+                }
+                > div.header-buttons{
+                    > a{
+                        color: white !important;
+                        border-color: white !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.blog-top{
+    max-width: 1280px;
+    padding-top: 25px;
+    > div.wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        > div.top{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 15px;
+            > h1{
+                color: white;
+                align-self: center;
+                font-weight: normal;
+            }
+            > div{
+                padding-top: 25px;
+                border-top: 2px solid #297da9;
+                padding-bottom: .5rem;
+                color: white;
+            }
+            @media (max-width: 767px) {
+                grid-template-columns: 1fr;
+            }
+        }
+        > div.bottom{
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            flex-wrap: wrap;
+            > a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+            }
+        }
+    }
+}
+
+div.blog{
+    max-width: 1280px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    > div.wrapper{
+
+        > div.middle{
+            padding-top: 35px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+            > a{
+                display: grid;
+                grid-template-rows: 300px 1fr;
+                text-decoration: none;
+                > div.top{
+                    background-color: rgb(28 28 32 / 1);
+                    border-radius: 10px 10px 0px 0px;
+                    overflow: hidden;
+                    > img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px 10px 0px 0px;
+                        object-fit: cover;
+
+                        transition-property: transform;
+                        transition-timing-function: cubic-bezier(.4,0,.2,1);
+                        transition-duration: .3s;
+                        &:hover{
+                            transform: translate(0,0) rotate(0) skewX(0) skewY(0) scaleX(1.1) scaleY(1.1);
+                        }
+                        
+
+                    }
+                }
+                > div.bottom{
+                    padding: 20px;
+                    border-radius: 0px 0px 10px 10px;
+                    background-color: rgb(42 43 54/1);
+                    display: grid;
+                    grid-template-rows: auto 2fr auto;
+                    grid-row-gap: 10px;
+                    > *:nth-child(1){
+                        color: rgb(255 206 52/1);
+                        text-transform: uppercase;
+                    }
+                    > *:nth-child(2){
+                        color: white;
+                        text-transform: uppercase;
+                        font-size: 16pt;
+                        line-height: 1.2;
+                    }
+                    > *:nth-child(3){
+                        color: white;
+                        font-weight: bold;
+                        > span{
+                            display: block;
+                            font-weight: normal;
+                        }
+                    }
+                }
+                @media (max-width: 991px) {
+                    grid-template-rows: 200px 1fr;
+                }
+                @media (max-width: 767px) {
+                    grid-template-rows: 250px 1fr;
+                }
+            }
+            @media (max-width: 767px) {
+                grid-template-columns: 1fr 1fr;
+            }
+            @media (max-width: 450px) {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

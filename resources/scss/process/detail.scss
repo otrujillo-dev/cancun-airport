@@ -1,0 +1,254 @@
+@import '../header/checkout';
+@import '../components/process/steps';
+
+
+main{
+    > div.container{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+        max-width: 800px;
+        height: 100%;
+        > div.booking-detail{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-top: 35px;
+            > div.client-information{
+                background: white;
+                padding: 15px;
+                flex-basis: calc(50% - 10px);
+                margin: 0 0 20px;
+                box-shadow: 0 0 1px rgba(40, 41, 61, 0.08), 0 .5px 2px rgba(96, 97, 112, 0.16);
+                border-radius: 4px;
+                border: 1px solid #e4e4eb;
+                display: grid;
+                grid-template-columns: 1fr auto;
+                grid-column-gap: 15px;
+                > div.left{
+                    display: grid;
+                    grid-template-columns: 50px 1fr;
+                    grid-column-gap: 15px;
+                    > div.one{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        width: 48px;
+                        height: 48px;
+                        margin: 0 20px 0 0;
+                        cursor: pointer;
+                        background: #e5f0ff;
+                    }
+                    > div.two{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3px;
+                        > *:nth-child(1){
+                            font-size: 14pt;
+                            color: #28293d;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                > div.right{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+                    align-items: center;
+                    > *:nth-child(1){
+                        font-size: 8pt;
+                        padding: 8px 15px;
+                        font-weight: bold;
+                        border-radius: 5px;
+                        &.PENDING{
+                            background-color: #edf5ff;
+                            border: 1px solid #003fb8;
+                            color: #003fb8;
+                        }
+                        &.CONFIRMED{
+                            background-color: #edfdf3;
+                            border: 1px solid #2f6339;
+                            color: #2f6339;
+                        }
+                        &.CANCELLED{
+                            background-color: #dc3545;
+                            border: 1px solid #dc3545;
+                            color: #fff;
+                        }
+                    }
+                    > *:nth-child(2){
+                        padding: 10px 25px;
+                        border-radius: 4px;
+                        font-size: 11pt;
+                        color: #f5f8fb;
+                        background: #22348f;
+                        text-decoration: none;
+                    }
+                }
+                @media (max-width: 767px) {
+                    grid-template-columns: 1fr;
+                    grid-row-gap: 15px;
+                }
+            }
+
+            > div.general-items{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 25px;
+                > div.reservation{
+                    background: white;
+                    padding: 25px;
+                    flex-basis: calc(50% - 10px);
+                    margin: 0 0 20px;
+                    box-shadow: 0 0 1px rgba(40, 41, 61, 0.08), 0 .5px 2px rgba(96, 97, 112, 0.16);
+                    border-radius: 4px;
+                    border: 1px solid #e4e4eb;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    > h2{
+                        font-size: 14pt;
+                    }
+                    > div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        height: 100%;
+                        gap: 8px;
+                        > p{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+                > div.payment-information{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 15px;
+
+                    background: white;
+                    padding: 25px;
+                    flex-basis: calc(50% - 10px);
+                    margin: 0 0 20px;
+                    box-shadow: 0 0 1px rgba(40, 41, 61, 0.08), 0 .5px 2px rgba(96, 97, 112, 0.16);
+                    border-radius: 4px;
+                    border: 1px solid #e4e4eb;
+
+                    > div.top{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        > div{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            > h3{
+                                font-size: 14pt;
+                            }
+                            > p{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                gap: 15px;
+                            }
+                        }
+                    }
+                    > div.bottom{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        > a{
+                            background-color: #000403;
+                            border: 1px solid white;
+                            display: flex;
+                            flex-direction: row;
+                            gap: 5px;
+                        }
+                    }
+                }
+                > div.help{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    align-self: flex-start;
+
+                    background: white;
+                    padding: 25px;
+                    flex-basis: calc(50% - 10px);
+                    margin: 0 0 20px;
+                    box-shadow: 0 0 1px rgba(40, 41, 61, 0.08), 0 .5px 2px rgba(96, 97, 112, 0.16);
+                    border-radius: 4px;
+                    border: 1px solid #e4e4eb;
+                    
+                    > h2{
+                        font-size: 14pt;
+                    }
+                    > div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        > p{
+                            font-size: 13pt;
+                        }
+                    }
+                }
+                > div.payment-options{
+                    background: white;
+                    padding: 25px;
+                    flex-basis: calc(50% - 10px);
+                    margin: 0 0 20px;
+                    box-shadow: 0 0 1px rgba(40, 41, 61, 0.08), 0 .5px 2px rgba(96, 97, 112, 0.16);
+                    border-radius: 4px;
+                    border: 1px solid #e4e4eb;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    > h2{
+                        font-size: 14pt;
+                    }
+                    > div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        > a.stripe{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            border: 1px solid #ccddff;
+                            background: #e5f0ff;
+                            color: #232323;
+                            padding: 15px;
+                            font-weight: bold;
+                            > img{
+                                width: 80px;
+                            }
+                        }
+                        > a.paypal{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            border: 1px solid #ffc439;
+                            background: #ffc439;                            
+                            padding: 15px;
+                            > img{
+                                width: 100px;
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 767px) {
+                    grid-template-columns: 1fr;
+                    margin-bottom: 50px;
+                }
+            }
+            
+        }
+        > div.bottom{
+            text-align: center;
+        }
+    }
+}

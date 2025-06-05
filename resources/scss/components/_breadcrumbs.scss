@@ -1,0 +1,29 @@
+ol.breadcrumb{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    li{
+        > a{
+            color: white;
+            text-decoration: none;
+            font-size: 11pt;
+        }
+        &::after{
+            content: '›';
+            color: white;
+        }
+        &:last-child{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            font-size: 11pt;
+            &::after{
+                content: '';
+            }
+        }
+    }
+}

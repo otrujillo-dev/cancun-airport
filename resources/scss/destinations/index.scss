@@ -1,0 +1,169 @@
+@import "../base/variables";
+@import "../header/general";
+@import "../footer/general";
+@import "../components/breadcrumbs";
+
+header{
+    backdrop-filter: inherit;
+    background-color: transparent;
+    border-bottom: 0px;
+    > div.container{
+        > div.header-holder {
+            > a.logo{
+                > *:nth-child(1){
+                    display: none;
+                }
+                > *:nth-child(2){
+                    display: block;
+                }
+            }
+            nav.nav{
+                > div.nav-drop{
+                    > div.menu-holder{
+                        > div.left{
+                            > a{
+                                color: white;
+                            }
+                        }
+                        > div.right{
+                            > a{
+                                border-color: white;
+                                > svg{
+                                    fill: white;
+                                }
+                            }
+                        }
+                    }                    
+                }
+                > div.header-buttons{
+                    > a{
+                        color: white !important;
+                        border-color: white !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.black-background{
+    align-items: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 20px;
+    min-height: 320px;
+    overflow: hidden;
+    padding: 70px 0 0;
+    position: relative;
+    width: 100%;
+    > div.container{
+        margin: 0 auto;
+        max-width: 700px;
+        padding: 0 15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        color: #fff;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        > h1{            
+            color: white;
+        }
+    }
+    &::after{
+        background-color: #000403b3;
+        bottom: 0;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+ div.container{
+    &.main-items{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+        > div.item-left{
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+            > div.left{
+                picture{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                        border-radius: 10px;
+                        @media (max-width: 767px) {
+                            max-height: 300px;
+                        }
+                    }
+                }
+            }
+            > div.right{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 8px;
+                > h2{
+                    > a{
+                        color: $two;
+                    }
+                }
+            }
+            @media (max-width: 767px) {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+        > div.item-right{
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
+            > div.left{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 8px;
+                > h2{
+                    > a{
+                        color: $two;
+                    }
+                }
+            }
+            > div.right{
+                picture{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        -o-object-fit: cover;
+                        object-fit: cover;
+                        border-radius: 10px;
+                        @media (max-width: 767px) {
+                            max-height: 300px;
+                        }
+                    }
+                }
+            }   
+            @media (max-width: 767px) {
+                grid-template-columns: 1fr;
+            }        
+        }
+    }
+}

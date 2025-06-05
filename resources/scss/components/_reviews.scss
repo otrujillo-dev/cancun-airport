@@ -1,0 +1,100 @@
+div.general-reviews{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    > div.wrapper{
+        background-image: url('/assets/img/reviews/reviews-background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        > div{
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            > h2, > h3, > h4{
+                font-weight: normal;
+                text-align: center;
+                font-size: 20pt;
+            }
+            > div.review{                
+                background-color: white;
+                max-width: 70%;
+                border: 1px solid #CCD6EB;
+                border-radius: 5px;
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-bottom: 10px;
+                > div{
+                    display: grid;
+                    grid-template-columns: 75px 1fr;
+                    grid-column-gap: 15px;
+                    grid-row-gap: 15px;
+                    > picture{
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 5px;
+                        }
+                    }
+                    > div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        > p{
+                            line-height: 1.3;
+                        }
+                        > *:nth-child(1){
+                            font-weight: bold;
+                            color: #232323;
+                        }
+                        > *:nth-child(2){
+                            font-size: 10pt;
+                        }
+                        > *:nth-child(3){
+                            font-size: 10pt;
+                        }
+                        > div{
+                            display: flex;
+                            gap: 5px;
+                            &::before{
+                                content: '';
+                                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAASCAMAAAAddmK8AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAOpQTFRFAAAA/7UA/7MA/7QA7MFa7r5O7MBU8bxAy9Xry9br/7cA/7QA/68A6cZv6MZ0zNbrz9/v/7UA8b5B7r5Ny9Xp/7QA/7QA+bga/LYOzNbrzNbq/7MA/7UA6cZs6cJl7MJb7sJK8r0/8L9F779N775H/LYQzNbrzdbszdfsy9frytrqzNbrzNXrytXv97onz9fszNbszdXq58Np/rUGzdftzdbqytXq/7QCz9fnzNbqzdXsz9fv/7QA/7UA/7QA9bsv870487w3/LYP8L9Gy9Xp/7QA8b1A8r071NHF6L507MJa/LUO4MeNzdfqvM8ISgAAAE50Uk5TAGCAcJzAr7CAcCD/EDwf/xCf28CA3+/7/u+gQDA8cJxsWIimuO+/32BAMK/PMMdf72BX5X/fMPEgkJ8gv6+w7+bn//qwoNz/xx+ciKBgKZ2/3gAAAc5JREFUeJytk9tLAkEUxs/R1XRcu0lldqOXLkRFZRco6DEK+ocrCIIuVNhLYBAVaV66GIvpWIramd1NZ59mA+dhdua333x7ds45CNZAxDrIQw00xKpD4Ees2EvrweiJJUmiBuEGgLfoEGiAhuzaR1+tNKQzatD/AxAoOAQa+D5k1wEOEOJSKGowROswL8qCbs4qRtsVmZi/2/emBlqXmGtVWdBThmrF2vRlPc0IN2+mgI0YfioBjVyz3wxb/8ThpkcQzALUx1+jzzhBmxB0btQns3bgHXX9nqv5C7zjrjTNV/OA3oDjRejdowQ+nwOEBx8k10V8YlGE0R/eVrCuFxdgOSNVmD6SGB26+3ON38MUXlJlMb3ciqMkzqvBWO2rFakvTYL5W9s1VmYTF2a9Sldr9eS/gNm11n7hHIJ+0bXkOmK0Jb0ZcAPGpU6NpFoCbQ7rSYglhaucL7N51MAv5Uu0ly3QIMrynNqLXLduxC9MJwRfOQE3YPuapvDMlQBrx7ZgHfMvAqweCddBSsVSgrPNMzr6Bm5AlJIVf0yPzZ6Sed4SbKFxsZGiBcuRq05JHc6YiRAFUXIBdo8IpATYOwQIFvXtA9h5SAqwTyBg/ALg7NubCE5KwQAAAABJRU5ErkJggg==');
+                                width: 61px;
+                                height: 13px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                    }
+                }
+                > p{
+                    font-size: 10pt;
+                }
+                @media (max-width: 600px) {
+                    max-width: 100%;
+                }
+            }
+            > a{
+                border: 1px solid #000403;
+                cursor: pointer;
+                background-color: #000403;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 4px;
+                align-self: center;
+                gap: 8px;
+                @media (max-width: 600px) {
+                    align-self: normal;
+                }
+            }            
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import '../base/variables';
+@import '../header/checkout';
+@import '../footer/checkout';
+@import '../components/process/steps';
+
+
+main{
+    > div.container{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+        max-width: 800px;
+        height: 100%;
+        > div.badge{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            text-align: center;
+            > svg.success{
+                fill: #28a745;
+            }
+            > h1{
+                font-size: 25pt;
+            }
+            > p{
+                font-size: 15pt;
+            }
+            > a{
+                background-color: $five;
+                padding: 10px 35px;
+            }
+        }
+    }
+}

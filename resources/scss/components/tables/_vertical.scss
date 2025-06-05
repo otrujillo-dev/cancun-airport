@@ -1,0 +1,19 @@
+table.vertical{
+    border-collapse: collapse;
+    border: none;
+    margin-bottom: 15px;
+    tbody{
+        tr{
+            th{
+                padding: .75rem;
+                border: 1px solid #dee2e6;
+                font-size: 11pt;
+            }
+            td{
+                padding: .75rem;
+                border: 1px solid #dee2e6;
+                font-size: 11pt;
+            }
+        }
+    }
+}
