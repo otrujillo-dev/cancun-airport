@@ -28,16 +28,16 @@
             "en": {
                 "path": "/",
                 "metas": {
-                    "title": "Punta Cana International Airport (PUJ) - Information",
-                    "description": "Key information for your arrival or departure from Punta Cana International Airport (PUJ). Transportation services, car rentals, and essential tourist details.",
+                    "title": "Cancun Airport Information - CUN International Airport - Arrivals, Departures and More",
+                    "description": "Cancun International Airport Information (CUN), Flight Tracking, Flight Status, Airlines Information, Arrivals, Departures, Ground Transportation & More.",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es",
                 "metas": {
-                    "title": "Aeropuerto Internacional de Punta Cana (PUJ) | Información",
-                    "description": "Información clave para tu llegada o salida del Aeropuerto Internacional de Punta Cana (PUJ). Servicios de transporte, renta de autos, y detalles turísticos esenciales.",
+                    "title": "Información del Aeropuerto de Cancún - Aeropuerto Internacional de Cancún (CUN) - Llegadas, Salidas y Más",
+                    "description": "Información del Aeropuerto Internacional de Cancún (CUN), Seguimiento de Vuelos, Estado de Vuelos, Información de Aerolíneas, Llegadas, Salidas, Transporte Terrestre y Más.",
                     "keywords": ""
                 }
             }           
@@ -50,25 +50,25 @@
     "transportation": {
         "languages": {
             "en": {
-                "path": "/punta-cana-airport-transfers",
+                "path": "/transportation",
                 "metas": {
-                    "title": "Punta Cana Airport Transfers & Shuttles | Punta Cana Airport",
-                    "description": "Private and Comfortable Punta Cana Airport Transfers to all Punta Cana hotels. Punta Cana Airport Round Trip Transfer from Punta Cana International Airport to all destinations on the island.",
+                    "title": "Cancun Airport Transportation Official Shuttles and Transfers",
+                    "description": "Book your Cancun Airport Transportation 24/7 to Cancún, Playa del Carmen, Tulum and all destinations in Riviera Maya. Safe and Reliable, Ground Shuttles, and Transfers.",
                     "keywords": ""
                 }
             },
             "es": {
-                "path": "/es/traslados-en-punta-cana",
+                "path": "/es/transportacion",
                 "metas": {
-                    "title": "Traslados en Punta Cana | Aeropuerto de Punta Cana",
-                    "description": "Traslados Privados y Cómodos desde el Aeropuerto de Punta Cana a todos los hoteles de Punta Cana. Traslados en Punta Cana ida y vuelta desde el Aeropuerto Internacional de Punta Cana a todos los destinos de la isla.",
+                    "title": "Transportación Oficial en el Aeropuerto de Cancún",
+                    "description": "Reserva tu Transportación del Aeropuerto de Cancún 24/7 a Cancún, Playa del Carmen, Tulum y todos los destinos de la Riviera Maya. Transporte Terrestre Seguro y Confiable.",
                     "keywords": ""
                 }
             }           
         },
         "alternates": {
-            "en": "/punta-cana-airport-transfers",
-            "es": "/es/traslados-en-punta-cana"
+            "en": "/transportation",
+            "es": "/es/transportacion"
         }
     },
     "terminals": {
@@ -76,16 +76,16 @@
             "en": {
                 "path": "/terminals",
                 "metas": {
-                    "title": "Punta Cana Airport four Terminals information | TA, TB, VIP, FBO",
-                    "description": "Punta Cana Airport Terminals, A, B, VIP, FBO, and more. Find all the information about Terminals in Punta Cana International Airport (PUJ).",
+                    "title": "Cancun Airport Terminals | Cancun International Airport (CUN)",
+                    "description": "Information about Cancun Airport terminals, airlines, restaurants, lounges and facilities information at Cancun International Airport",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/terminales",
                 "metas": {
-                    "title": "Aeropuerto de Punta Cana, información sobre terminales A, B, VIP y FBO",
-                    "description": "Terminales del aeropuerto de Punta Cana, A, B, VIP, FBO, y más. Encuentra toda la información sobre Terminales en el Aeropuerto Internacional de Punta Cana (PUJ).",
+                    "title": "Terminales del Aeropuerto de Cancún | Aeropuerto Internacional de Cancún (CUN)",
+                    "description": "Información sobre terminales, aerolíneas, restaurantes, salas e instalaciones del Aeropuerto Internacional de Cancún",
                     "keywords": ""
                 }
             }           
@@ -95,28 +95,28 @@
             "es": "/es/terminales"
         }
     },
-    "terminal-a": {
+    "terminal-one": {
         "languages": {
             "en": {
-                "path": "/terminals/terminal-a-punta-cana",
+                "path": "/terminals/terminal-1",
                 "metas": {
-                    "title": "Punta Cana airport, information about Terminal A (TA)",
-                    "description": "All the information about Punta Cana Airport Terminal A, Airport Map, arrivals, departures, services, gate, and airlines.",
+                    "title": "Cancun Airport Terminal 1| Information About Terminal 1 at Cancun International Airport",
+                    "description": "All the information about Cancun Airport Terminal 1, This terminal is an FBO: Airport Map, arrivals, departures, services, gate, and airlines.",
                     "keywords": ""
                 }
             },
             "es": {
-                "path": "/es/terminales/terminal-a-punta-cana",
+                "path": "/es/terminales/terminal-1",
                 "metas": {
-                    "title": "Aeropuerto de Punta Cana, información sobre la Terminal A (TA)",
-                    "description": "Toda la información sobre el aeropuerto de Punta Cana Terminal A, mapa del aeropuerto, llegadas, salidas, servicios, puertas de embarque y compañías aéreas.",
+                    "title": "Cancun Airport Terminal 1| Información sobre la Terminal 1 del Aeropuerto Internacional de Cancún",
+                    "description": "Toda la información sobre el Aeropuerto de Cancún Terminal 1. Esta terminal es un FBO: Mapa del aeropuerto, llegadas, salidas, servicios, puerta de embarque y aerolíneas.",
                     "keywords": ""
                 }
             }           
         },
         "alternates": {
-            "en": "/terminals/terminal-a-punta-cana",
-            "es": "/es/terminales/terminal-a-punta-cana"
+            "en": "/terminals/terminal-1",
+            "es": "/es/terminales/terminal-1"
         }
     },
     "terminal-b": {
@@ -124,8 +124,8 @@
             "en": {
                 "path": "/terminals/terminal-b-punta-cana",
                 "metas": {
-                    "title": "Punta Cana airport, information about Terminal B (TB)",
-                    "description": "All information about Punta Cana Airport Terminal B, Terminal B airport map, arrivals, departures, services, boarding gates, airlines, and more.",
+                    "title": "Cancun Airport, information about Terminal B (TB)",
+                    "description": "All information about Cancun Airport Terminal B, Terminal B airport map, arrivals, departures, services, boarding gates, airlines, and more.",
                     "keywords": ""
                 }
             },
@@ -148,16 +148,16 @@
             "en": {
                 "path": "/arrivals",
                 "metas": {
-                    "title": "Punta Cana Airport - Arrivals Information",
-                    "description": "Punta Cana Real-Time Flight Arrivals Information, Delays, and Airlines Information",
+                    "title": "Cancun International Airport Arrivals - Cancun Airport Arrivals Flight Tracking ",
+                    "description": "Cancun Airport Real-Time Flight Arrivals Information, Delays, and Airlines Information. Check out the Flight Arrivals at the Cancun International Airport",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/llegadas",
                 "metas": {
-                    "title": "Punta Cana Aeropuerto - Información de llegadas",
-                    "description": "Información en tiempo real sobre llegadas de vuelos del Aeropuerto de Punta Cana, retrasos y aerolíneas",
+                    "title": "Llegadas al Aeropuerto Internacional de Cancún - Seguimiento de Vuelos en el Aeropuerto de Cancún",
+                    "description": "Información en tiempo real de llegadas de vuelos, retrasos e información de Aerolíneas del Aeropuerto de Cancún. Consulta las Llegadas de Vuelos al Aeropuerto Internacional de Cancún",
                     "keywords": ""
                 }
             }           
@@ -172,16 +172,16 @@
             "en": {
                 "path": "/departures",
                 "metas": {
-                    "title": "Punta Cana Airport - Departures Information",
-                    "description": "Punta Cana Real-Time Flight Departures Information, Delays, and Airlines Information",
+                    "title": "Cancun International Airport Departures - Cancun Airport Departures Flight Tracking",
+                    "description": "Cancun Airport Real-Time Flight Departures Information, Delays, and Airlines Information. Check out the Flight Departures at the Cancun International Airport",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/salidas",
                 "metas": {
-                    "title": "Punta Cana Aeropuerto - Información de Salidas",
-                    "description": "Información de Salidas del Aeropuerto de Punta Cana. Vuelos en Tiempo Real, Retrasos e Información de Aerolíneas",
+                    "title": "Salidas del Aeropuerto Internacional de Cancún - Seguimiento de Vuelos del Aeropuerto de Cancún",
+                    "description": "Información en Tiempo Real de Salidas de Vuelos, Retrasos e Información de Aerolíneas del Aeropuerto de Cancún. Consulta las Salidas de Vuelos en el Aeropuerto Internacional de Cancún",
                     "keywords": ""
                 }
             }           
@@ -196,7 +196,7 @@
             "en": {
                 "path": "/parking",
                 "metas": {
-                    "title": "Punta Cana Airport - Parking Information",
+                    "title": "Cancun Airport - Parking Information",
                     "description": "Information about parking at Punta Cana International Airport. Location and cost of parking",
                     "keywords": ""
                 }
@@ -364,16 +364,16 @@
             "en": {
                 "path": "/transportation/login",
                 "metas": {
-                    "title": "Get to know more close to your reservation - Punta Cana Airport (PUJ)",
-                    "description": "Learn more about your reservation: price, schedules and type of service. Punta Cana Airport.",
+                    "title": "Get to know more close to your reservation - Cancun Airport (PUJ)",
+                    "description": "Learn more about your reservation: price, schedules and type of service. Cancun Airport.",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/transportacion/login",
                 "metas": {
-                    "title": "Conoce más cerca de tu reserva - Punta Cana Airport (PUJ)",
-                    "description": "Conoce más acerca de tu reservación: precio, horarios y tipo de servicio. Punta Cana Airport",
+                    "title": "Conoce más cerca de tu reserva - Cancun Airport (PUJ)",
+                    "description": "Conoce más acerca de tu reservación: precio, horarios y tipo de servicio. Cancun Airport",
                     "keywords": ""
                 }
             }           
@@ -388,7 +388,7 @@
             "en": {
                 "path": "/transportation/terms-and-conditions",
                 "metas": {
-                    "title": "Terms and conditions of Punta Cana Airport",
+                    "title": "Terms and conditions of Cancun Airport",
                     "description": "Read our terms and conditions",
                     "keywords": ""
                 }
@@ -396,7 +396,7 @@
             "es": {
                 "path": "/es/transportacion/terminos-y-condiciones",
                 "metas": {
-                    "title": "Términos y condiciones de los servicios de Punta Cana Airport",
+                    "title": "Términos y condiciones de los servicios de Cancun Airport",
                     "description": "Conoce nuestros Términos y condiciones",
                     "keywords": ""
                 }
@@ -412,16 +412,16 @@
             "en": {
                 "path": "/privacy-policy",
                 "metas": {
-                    "title": "Punta Cana Airport Privacy Policy",
-                    "description": "Punta Cana Airport Privacy Policy. Check our Privacy Policy and get all the information you need to enjoy a safe and reliable experience.",
+                    "title": "Cancun Airport Privacy Policy",
+                    "description": "Cancun Airport Privacy Policy. Check our Privacy Policy and get all the information you need to enjoy a safe and reliable experience.",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/politicas-de-privacidad",
                 "metas": {
-                    "title": "Politica de privacidad de Punta Cana Airport",
-                    "description": "Política de privacidad de Punta Cana Airport. Consulta nuestra Política de Privacidad y obtenga toda la información que necesita para disfrutar de una experiencia segura y fiable.",
+                    "title": "Politica de privacidad de Cancun Airport",
+                    "description": "Política de privacidad de Cancun Airport. Consulta nuestra Política de Privacidad y obtenga toda la información que necesita para disfrutar de una experiencia segura y fiable.",
                     "keywords": ""
                 }
             }           
@@ -436,16 +436,16 @@
             "en": {
                 "path": "/cookie-policy",
                 "metas": {
-                    "title": "Cookies Policy - Punta Cana Airport",
-                    "description": "This is Punta Cana Airport's Cookie Policy",
+                    "title": "Cookies Policy - Cancun Airport",
+                    "description": "This is Cancun Airport's Cookie Policy",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/politicas-de-cookies",
                 "metas": {
-                    "title": "Política de Cookies - Punta Cana Airport",
-                    "description": "Esta es la Política de Cookies de Punta Cana Airport",
+                    "title": "Política de Cookies - Cancun Airport",
+                    "description": "Esta es la Política de Cookies de Cancun Airport",
                     "keywords": ""
                 }
             }           
@@ -458,25 +458,25 @@
     "car-rental": {
         "languages": {
             "en": {
-                "path": "/punta-cana-car-rental",
+                "path": "/car-rental",
                 "metas": {
-                    "title": "Punta Cana Airport Car Rentals for a Hassle-Free Travel",
-                    "description": "Find the best car rental services in Punta Cana and travel comfortably to and from Punta Cana International Airport (PUJ).",
+                    "title": "Official Car Rental in Cancun Airport - Car Rental Information and Providers",
+                    "description": "Cancun Airport Car Rental Center is open 24/7. Get Deals on Cheap Car Rentals at Cancun Airport with the main providers",
                     "keywords": ""
                 }
             },
             "es": {
-                "path": "/es/alquiler-de-coches-en-punta-cana",
+                "path": "/es/renta-de-autos",
                 "metas": {
-                    "title": "Alquiler de Coches en Punta Cana desde $40 por día.",
-                    "description": "Encuentra el mejor servicio de Alquiler de Coches en Punta Cana, y viaja cómodamente desde y hacia el aeropuerto internacional de Punta Cana (PUJ).",
+                    "title": "Renta de Autos en el Aeropuerto de Cancún - Información y Proveedores de Renta de Autos Oficiales",
+                    "description": "Renta de Autos del Aeropuerto de Cancún está abierto 24/7 todos los días de la semana. Obtenga Ofertas en Renta de Autos Baratos en el Aeropuerto de Cancún con los principales proveedores",
                     "keywords": ""
                 }
             }           
         },
         "alternates": {
-            "en": "/punta-cana-car-rental",
-            "es": "/es/politicas-de-cookies"
+            "en": "/car-rental",
+            "es": "/es/renta-de-autos"
         }
     },
     "blog": {

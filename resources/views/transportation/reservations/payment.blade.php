@@ -135,6 +135,6 @@
     </main>
 
     <footer>
-        <p>Copyright © {{ date("Y") }} puntacanaairport.com. All rights reserved</p>
+        <p>Copyright © {{ date("Y") }} cuninternationalairport.com. All rights reserved</p>
     </footer>
 @endsection

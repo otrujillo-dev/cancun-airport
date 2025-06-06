@@ -1,6 +1,7 @@
 <?php
     return [
         "per_person" => "Por persona",
+        "per_vehicle" => "Por vehículo",
         "taxes_included" => "Impuestos incluídos",
         "price_per_vehicle" => "Precio por vehículo",
         "book_now" => "Reserva ahora",

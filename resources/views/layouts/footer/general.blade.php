@@ -2,7 +2,7 @@
     <div class="container">
         <div class="top">
             <div class="logo">
-                <img class="logo-header-hidden" src="/assets/img/logo/logo.svg" alt="Punta Cana Airport" title="Punta Cana Airport" loading="lazy" width="130" height="50">
+                <img class="logo-header-hidden" src="/assets/img/logo/logo.svg" alt="Cancun Airport" title="Cancun Airport" loading="lazy" width="130" height="50">
             </div>
             <a href="#top" class="btn" title="@lang('main.go_top')">@lang('main.go_top')</a> 
         </div>
@@ -21,8 +21,8 @@
             <div>
                 <h2>@lang('main.terminals')</h2>
                 <a href="@lang('links.terminals')" title="@lang('main.terminals')">@lang('main.terminals')</a>
-                <a href="@lang('links.terminal-a')" title="Terminal A">Terminal A</a>
-                <a href="@lang('links.terminal-b')" title="Terminal B">Terminal B</a>
+                <a href="@lang('links.terminal-1')" title="Terminal 1">Terminal 1</a>
+                <a href="@lang('links.terminal-2')" title="Terminal 2">Terminal 2</a>
             </div>
             <div>
                 <h2>@lang('main.transportation')</h2>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="bottom">
-            <p>{{ date("Y") }} Punta Cana Airport. @lang('main.rights_reserved')</p>
+            <p>{{ date("Y") }} Cancun Airport. @lang('main.rights_reserved')</p>
             <div>
                 <div>
                     <img src="/assets/img/svg/card-brands/visa.svg" alt="Visa" title="Visa" width="30" height="30" loading="lazy">

@@ -16,7 +16,7 @@
             <div class="wrapper">
                 @if(app()->getLocale() == "en")
                     <div class="top">
-                        <h1>PRESS - Punta Cana Airport</h1>
+                        <h1>PRESS - Cancun Airport</h1>
                         <div>
                             <p>Located on the east coast of the Dominican Republic, Punta Cana International Airport is your gateway to Caribbean paradise. Known for its efficiency, comfort and world-class services, we are here to make your travel experience unforgettable from the moment you land.</p>
                         </div>

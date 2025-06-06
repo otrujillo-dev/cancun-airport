@@ -97,4 +97,8 @@ div.general-reviews{
             }            
         }
     }
+    @media (max-width: 500px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

@@ -91,7 +91,7 @@
                 "quote.from.date": "Please, enter your pickup date",
                 "quote.to.input": "Please, enter the destination",
                 "quote.to.date": "Please, enter your return date",
-                "place.name": "Punta Cana Airport (PUJ)",
+                "place.name": "Cancun Airport (PUJ)",
                 "place.lat": "18.5623134",
                 "place.lng": "-68.3676862"
             },
@@ -396,23 +396,68 @@
                     window.shuttle.input_passengers.value = data.passengers;
                     window.shuttle.setup.passengers = data.passengers;    
 
-                    window.shuttle.input_from.value = data.from.name;
-                    pickupDateInput.setDate(`${data.from.date} ${data.from.time}`, true);
-
+                    window.shuttle.input_from.value = data.from.name;                    
                     window.shuttle.setup.items.from.name = data.from.name;
                     window.shuttle.setup.items.from.lat = data.from.lat;
-                    window.shuttle.setup.items.from.lng = data.from.lng;
-                    window.shuttle.setup.items.from.date = data.from.date;
-                    window.shuttle.setup.items.from.time = data.from.time;
+                    window.shuttle.setup.items.from.lng = data.from.lng;                   
+
+                    //Validate hours
+                    const minPickReturnDate = pickupDateInput.config.minDate;
+                    const proposedPickupDate = new Date(`${data.from.date}T${data.from.time}`);
+                    const minPickupDate = typeof minPickReturnDate === "string" ? new Date(minPickReturnDate) : minPickReturnDate;
+
+                    let finalPickupDate;
+
+                    if (proposedPickupDate >= minPickupDate) {
+                        pickupDateInput.setDate(proposedPickupDate, true);
+                        finalPickupDate = proposedPickupDate;
+                    } else {
+                        const fallbackDate = new Date(minPickupDate);
+                        fallbackDate.setHours(fallbackDate.getHours() + 1);
+                        pickupDateInput.setDate(fallbackDate, true);
+                        finalPickupDate = fallbackDate;
+                    }
+
+                    // Formatea la fecha y hora en strings
+                    const padPickup = (n) => n.toString().padStart(2, "0");
+
+                    const formattedPickupDate = `${finalPickupDate.getFullYear()}-${padPickup(finalPickupDate.getMonth() + 1)}-${padPickup(finalPickupDate.getDate())}`;
+                    const formattedPickupTime = `${padPickup(finalPickupDate.getHours())}:${padPickup(finalPickupDate.getMinutes())}`;
+                    
+                    window.shuttle.setup.items.from.date = formattedPickupDate;
+                    window.shuttle.setup.items.from.time = formattedPickupTime;
+                    
 
                     window.shuttle.input_to.value = data.to.name;
-                    returnDateInput.setDate(`${data.to.date} ${data.to.time}`, true);
-
                     window.shuttle.setup.items.to.name = data.to.name;
                     window.shuttle.setup.items.to.lat = data.to.lat;
                     window.shuttle.setup.items.to.lng = data.to.lng;
-                    window.shuttle.setup.items.to.date = data.to.date;
-                    window.shuttle.setup.items.to.time = data.to.time;
+
+                    //Validate hours
+                    const minReturnDate = returnDateInput.config.minDate;
+                    const proposedDate = new Date(`${data.to.date}T${data.to.time}`);
+                    const minDate = typeof minReturnDate === "string" ? new Date(minReturnDate) : minReturnDate;
+
+                    let finalDate;
+
+                    if (proposedDate >= minDate) {
+                        returnDateInput.setDate(proposedDate, true);
+                        finalDate = proposedDate;
+                    } else {
+                        const fallbackDate = new Date(minDate);
+                        fallbackDate.setHours(fallbackDate.getHours() + 1);
+                        returnDateInput.setDate(fallbackDate, true);
+                        finalDate = fallbackDate;
+                    }
+
+                    // Formatea la fecha y hora en strings
+                    const pad = (n) => n.toString().padStart(2, "0");
+
+                    const formattedDate = `${finalDate.getFullYear()}-${pad(finalDate.getMonth() + 1)}-${pad(finalDate.getDate())}`;
+                    const formattedTime = `${pad(finalDate.getHours())}:${pad(finalDate.getMinutes())}`;
+
+                    window.shuttle.setup.items.to.date = formattedDate;
+                    window.shuttle.setup.items.to.time = formattedTime;
 
                 }else{
                     window.shuttle.input_from.value = window.shuttle.setup.getTranslate("place.name");
@@ -497,15 +542,17 @@
     });    
 
     const now = new Date();
-          now.setMinutes(0, 0, 0);
+    now.setMinutes(0, 0, 0);
 
     const oneHourLater = new Date(now);
-    oneHourLater.setHours(oneHourLater.getHours() + 1); // Sumar 1 hora
+    oneHourLater.setHours(oneHourLater.getHours() + 1);
 
     const oneDayLater = new Date(oneHourLater);
-    oneDayLater.setDate(oneDayLater.getDate() + 1); // Sumar 1 día
+    oneDayLater.setDate(oneDayLater.getDate() + 1);
+    
+    const flatpickrLocale = document.documentElement.lang === "es" ? "es" : "default";
 
-    const flatpickrLocale = document.documentElement.getAttribute('lang') === "es" ? "es" : "default";
+    let returnDateInput; // Necesario fuera para accederlo desde el primer picker
 
     const pickupDateInput = flatpickr("#xyz-input-from-date", {
         enableTime: true,
@@ -517,18 +564,36 @@
         altFormat: "F j, H:i",
         locale: flatpickr.l10ns[flatpickrLocale],
         onReady: function(selectedDates, dateStr, instance) {
+            // Opcional: inicialización extra
             const initialDateStr = instance.input.value;
-            const [date_, time_] = initialDateStr.split(" ");           
+            const [date_, time_] = initialDateStr.split(" ");
             window.shuttle.setup.items.from.date = date_;
             window.shuttle.setup.items.from.time = time_;
         },
         onChange: function(selectedDates, dateStr) {
             const [date_, time_] = dateStr.split(" ");
+
+            const selectedPickupDate = selectedDates[0];
+            if (!selectedPickupDate || !returnDateInput) return;
+
+            // Establecer nueva fecha mínima
+            returnDateInput.set('minDate', selectedPickupDate);
+
+            const currentReturnDate = returnDateInput.selectedDates[0];
+
+            // Si no hay fecha seleccionada o es inválida, establecer una nueva (1 hora después)
+            if (!currentReturnDate || currentReturnDate < selectedPickupDate) {
+                const newReturnDate = new Date(selectedPickupDate);
+                newReturnDate.setHours(newReturnDate.getHours() + 1);
+                returnDateInput.setDate(newReturnDate, true); // true para disparar eventos
+            }
+
             window.shuttle.setup.items.from.date = date_;
             window.shuttle.setup.items.from.time = time_;
         }
     });
-    const returnDateInput = flatpickr("#xyz-input-to-date", {
+
+    returnDateInput = flatpickr("#xyz-input-to-date", {
         enableTime: true,
         time_24hr: true,
         dateFormat: "Y-m-d H:i",
@@ -546,7 +611,7 @@
         onChange: function(selectedDates, dateStr) {
             const [date_, time_] = dateStr.split(" ");
             window.shuttle.setup.items.to.date = date_;
-            window.shuttle.setup.items.to.time = time_;            
+            window.shuttle.setup.items.to.time = time_;
         }
     });
 

@@ -96,10 +96,10 @@
                                 <div>
                                     @if(app()->getLocale() == "en")
                                         <p>Courtesy included</p>
-                                        <p>For your convenience, in all our services we offer a bottle of cold water. A detail designed to make your experience even more enjoyable.</p>
+                                        <p>Your service includes a complimentary stop upon request — a thoughtful detail to help you enjoy the journey at your own pace and with greater comfort.</p>
                                     @else
                                         <p>Cortesía incluida</p>
-                                        <p>Para tu comodidad, en todos nuestros servicios ofrecemos una botella de agua fría. Un detalle pensado para que tu experiencia sea aún más agradable.</p>
+                                        <p>Tu servicio incluye una parada de cortesía con previa solicitud. Un detalle pensado para que disfrutes el viaje a tu ritmo y con mayor comodidad.</p>
                                     @endif
                                 </div>
                             </div>

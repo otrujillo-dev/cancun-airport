@@ -1,8 +1,8 @@
 <header>
     <div class="container">
         <div class="header-holder">
-            <a href="@lang('links.home')" class="logo" title="Punta Cana Airport" id="top">
-                <img src="/assets/img/logo/logo.svg" alt="Punta Cana Airport" title="Punta Cana Airport" width="118" height="45" loading="lazy">                
+            <a href="@lang('links.home')" class="logo" title="Cancun Airport" id="top">
+                <img src="/assets/img/logo/logo.svg" alt="Cancun Airport" title="Cancun Airport" width="118" height="45" loading="lazy">                
             </a>
             <nav class="nav">
                 <div class="nav-drop">
@@ -35,7 +35,7 @@
                         @endif                        
                     </a>
                     <a href="@lang('links.transportation_process_login')" class="btn">@lang('main.my_booking')</a>
-                     <button class="btn" id="toggleMenu" title="Punta Cana Airport Menu">
+                     <button class="btn" id="toggleMenu" title="Cancun Airport Menu">
                         <svg width="20" height="20"><use xlink:href="/assets/img/icons.svg#menu"></use></svg>
                     </button>
                 </div>

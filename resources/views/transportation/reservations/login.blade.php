@@ -18,14 +18,14 @@
                 <div class="top">
                     @if(app()->getLocale() == "en")
                         <h1>Find Bookings</h1>
-                        <p><strong>Please enter your booking email and code ej: PUJ-PCA-XXX</strong></p>
+                        <p><strong>Please enter your booking email and code ej: CUN-CA-XXX</strong></p>
                         <ul>
                             <li>Find your confirmation email</li>
                             <li>Enter your booking code</li>
                         </ul>
                     @else
                         <h1>Buscar Reservación</h1>
-                        <p><strong>Por favor, introduzca su e-mail de reserva y el código ej: PUJ-PCA-XXX</strong></p>
+                        <p><strong>Por favor, introduzca su e-mail de reserva y el código ej: CUN-CA-XXX</strong></p>
                         <ul>
                             <li>Encuentra tu correo electrónico de confirmación</li>
                             <li>Introduzca su código de reserva</li>

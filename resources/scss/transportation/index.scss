@@ -470,6 +470,15 @@ div.vehicles-slider{
             flex-direction: column;
             justify-content: space-evenly;
             gap: 15px;
+            ul{
+                margin: 0px;
+                padding: 0px;
+                padding-left: 15px;
+                li{
+                    font-size: 11pt;
+                    line-height: 1.5;
+                }
+            }
             > a{
                 border: 1px solid $two;
                 cursor: pointer;                

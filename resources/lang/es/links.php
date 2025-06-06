@@ -1,12 +1,12 @@
 <?php
     return [
         "home" => "/es",
-        "transportation" => "/es/traslados-en-punta-cana",
-        "car_rental" => "/es/alquiler-de-coches-en-punta-cana",
+        "transportation" => "/es/transportacion",
+        "car_rental" => "/es/renta-de-autos",
         "airport_parking" => "/es/estacionamiento",
         "terminals" => "/es/terminales",
-        "terminal-a" => "/es/terminales/terminal-a-punta-cana",
-        "terminal-b" => "/es/terminales/terminal-b-punta-cana",
+        "terminal-1" => "/es/terminales/terminal-1",
+        "terminal-2" => "/es/terminales/terminal-b-punta-cana",
         "transportation_process_list" => "/es/transportacion/listado",
         "transportation_process_detail" => "/es/transportacion/detalle",
         "transportation_process_book" => "/es/transportacion/reservar",

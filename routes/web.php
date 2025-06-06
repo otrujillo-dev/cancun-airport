@@ -19,14 +19,14 @@ Route::post('/api/transportation/autocomplete', [TransportationAPI\AutocompleteC
 
 Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
     Route::get('/', [WebsiteController::class, 'index'])->name('home.en');
-    Route::get('/punta-cana-airport-transfers', [Transportation\IndexController::class, 'index'])->name('transportation.index.en');
+    Route::get('/transportation', [Transportation\IndexController::class, 'index'])->name('transportation.index.en');
     Route::get('/terminals', [WebsiteController::class, 'terminals'])->name('terminals.en');
-    Route::get('/terminals/terminal-a-punta-cana', [WebsiteController::class, 'terminalA'])->name('terminalA.en');
+    Route::get('/terminals/terminal-1', [WebsiteController::class, 'terminalOne'])->name('terminalOne.en');
     Route::get('/terminals/terminal-b-punta-cana', [WebsiteController::class, 'terminalB'])->name('terminalB.en');
     Route::get('/arrivals', [WebsiteController::class, 'arrivals'])->name('arrivals.en');
     Route::get('/departures', [WebsiteController::class, 'departures'])->name('departures.en');
     Route::get('/parking', [WebsiteController::class, 'airportParking'])->name('parking.en');
-    Route::get('/punta-cana-car-rental', [CarRental\IndexController::class, 'index'])->name('car-rental.en');
+    Route::get('/car-rental', [CarRental\IndexController::class, 'index'])->name('car-rental.en');
 
     Route::get('/transportation/list', [Transportation\ProcessController::class, 'list'])->name('transportation.process.search.en');
     Route::post('/transportation/list', [Transportation\ProcessController::class, 'handlerList'])->name('transportation.process.search.handler.en');
@@ -52,14 +52,14 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
 
     Route::prefix('{locale}')->where(['locale' => '[a-zA-Z]{2}'])->group(function () {
         Route::get('/', [WebsiteController::class, 'index'])->name('home.es');
-        Route::get('/traslados-en-punta-cana', [Transportation\IndexController::class, 'index'])->name('transportation.index.es');
+        Route::get('/transportacion', [Transportation\IndexController::class, 'index'])->name('transportation.index.es');
         Route::get('/terminales', [WebsiteController::class, 'terminals'])->name('terminals.es');
-        Route::get('/terminales/terminal-a-punta-cana', [WebsiteController::class, 'terminalA'])->name('terminalA.es');
+        Route::get('/terminales/terminal-1', [WebsiteController::class, 'terminalOne'])->name('terminalOne.es');
         Route::get('/terminales/terminal-b-punta-cana', [WebsiteController::class, 'terminalB'])->name('terminalB.es');       
         Route::get('/llegadas', [WebsiteController::class, 'arrivals'])->name('arrivals.es');
         Route::get('/salidas', [WebsiteController::class, 'departures'])->name('departures.es');
         Route::get('/estacionamiento', [WebsiteController::class, 'airportParking'])->name('parking.es');
-        Route::get('/alquiler-de-coches-en-punta-cana', [CarRental\IndexController::class, 'index'])->name('car-rental.es');
+        Route::get('/renta-de-autos', [CarRental\IndexController::class, 'index'])->name('car-rental.es');
 
         Route::get('/transportacion/listado', [Transportation\ProcessController::class, 'list'])->name('transportation.process.search.es');
         Route::post('/transportacion/listado', [Transportation\ProcessController::class, 'handlerList'])->name('transportation.process.search.handler.es');

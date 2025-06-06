@@ -9,8 +9,8 @@ trait ApiTrait
 {   
     public static $env = "live";
     public static $channel = 12;
-    public static $rate_group = 3;
-    public static $api_key = 'X3L9TP72QJ';
+    public static $rate_group = 1;
+    public static $api_key = 'JKLQETGVC1';
 
     public static $enviroments = [
         "dev" => [

@@ -1,12 +1,12 @@
 <?php
     return [
         "home" => "/",
-        "transportation" => "/punta-cana-airport-transfers",
-        "car_rental" => "/punta-cana-car-rental",
+        "transportation" => "/transportation",
+        "car_rental" => "/car-rental",
         "airport_parking" => "/parking",
         "terminals" => "/terminals",
-        "terminal-a" => "/terminals/terminal-a-punta-cana",
-        "terminal-b" => "/terminals/terminal-b-punta-cana",
+        "terminal-1" => "/terminals/terminal-1",
+        "terminal-2" => "/terminals/terminal-b-punta-cana",
         "transportation_process_list" => "/transportation/list",
         "transportation_process_detail" => "/transportation/detail",
         "transportation_process_book" => "/transportation/book",

@@ -18,8 +18,8 @@
                     <div class="left">
                         @if(app()->getLocale() == "en")
                             <p>Terminals</p>
-                            <h1>Punta Cana Airport Terminal B</h1>
-                            <p>Terminal B of the Punta Cana Airport offers arrivals and departures of both domestic and international flights. It has areas such as pharmacy, hard rock store, duty-free stores, food court, ATM's and more.</p>
+                            <h1>Cancun Airport Terminal B</h1>
+                            <p>Terminal B of the Cancun Airport offers arrivals and departures of both domestic and international flights. It has areas such as pharmacy, hard rock store, duty-free stores, food court, ATM's and more.</p>
                             <p>See this and more information below</p>
                             <ul>
                                 <li>DFA Arrivals</li>
@@ -62,7 +62,7 @@
                     <div class="left">
                         @if(app()->getLocale() == "en")
                             <p>General</p>
-                            <h2>General information, gates, and accesses at Terminal B of Punta Cana airport</h2>
+                            <h2>General information, gates, and accesses at Terminal B of Cancun Airport</h2>
                             <p>Terminal B has a total of 7 aircraft gates, distributed as follows:</p>
                         @else
                             <p>General</p>
@@ -129,7 +129,7 @@
                 <div class="wrapper">
                     <div class="top">
                         @if(app()->getLocale() == "en")
-                            <h2>Map of Terminal B of Punta Cana Airport</h2>
+                            <h2>Map of Terminal B of Cancun Airport</h2>
                         @else
                             <h2>Mapa de la Terminal B del Aeropuerto de Punta Cana</h2>
                         @endif

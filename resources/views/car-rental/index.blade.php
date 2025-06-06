@@ -17,12 +17,12 @@
                     <div class="top">
                         @if(app()->getLocale() == "en")
                             <p>Search, Compare and Save on</p>
-                            <h1>Car Rentals in Punta Cana</h1>
-                            <p>No hidden fees, just easy driving - Rent your car today!</p>
+                            <h1>Car Rentals in Cancun Airport</h1>
+                            <p>No hidden fees, just easy driving - Rent your car in Cancun today!</p>
                         @else
-                            <p>Busca, Compara y Ahorra en</p>
-                            <h1>Renta de Coches en Punta Cana</h1>
-                            <p>Sin cargos ocultos, sólo conducción sencilla: ¡alquile su coche hoy mismo!</p>
+                            <p>Busque, Compare y Ahorre en</p>
+                            <h1>Renta de autos en el Aeropuerto de Cancún</h1>
+                            <p>Sin cargos ocultos, solo manejo fácil - ¡Rente su auto en Cancún hoy!</p>
                         @endif
                     </div>
                 </div>
@@ -33,9 +33,9 @@
             <div class="wrapper">
                 <div id="get-a-car-rental">
                     @if(app()->getLocale() == "en")
-                        <div><script id="dchwidget" src="https://www.discovercars.com/widget.js?v1" data-dev-env="com" data-location="dominican-republic/punta-cana" data-lang="en" data-currency="usd" data-utm-source="mapmx" data-utm-medium="widget" data-aff-code="a_aid" data-autocomplete="on" data-style-submit-bg-color="#007ac2" data-style-submit-font-color="#ffffff" data-style-form-bg-color="#fcd34d" data-style-form-font-color="#000000" data-style-submit-text="Search now" data-style-title-color="#000000" data-title-text="Car Rental at Punta Cana Airport" async="async" data-style_rounded_corners="on" data-layout_benefits="on" data-layout_description="on" data-layout_description_text="We've selected the best deals from our car rental at Punta Cana Airport" data-layout_logo_style="on dark" data-layout_style_form_bg_color="#007ac2" data-layout_title="on"></script></div>
+                        <div><script id="dchwidget" src="https://www.discovercars.com/widget.js?v1" data-dev-env="com" data-location="mexico/cancun" data-lang="en" data-currency="usd" data-utm-source="mapmx" data-utm-medium="widget" data-aff-code="a_aid" data-autocomplete="on" data-style-submit-bg-color="#007ac2" data-style-submit-font-color="#ffffff" data-style-form-bg-color="#fcd34d" data-style-form-font-color="#000000" data-style-submit-text="Search now" data-style-title-color="#000000" data-title-text="Car Rental - Cancun International Airport" async="async" data-style_rounded_corners="on" data-layout_benefits="on" data-layout_description="on" data-layout_description_text="Cheap car rentals at Cancun Airport" data-layout_logo_style="on dark" data-layout_style_form_bg_color="#007ac2" data-layout_title="on"></script></div>
                     @else
-                        <div><script id="dchwidget" src="https://www.discovercars.com/widget.js?v1" data-dev-env="com" data-location="dominican-republic/punta-cana" data-lang="es" data-currency="usd" data-utm-source="mapmx" data-utm-medium="widget" data-aff-code="a_aid" data-autocomplete="on" data-style-submit-bg-color="#007ac2" data-style-submit-font-color="#ffffff" data-style-form-bg-color="#fcd34d" data-style-form-font-color="#000000" data-style-submit-text="Buscar" data-style-title-color="#000000" data-title-text="Renta de Autos en Punta Cana Aeropuerto" async="async" data-style_rounded_corners="on" data-layout_benefits="on" data-layout_description="on" data-layout_description_text="Compara ofertas de renta de Carros en el aeropuerto Punta Cana" data-layout_logo_style="on dark" data-layout_style_form_bg_color="#007ac2" data-layout_title="on"></script></div>
+                        <div><script id="dchwidget" src="https://www.discovercars.com/widget.js?v1" data-dev-env="com" data-location="mexico/cancun" data-lang="es" data-currency="mxn" data-utm-source="mapmx" data-utm-medium="widget" data-aff-code="a_aid" data-autocomplete="on" data-style-submit-bg-color="#007ac2" data-style-submit-font-color="#ffffff" data-style-form-bg-color="#fcd34d" data-style-form-font-color="#000000" data-style-submit-text="Buscar" data-style-title-color="#000000" data-title-text="Renta de Autos - Aeropuerto Internacional de Cancún" async="async" data-style_rounded_corners="on" data-layout_benefits="on" data-layout_description="on" data-layout_description_text="Ofertas en alquiler de coches baratos en el Aeropuerto de Cancun" data-layout_logo_style="on dark" data-layout_style_form_bg_color="#007ac2" data-layout_title="on"></script></div>
                     @endif
                 </div>
             </div>
@@ -47,10 +47,10 @@
                     <div class="top">
                         @if(app()->getLocale() == "en")
                             <p>Discover</p>
-                            <h2>Why rent a car in Punta Cana with us?</h2>
+                            <h2>Why Rent a Car in Cancún with Us?</h2>
                         @else
-                            <p>Descubre</p>
-                            <h2>¿Por qué Alquilar un coche en Punta Cana con nosotros?</h2>
+                            <p>Descubra</p>
+                            <h2>¿Por qué rentar un auto en Cancún con nosotros?</h2>
                         @endif
                     </div>
                     <div class="bottom">
@@ -60,9 +60,9 @@
                             </div>
                             <p>
                                 @if(app()->getLocale() == "en")
-                                    We have a wide variety of vehicles available for you.
+                                    We have a wide variety of vehicles available for you, from compact cars to spacious SUVs.
                                 @else
-                                    Contamos con una extensa variedad de vehículos disponibles para ti.
+                                    Tenemos una amplia variedad de vehículos disponibles para usted, desde autos compactos hasta espaciosos SUVs.
                                 @endif
                             </p>
                         </div>
@@ -72,9 +72,9 @@
                             </div>
                             <p>
                                 @if(app()->getLocale() == "en")
-                                    We offer packages with insurance included from the moment of your reservation.
+                                    We offer all-inclusive packages with insurance, so you're covered from the moment you book.
                                 @else
-                                    Ofrecemos paquetes con seguros incluidos desde el momento de tu reserva.
+                                    Ofrecemos paquetes todo incluido con seguro, por lo que estará cubierto desde el momento de la reserva.
                                 @endif
                             </p>
                         </div>
@@ -84,9 +84,9 @@
                             </div>
                             <p>
                                 @if(app()->getLocale() == "en")
-                                    Service agents available 24 hours a day, 7 days a week.
+                                    Our customer service team is available 24/7 to assist you during your trip.
                                 @else
-                                    Agentes de servicio disponibles las 24 horas del día, los 7 días de la semana.
+                                    Nuestro equipo de atención al cliente está disponible 24 horas al día, 7 días a la semana, para ayudarle durante su viaje.
                                 @endif
                             </p>
                         </div>
@@ -96,9 +96,9 @@
                             </div>
                             <p>
                                 @if(app()->getLocale() == "en")
-                                    100% flexible reservations. Choose the car that best suits your needs.
+                                    Enjoy 100% flexible reservations—choose the perfect car for your Cancún adventure.
                                 @else
-                                    Reservas 100% flexibles. Elige el auto que mejor te convenga.
+                                    Disfrute de reservas 100% flexibles: elija el coche perfecto para su aventura en Cancún.
                                 @endif
                             </p>
                         </div>
@@ -108,9 +108,9 @@
                             </div>
                             <p>
                                 @if(app()->getLocale() == "en")
-                                    Discounts up to 40% on Punta Cana car rentals.
+                                    Get exclusive discounts of up to 40% on car rentals in Cancún.
                                 @else
-                                    Descuentos de hasta 40% en alquiler de coches Punta Cana
+                                    Obtenga descuentos exclusivos de hasta el 40% en alquiler de coches en Cancún.
                                 @endif
                             </p>
                         </div>
@@ -123,17 +123,17 @@
             <div class="wrapper">
                 <div class="top">
                     @if(app()->getLocale() == "en")
-                        <p>From beaches to hidden gems</p>
-                        <h2>Our Car Rental Services in Punta Cana</h2>
+                        <p>From beaches to Hidden Places</p>
+                        <h2>Our Car Rentals in Cancun Airport</h2>
                     @else
-                        <p>De las playas a las joyas ocultas</p>
-                        <h2>Nuestros servicios de Alquiler de Coches en Punta Cana </h2>
+                        <p>Desde playas hasta Lugares Escondidos</p>
+                        <h2>Nuestras Rentas de Autos en Cancun Aeropuerto</h2>
                     @endif
                 </div>
                 <div class="bottom">
                     
                     <div>
-                        <p>$97 USD <sup>@lang('car-rental/index.per_day')</sup></p>
+                        <p>$@if(app()->getLocale() == "en") 17 USD @else 335 MXN @endif <sup>@lang('car-rental/index.per_day')</sup></p>
                         <picture>
                             <source srcset="/assets/img/car-rental/vehicles/chevrolet-spark.webp" type="image/webp">
                             <img src="/assets/img/car-rental/vehicles/chevrolet-spark.png" alt="" title="" width="150" height="150" loading="lazy">
@@ -154,7 +154,7 @@
                     </div>
 
                     <div>
-                        <p>$102 USD <sup>@lang('car-rental/index.per_day')</sup></p>
+                        <p>$@if(app()->getLocale() == "en") 18 USD @else 360 MXN @endif <sup>@lang('car-rental/index.per_day')</sup></p>
                         <picture>
                             <source srcset="/assets/img/car-rental/vehicles/nissan-sentra.webp" type="image/webp">
                             <img src="/assets/img/car-rental/vehicles/nissan-sentra.png" alt="" title="" width="150" height="150" loading="lazy">
@@ -175,7 +175,7 @@
                     </div>
 
                     <div>
-                        <p>$110 USD <sup>@lang('car-rental/index.per_day')</sup></p>
+                        <p>$@if(app()->getLocale() == "en") 20 USD @else 400 MXN @endif <sup>@lang('car-rental/index.per_day')</sup></p>
                         <picture>
                             <source srcset="/assets/img/car-rental/vehicles/suzuki-vitara.webp" type="image/webp">
                             <img src="/assets/img/car-rental/vehicles/suzuki-vitara.png" alt="" title="" width="150" height="150" loading="lazy">
@@ -196,7 +196,7 @@
                     </div>
 
                     <div>
-                        <p>$142 USD <sup>@lang('car-rental/index.per_day')</sup></p>
+                        <p>$@if(app()->getLocale() == "en") 107 USD @else 2,100 MXN @endif <sup>@lang('car-rental/index.per_day')</sup></p>
                         <picture>
                             <source srcset="/assets/img/car-rental/vehicles/hyundai-staria.webp" type="image/webp">
                             <img src="/assets/img/car-rental/vehicles/hyundai-staria.png" alt="" title="" width="150" height="150" loading="lazy">
@@ -224,16 +224,16 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3782.259663168033!2d-68.37026112485694!3d18.56232860369164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spunta%20cana%20airport%20car%20rental!5e0!3m2!1ses!2smx!4v1742698260020!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div>
                 @if(app()->getLocale() == "en")
-                    <h2>Car rental locations in Punta Cana</h2>
-                    <h3>Car Rental Punta Cana Airport</h3>
-                    <p>Transportation and Aeronautical Control, General Aviation and Air Services.</p>
+                    <h2>Car Rental Locations in Cancun Airport</h2>
+                    <h3>Car Rental Cancun Airport</h3>
+                    <p>Car Rental Center at Cancun International Airport</p>
                 @else
-                    <h2>Lugares de renta de autos en Punta Cana</h2>
-                    <h3>Renta de Autos en Aeropuerto de Punta Cana</h3>
-                    <p>Transporte y control aeronáutico, aviación general y servicios aéreos.</p>
+                    <h2>Locaciones de alquiler de autos en el aeropuerto de Cancún</h2>
+                    <h3>Renta de Autos en Cancún Aeropuerto</h3>
+                    <p>Oficina de Renta de Autos en el Aeropuerto Internacional de Cancún</p>
                 @endif
                 <div>
-                    Carr. Aeropuerto, Punta Cana 23000, República Dominicana
+                    Aeropuerto Internacional de Cancún, Carr. Cancún - Tulum, 77500 Cancún, Q.R.
                 </div>
             </div>
         </div>
@@ -243,11 +243,11 @@
                 <div class="wrapper">
                     <div class="top">
                         @if(app()->getLocale() == "en")
-                            <p>Tips for renting a car in Punta Cana</p>
-                            <h2>What is the best season to rent a car in Punta Cana?</h2>
+                            <p>Tips for renting a car in Cancun</p>
+                            <h2>Best information to rent a car in Cancun</h2>
                         @else
-                            <p>Tips para rentar un auto en Punta Cana</p>
-                            <h2>¿Cuál es la mejor temporada para rentar un auto en Punta Cana?</h2>
+                            <p>Tips para rentar un auto en Cancún</p>
+                            <h2>Mejor información para rentar un auto en Cancún</h2>
                         @endif 
                     </div>
                     <div class="middle">
@@ -256,19 +256,19 @@
                                 <tbody>
                                     <tr>
                                         <th><h3>Most popular agency</h3></th>
-                                        <td>Punta Cana Airport - Car Rental</td>
+                                        <td>Car Rental Cancun Airport</td>
                                     </tr>
                                     <tr>
-                                        <th><h3>Type of popular car</h3></th>
-                                        <td>Economical / Mid size</td>
+                                        <th><h3>Type of popular car type</h3></th>
+                                        <td>Intermediate</td>
                                     </tr>
                                     <tr>
                                         <th><h3>Average price</h3></th>
-                                        <td>$50/day</td>
+                                        <td>$20/day</td>
                                     </tr>
                                     <tr>
                                         <th><h3>Best offer</h3></th>
-                                        <td>$50/day</td>
+                                        <td>$17/day</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -277,19 +277,19 @@
                                 <tbody>
                                     <tr>
                                         <th><h3>Agencia más popular</h3></th>
-                                        <td>Punta Cana Airport - Renta de Autos</td>
+                                        <td>Renta de Autos en Cancún Aeropuerto</td>
                                     </tr>
                                     <tr>
-                                        <th><h3>Tipo de auto popular</h3></th>
-                                        <td>Económico / Mid size</td>
+                                        <th><h3>Tipo de Coche más popular</h3></th>
+                                        <td>Intermedio</td>
                                     </tr>
                                     <tr>
-                                        <th><h3>Precio promedio</h3></th>
-                                        <td>$50/día</td>
+                                        <th><h3>Precio Promedio</h3></th>
+                                        <td>$360 MXN Por Día</td>
                                     </tr>
                                     <tr>
-                                        <th><h3>Mejor oferta</h3></th>
-                                        <td>$50/día</td>
+                                        <th><h3>Mejor Oferta</h3></th>
+                                        <td>$335 MXN Por Día</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -300,9 +300,9 @@
                             <table>
                                 <caption>
                                     @if(app()->getLocale() == "en")
-                                        Price comparison according to how far in advance the reservation is made.
+                                        Price comparison according to how far in advance the reservation is made for Car Rental in Cancun
                                     @else
-                                        Comparativa de precios de acuerdo a la antelación con la que se realice la reserva.
+                                        Comparación de precios según la antelación con la que se realiza la reserva de renta de autos en Cancún
                                     @endif
                                 </caption>
                                 <tbody>
@@ -311,91 +311,144 @@
                                             @if(app()->getLocale() == "en")
                                                 90 - 88 days in advance
                                             @else
-                                                90 - 88 días antes
+                                                90 - 88 días de antelación
                                             @endif
                                         </td>
-                                        <td>$40</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $40
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
                                                 87 - 68 days in advance
                                             @else
-                                                87 - 68 días antes
+                                                87 - 68 días de antelación
                                             @endif
                                         </td>
-                                        <td>$40</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $17
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
                                                 90 - 88 days in advance
                                             @else
-                                                90 - 88 días antes
+                                                90 - 88 días de antelación
                                             @endif
                                         </td>
-                                        <td>$40</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $17
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
-                                                67 - 39 days in advance
+                                               67 - 39 days in advance
                                             @else
-                                                67 - 39 días antes
+                                                67 - 39 días de antelación
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $17
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
                                                 38 - 29 days in advance
                                             @else
-                                                38 - 29 días antes
+                                                38 - 29 días de antelación
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $17
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
                                                 28 - 14 days in advance
                                             @else
-                                                28 - 14 días antes
+                                                28 - 14 días de antelación
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $17
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
                                                 13 - 5 days in advance
                                             @else
-                                                13 - 5 días antes
+                                                13 - 5 días de antelación
                                             @endif
                                         </td>
-                                        <td>$70</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $17
+                                            @else
+                                                $335
+                                            @endif
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             @if(app()->getLocale() == "en")
                                                 3 - 0 days in advance
                                             @else
-                                                3 - 0 días antes
+                                                3 - 0 días de antelación
                                             @endif
                                         </td>
-                                        <td>$80</td>
+                                        <td>
+                                            @if(app()->getLocale() == "en")
+                                                $18
+                                            @else
+                                                $360
+                                            @endif
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
+                            @if(app()->getLocale() == "en")
+                                <p>Precios en USD*</p>
+                            @else
+                                <p>Precios en MXN*</p>
+                            @endif
                         </div>
                         <div class="right">
                             <table>
                                 <caption>
                                     @if(app()->getLocale() == "en")
-                                        Best rates per month on Car Rentals - Punta Cana
+                                        Best rates per month on Car Rentals in Cancun
                                     @else
-                                        Mejores tarifas por mes en Renta de autos - Punta Cana
+                                        Las mejores tarifas por mes en Renta de Autos en Cancun
                                     @endif
                                 </caption>
                                 <tbody>
@@ -407,7 +460,7 @@
                                                 Enero
                                             @endif
                                         </td>
-                                        <td>$70</td>
+                                        <td>$@if(app()->getLocale() == "en") 17 @else 335 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -417,7 +470,7 @@
                                                 Febrero
                                             @endif
                                         </td>
-                                        <td>$68</td>
+                                        <td>$@if(app()->getLocale() == "en") 18 @else 360 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -427,7 +480,7 @@
                                                 Marzo
                                             @endif
                                         </td>
-                                        <td>$70</td>
+                                        <td>$@if(app()->getLocale() == "en") 19 @else 360 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -437,7 +490,7 @@
                                                 Abril
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 20 @else 400 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -447,7 +500,7 @@
                                                 Mayo
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 17 @else 335 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -457,7 +510,7 @@
                                                 Junio
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 18 @else 360 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -467,7 +520,7 @@
                                                 Julio
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 19 @else 380 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -477,7 +530,7 @@
                                                 Augosto
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 18 @else 360 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -487,7 +540,7 @@
                                                 Septiembre
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 17 @else 335 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -497,7 +550,7 @@
                                                 Octubre
                                             @endif
                                         </td>
-                                        <td>$50</td>
+                                        <td>$@if(app()->getLocale() == "en") 18 @else 360 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -507,7 +560,7 @@
                                                 Noviembre
                                             @endif
                                         </td>
-                                        <td>$70</td>
+                                        <td>$@if(app()->getLocale() == "en") 19 @else 380 @endif </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -517,10 +570,15 @@
                                                 Diciembre
                                             @endif
                                         </td>
-                                        <td>$80</td>
+                                        <td>$@if(app()->getLocale() == "en") 20 @else 400 @endif </td>
                                     </tr>
                                 </tbody>
                             </table>
+                            @if(app()->getLocale() == "en")
+                                <p>Precios en USD*</p>
+                            @else
+                                <p>Precios en MXN*</p>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -531,28 +589,42 @@
             <div class="wrapper">
                 <div class="left">
                     @if(app()->getLocale() == "en")
-                        <p>Punta Cana Car Rental Tips</p>
-                        <h2>The best tips for renting a car in Punta Cana</h2>
+                        <p>Cancun Car Rental Tips</p>
+                        <h2>The best tips for renting a car in Cancún</h2>
                     @else
-                        <p>Tips de Alquiler de Autos Punta Cana</p>
-                        <h2>Los mejores tips para rentar un auto en Punta Cana</h2>                        
+                        <p>Consejos para rentar un auto en Cancún</p>
+                        <h2>Los mejores tips para rentar un auto en Cancún</h2>                        
                     @endif
                 </div>
                 <div class="right">
                     @if(app()->getLocale() == "en")
-                        <div>Mobility in Punta Cana is really easy. For this, the best option is to rent a car. This option allows you to travel short and long distances in or out of the city, without much worry.</div>
-                        <div>Punta Cana International Airport (PUJ) has several international car rental agencies (terminal A).</div>
-                        <div>In Punta Cana you will be able to enjoy several beaches, most of the hotels have a view of the beautiful sea. Before booking, we recommend that you check if the hotel you plan to book has parking facilities for guests who wish to rent a car in Punta Cana.</div>
-                        <div>Traffic hours in Punta Cana are from 10:00 to 12:00 and from 18:00 to 20:00, when most excursions take place and people move between hotels and other destinations.</div>
-                        <div>Renting a car in Punta Cana costs approximately US$50 per day. Renting a car in Punta Cana is ideal for those who plan to move freely within the city.</div>
-                        <div>The speed limit in Punta Cana can range from 30 to 100 km/hr. This will depend on the streets and sections you decide to drive on. It is advisable to abide by Punta Cana's traffic laws and drive with caution at all times.</div>
+                        <div>Exploring Cancún is effortless with a rental car. Whether you want to visit nearby attractions or take a road trip along the Riviera Maya, having your vehicle gives you the freedom to travel on your schedule.</div>
+                        <div>Cancun International Airport (CUN) has multiple international car rental agencies located in all terminals, making it easy to pick up your car as soon as you arrive.</div>
+                        <div>Cancun is famous for its stunning beaches, vibrant nightlife, and rich Mayan culture. Before booking your hotel, check if it offers parking facilities—many resorts in the Hotel Zone provide spaces for guests with rental cars.</div>
+                        <div>Peak traffic hours in Cancún are from 7:00 AM to 9:00 AM and 5:00 PM to 7:00 PM, especially along Kukulcán Boulevard in the Hotel Zone. Planning your drives outside these times can help avoid delays.</div>
+                        <div>The average cost of renting a car in Cancún is around 17 usd -110 usd per day, depending on the vehicle type. Renting a car is ideal for travelers who want to explore beyond the resorts—visit Tulum, Chichén Itzá, or the cenotes at your own pace.</div>
+                        <div>
+                            <p>Speed limits in Cancún vary:</p>
+                            <ul>
+                                <li>40-60 km/h (11-16 m/h) in urban areas</li>
+                                <li>80-100 km/h (22-27 m/h) on highways</li>
+                                <li>Always follow traffic laws, watch for speed bumps (topes), and drive cautiously, especially at night.</li>
+                            </ul>
+                        </div>
                     @else
-                        <div>La movilidad en Punta Cana es realmente sencilla. Para esto, la mejor opción es rentar un coche. Esta opción permite viajar en distancias cortas y largas dentro o fuera de la ciudad, sin mayor preocupación.</div>
-                        <div>El aeropuerto Internacional de Punta Cana (PUJ) cuenta con diversas agencias de renta de autos de talla internacional (terminal A).</div>
-                        <div>En punta Cana podrás disfrutar de diversas playas, la mayoría de los hoteles gozan de vista al hermoso mar. Antes de reservar, te recomendamos investigar, si en el hotel en el que planeas reservar, disponen de estacionamiento para los huéspedes que deseen alquilar un coche en Punta Cana.</div>
-                        <div>Los horarios de tráfico en Punta Cana son de 10:00 a 12:00 y de 18:00 a 20:00, cuando la mayoría de las excursiones se realizan y las personas se trasladan entre hoteles y otros destinos.</div>
-                        <div>Rentar un auto en Punta Cana, tiene un costo aproximado de $50 dólares por día. Alquilar un auto en Punta Cana es ideal para los que planean moverse con libertad dentro de la ciudad.</div>
-                        <div>El límite de velocidad en punta cana puede ir desde los 30 a los 100 km/hr. Esto dependerá de las calles y secciones en las que decidas conducir. Es recomendable sujetarse a las leyes de tránsito de Punta Cana y conducir con precaución en todo momento.</div>
+                        <div>Explorar Cancún es muy fácil con un auto rentado. Ya sea que quieras visitar atracciones cercanas o hacer un viaje por la Riviera Maya, tener tu propio vehículo te da la libertad de viajar a tu propio ritmo.</div>
+                        <div>El Aeropuerto Internacional de Cancún (CUN) cuenta con varias agencias internacionales de renta de autos ubicadas en todas las terminales, lo que facilita recoger tu auto al llegar.</div>
+                        <div>Cancún es famoso por sus impresionantes playas, su vibrante vida nocturna y su rica cultura maya. Antes de reservar tu hotel, verifica si ofrece estacionamiento; muchos resorts en la Zona Hotelera proporcionan espacios para huéspedes con autos rentados.</div>
+                        <div>Las horas pico de tráfico en Cancún son de 7:00 AM a 9:00 AM y de 5:00 PM a 7:00 PM, especialmente en el Bulevar Kukulcán, en la Zona Hotelera. Planear tus recorridos fuera de estos horarios puede ayudarte a evitar retrasos.</div>
+                        <div>El costo promedio de rentar un auto en Cancún es de aproximadamente $335 MXN a $2200 MXN por día, dependiendo del tipo de vehículo. Renta un auto es ideal para viajeros que quieran explorar más allá de los resorts, como visitar Tulum, Chichén Itzá o los cenotes a su propio ritmo.</div>
+                        <div>
+                            <p>Los límites de velocidad en Cancún varían:</p>
+                            <ul>
+                                <li>40-60 km/h en zonas urbanas</li>
+                                <li>80-100 km/h en carreteras</li>
+                            </ul>
+                            <p>Siempre sigue las leyes de tránsito, presta atención a los topes y maneja con precaución, especialmente de noche.</p>
+                        </div>
                     @endif
                 </div>
             </div>            
@@ -561,15 +633,15 @@
         @php
             $review = [];
             if(app()->getLocale() == "en"):
-                $review['heading'] = "More than <strong>190 thousand</strong> customers trust <strong>Punta Cana Airport to rent a car</strong>.";
+                $review['heading'] = "More than <strong>190 thousand</strong> customers trust <strong>Cancun Airport</strong> to rent a car.";
                 $review['subheading'] = "Find out what our customers say.";
                 $review['client'] = "Marina K.";
-                $review['comment'] = "We traveled to Punta Cana as a family and decided to rent a car to visit more places, because it is a small city, which was very beneficial for us. I recommend it if it is the first time you visit Punta Cana.";
+                $review['comment'] = "An exceptional rental service, very friendly and attentive to the needs of the client, with incredible speed, the vehicle is in perfect condition, impeccably clean without annoying noises or odors with enough space for all the luggage.";
             else:
-                $review['heading'] = "Más de <strong>190 mil</strong> clientes confían en <strong>Punta Cana Airport para rentar un auto</strong>.";
-                $review['subheading'] = "Conoce lo que dicen nuestros clientes.";
+                $review['heading'] = "Más de <strong>190 mil clientes</strong> confían en <strong>Cancún Aeropuerto</strong> para rentar un auto.";
+                $review['subheading'] = "Conozca la opinión de nuestros clientes.";
                 $review['client'] = "Marina K.";
-                $review['comment'] = "Viajamos a Punta Cana en Familia, decidimos rentar un auto para conocer más lugares, pues es una ciudad muy pequeña, lo cual nos benefició bastante. Lo recomiendo si es la primera vez que visitas Punta Cana.";
+                $review['comment'] = "Un servicio de renta excepcional, muy amables y atentos a las necesidades del cliente, con una rapidez increíble, el vehículo en perfectas condiciones, impecablemente limpio sin ruidos ni olores molestos con espacio suficiente para todo el equipaje.";
             endif;
         @endphp
         <x-reviews :review="$review"/>        

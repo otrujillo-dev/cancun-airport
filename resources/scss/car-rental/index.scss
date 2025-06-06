@@ -51,7 +51,7 @@ div.main-items{
             padding-top: 25px;
             > h1{
                 color: white;
-                width: 500px;
+                width: 700px;
                 margin: 0 auto;
                 @media (max-width: 767px) {
                     width: auto;
@@ -519,6 +519,21 @@ div.top-tips-elements{
                 display: flex;
                 flex-direction: column;
                 gap: 8px;
+                line-height: 1.3;
+                font-size: 11pt;
+                > p{
+                    line-height: 1.3;
+                    font-size: 11pt;
+                }
+                > ul{
+                    margin: 0px;
+                    padding: 0px;
+                    padding-left: 15px;
+                    li{
+                        font-size: 11pt;
+                        line-height: 1.3;
+                    }
+                }
                 &::before{
                     content: '';
                     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23284fe3" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>');

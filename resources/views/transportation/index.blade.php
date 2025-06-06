@@ -18,11 +18,11 @@
                 <div class="wrapper">
                     <div class="top">
                         @if(app()->getLocale() == "en")
-                            <h1>Punta Cana Airport Transfers</h1>
-                            <p>Comfortable and safe <strong>transportation</strong> to any destination in Punta Cana</p>
+                            <h1>Cancun Airport Transportation</h1>
+                            <p>Comfortable and safe transportation to any destination in Cancun</p>
                         @else
-                            <h1>Traslados en Punta Cana</h1>
-                            <p><strong>Transporte</strong> cómodo y seguro a cualquier destino en Punta Cana</p>
+                            <h1>Transportación en el Aeropuerto de Cancún</h1>
+                            <p>Transportación cómoda y segura a cualquier destino en Cancún</p>
                         @endif
                     </div>
                 </div>
@@ -41,22 +41,22 @@
             <div>
                 <div class="left">
                     @if(app()->getLocale() == "en")
-                        <p>Our services</p>
-                        <h2>Reliable and Safe Punta Cana Airport Transfers</h2>
+                        <p>Our Services</p>
+                        <h2>Reliable and Safe Cancun Airport Transportation</h2>
                     @else
-                        <p>Nuestros servicios</p>
-                        <h2>Traslados seguros y confiables del aeropuerto de Punta Cana</h2>
+                        <p>Nuestros Servicios</p>
+                        <h2>Transporte confiable y seguro en el Aeropuerto de Cancún</h2>
                     @endif
                     <div>
                         <div>
                             <svg width="20" height="25"><use xlink:href="/assets/img/transportation/icons.svg#taxi"></use></svg>
                             <div>
                                 @if(app()->getLocale() == "en")
-                                    <p>Private transportation</p>
-                                    <p>Book your Punta Cana airport transportation in advance to ensure a smooth start to your vacation. You can relax knowing that your transfer is already arranged from the moment you land. As a trusted provider of ground transportation in the Dominican Republic, we are committed to delivering a safe, comfortable, and hassle-free experience.</p>
+                                    <p>Private Transportation</p>
+                                    <p>Book your Cancun airport transportation in advance to ensure a smooth start to your vacation. Relax knowing your transfer is arranged as soon as you land at Cancun International Airport (CUN). As a trusted provider of ground transportation in Mexico, we are committed to delivering a safe, comfortable, and hassle-free experience.</p>
                                 @else
-                                    <p>Transporte privado</p>
-                                    <p>Reserva tu transporte al aeropuerto de Punta Cana con antelación para asegurarte un comienzo de vacaciones sin problemas. Puedes relajarte sabiendo que tu traslado ya está organizado desde el momento en que aterrices. Como proveedor de confianza de transporte terrestre en la República Dominicana, estamos comprometidos a ofrecer una experiencia segura, cómoda y sin complicaciones.</p>
+                                    <p>Transporte Privado</p>
+                                    <p>Reserve su transporte desde el aeropuerto de Cancún con anticipación para garantizar un inicio perfecto de sus vacaciones. Relájese sabiendo que su traslado estará listo tan pronto como aterrice en el Aeropuerto Internacional de Cancún (CUN). Como proveedor confiable de transporte terrestre en México, nos comprometemos a brindarle una experiencia segura, cómoda y sin complicaciones.</p>
                                 @endif
                             </div>
                         </div>
@@ -64,11 +64,11 @@
                             <svg width="20" height="20"><use xlink:href="/assets/img/transportation/icons.svg#suitcase"></use></svg>
                             <div>
                                 @if(app()->getLocale() == "en")
-                                    <p>Professional service</p>
-                                    <p>A professional and uniformed representative will be waiting for you at the exit of the PUJ terminal, easily recognizable with our T-shirt or logo on a palette. After a warm welcome, our experienced drivers will assist with your luggage and escort you to your designated vehicle. Once you're settled in, we'll take you directly to your hotel in Punta Cana, swiftly and safely.</p>
+                                    <p>Professional Service</p>
+                                    <p>A professional, uniformed representative will be waiting for you at the exit of the CUN terminal, easily recognizable with our branded shirt or sign. After a warm welcome, our experienced drivers will assist with your luggage and escort you to your designated vehicle. Once you're settled in, we'll take you directly to your hotel in Cancun’s Hotel Zone or Riviera Maya—swiftly and safely.</p>
                                 @else
-                                    <p>Servicio profesional</p>
-                                    <p>Un representante profesional y uniformado te estará esperando a la salida de la terminal PUJ, fácilmente reconocible con nuestra camiseta, o logo en paleta. Tras una cálida bienvenida, nuestros experimentados conductores te ayudarán con tu equipaje y te acompañarán al vehículo designado. Una vez instalado, te llevaremos directamente a tu hotel en Punta Cana, de forma rápida y segura.</p>
+                                    <p>Servicio Profesional</p>
+                                    <p>Un representante profesional y uniformado lo estará esperando a la salida de la terminal de CUN, fácilmente identificable por nuestra camisa o cartel con logo. Después de una cálida bienvenida, nuestros conductores expertos lo asistirán con su equipaje y lo acompañarán hasta su vehículo asignado. Una vez instalados, los llevaremos directamente a su hotel en la Zona Hotelera de Cancún o la Riviera Maya de manera rápida y segura.</p>
                                 @endif
                             </div>
                         </div>
@@ -77,10 +77,10 @@
                             <div>
                                 @if(app()->getLocale() == "en")
                                     <p>Reliable Airport Shuttle</p>
-                                    <p>Opting for our reliable airport shuttle service ensures a more comfortable and cost-effective transfer compared to taking a taxi. Skip the long waits and get to your vacation destination without delays, because your time in paradise should be spent enjoying the beach, not waiting for transportation.</p>
+                                    <p>Choosing our shuttle service ensures a comfortable and cost-effective transfer compared to taxis. Skip the long waits and head straight to paradise without delays. Your time in Cancun should be spent enjoying pristine beaches and vibrant nightlife—not waiting for transportation.</p>
                                 @else
-                                    <p>Transporte fiable al aeropuerto</p>
-                                    <p>Optar por nuestro fiable servicio de enlace con el aeropuerto le garantiza un traslado más cómodo y rentable que tomar un taxi. Evita largas esperas y llega a tu destino de vacaciones sin retrasos, porque tu tiempo en el paraíso debe ser para disfrutar de la playa, no para esperar el transporte.</p>                                    
+                                    <p>Transporte compartido confiable</p>
+                                    <p>Elegir nuestro servicio de transporte compartido garantiza un traslado cómodo y económico en comparación con los taxis. Evite las largas esperas y diríjase directamente al paraíso sin demoras. Su tiempo en Cancún debe dedicarse a disfrutar de playas paradisíacas y una vibrante vida nocturna, ¡no a esperar el transporte!</p>
                                 @endif
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                 <div class="right">
                     <picture>
                         <source srcset="/assets/img/transportation/locations.webp" type="image/webp">
-                        <img src="/assets/img/transportation/locations.jpg" alt="" title="" width="713" height="514" loading="lazy">
+                        <img src="/assets/img/transportation/locations.jpg" alt="Cancun Airport Transportation" title="Cancun Airport Transportation" width="713" height="514" loading="lazy">
                     </picture>
                 </div>
             </div>
@@ -103,78 +103,119 @@
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/la-romana.webp')">
                             <div class="top">
                                 <div><div class="four"></div>4.5/5</div>
-                                <p>La romana</p>
+                                <p>Playa del Carmen</p>
                             </div>
                             <div class="bottom">
-                                <p>$114 USD</p>
-                                <p>$38 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$90 USD</p>
+                                    <p>$69 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$1,727 MXN</p>
+                                    <p>$1,329 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/bavaro.webp')">
                             <div class="top">
                                 <div><div class="five"></div>5/5</div>
-                                <p>Bavaro</p>
+                                <p>Tulum</p>
                             </div>
                             <div class="bottom">
-                                <p>$30 USD</p>
-                                <p>$10 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$165 USD</p>
+                                    <p>$127 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$3,309 MXN</p>
+                                    <p>$2,546 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/cap-cana.webp')">
                             <div class="top">
                                 <div><div class="five"></div>5/5</div>
-                                <p>Cap Cana</p>
+                                <p>
+                                    @if(app()->getLocale() == "en")
+                                        Cancun Hotel Zone
+                                    @else
+                                        Cancun Zona Hotelera
+                                    @endif
+                                </p>
                             </div>
                             <div class="bottom">
-                                <p>$29 USD</p>
-                                <p>$9 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$39 USD</p>
+                                    <p>$29 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$739 MXN</p>
+                                    <p>$569 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/bayahibe.webp')">
                             <div class="top">
                                 <div><div class="four"></div>4/5</div>
-                                <p>Bayahibe</p>
+                                <p>Puerto Morelos</p>
                             </div>
                             <div class="bottom">
-                                <p>$90 USD</p>
-                                <p>$30 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$65 USD</p>
+                                    <p>$50 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$1,235 MXN</p>
+                                    <p>$950 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/uvero-alto.webp')">
                             <div class="top">
                                 <div><div class="four"></div>5/5</div>
-                                <p>Uvero Alto</p>
+                                <p>Puerto Aventuras</p>
                             </div>
                             <div class="bottom">
-                                <p>$55 USD</p>
-                                <p>$18 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$114 USD</p>
+                                    <p>$88 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$2,173 MXN</p>
+                                    <p>$1,672 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/punta-gorda.webp')">
                             <div class="top">
                                 <div><div class="four"></div>5/5</div>
-                                <p>Punta Gorda</p>
+                                <p>Akumal</p>
                             </div>
                             <div class="bottom">
-                                <p>$30 USD</p>
-                                <p>$10 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$133 USD</p>
+                                    <p>$103 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$2,544 MXN</p>
+                                    <p>$1,957 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="background-image: url('/assets/img/transportation/destinations/cabeza-de-toro.webp')">
                             <div class="top">
                                 <div><div class="four"></div>5/5</div>
-                                <p>Cabeza de toro</p>
+                                <p>Holbox Ferry</p>
                             </div>
                             <div class="bottom">
-                                <p>$30 USD</p>
-                                <p>$10 USD <span>@lang('transportation/main.per_person')</span></p>
-                                <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
+                                @if(app()->getLocale() == "en")
+                                    <p>$312 USD</p>
+                                    <p>$240 USD <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @else
+                                    <p>$5,928 MXN</p>
+                                    <p>$4,560 MXN <span>@lang('transportation/main.per_vehicle')</span></p>
+                                @endif
+                                <a href="#transportation-bookingbox" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +226,7 @@
                     <div class="one">
                         @if(app()->getLocale() == "en")
                             <p>Destinations</p>
-                            <h2>Visit other destinations near Punta Cana</h2>
+                            <h2>Visit other destinations near Cancun.</h2>
                             <a href="#transportation-bookingbox" class="btn" title="See all Destinations">See all Destinations</a>
                         @else
                             <p>Destinos</p>
@@ -195,11 +236,9 @@
                     </div>
                     <div class="two">
                         @if(app()->getLocale() == "en")
-                            <a href="#transportation-bookingbox" class="btn" title="Punta Cana from $29 USD">Punta Cana from $29 USD</a>
-                            <a href="#transportation-bookingbox" class="btn" title="Bavaro from $30 USD">Bavaro from $30 USD</a>
-                            <a href="#transportation-bookingbox" class="btn" title="Santo Domingo from $114 USD">Santo Domingo from $114 USD</a>
-                            <a href="#transportation-bookingbox" class="btn" title="Puerto Plata">Puerto Plata</a>
-                            <a href="#transportation-bookingbox" class="btn" title="La Romana">La Romana</a>
+                            <a href="#transportation-bookingbox" class="btn" title="Cancun Hotel Zone from $29.99 USD">Cancun Hotel Zone from $29.99 USD</a>
+                            <a href="#transportation-bookingbox" class="btn" title="Playa del Carmen from $69.99 USD">Playa del Carmen from $69.99 USD</a>
+                            <a href="#transportation-bookingbox" class="btn" title="Tulum from $127 USD">Tulum from $127 USD</a>
                         @else
                             <a href="#transportation-bookingbox" class="btn" title="Punta Cana desde $29 USD">Punta Cana desde $29 USD</a>
                             <a href="#transportation-bookingbox" class="btn" title="Bavaro desde $30 USD">Bavaro desde $30 USD</a>
@@ -223,17 +262,17 @@
                     </div>
                     <div class="right">
                         @if(app()->getLocale() == "en")
-                            <p>Private transportation...</p>
-                            <h2>Why use a Punta Cana Airport Shuttle service?</h2>
-                            <p>Getting a transportation service from the Punta Cana airport is ideal if you want to move directly to your destination, without continuous stops, and above all, safely.</p>
-                            <p>Private transportation in Punta Cana is the #1 choice for all travelers, as it offers first-class services at unbeatable prices.</p>
-                            <p>It doesn't matter if you are staying at Paradisus, Dreams, Secrets, Riu, Iberostar, Melia, Barcelo, or Catalonia Resort. With us, you will be able to find the ideal transportation service for your needs, with prices starting at $12 USD per person.</p>
+                            <p>Cancun Airport Private Transportation</p>
+                            <h2>Why Use a Cancun Airport Shuttle Service?</h2>
+                            <p>Booking a private shuttle from Cancun International Airport (CUN) is the best way to travel directly to your resort—without unnecessary stops—while ensuring safety and comfort.</p>
+                            <p>Cancun Private Transportation is the top choice for travelers, offering premium service at unbeatable prices. Whether you're staying at Hyatt Ziva, Riu Palace, Secrets Maroma, Grand Fiesta Americana, Hard Rock Hotel, TRS Coral, Moon Palace, or Excellence Playa Mujeres, we provide the perfect transfer solution for your needs—starting at just $29.99 USD per vehicle.</p>
+                            <p>Skip the hassle of taxis and shared shuttles—arrive at your Cancun getaway smoothly and in style!</p>
                         @else
-                            <p>Paso a paso...</p>
-                            <h2>¿Por qué utilizar Traslados en Punta Cana con una agencia de transporte privado?</h2>
-                            <p>Obtener un servicio de transporte desde el aeropuerto de Punta Cana es ideal si deseas trasladarte directamente a tu destino, sin continuas paradas, y sobre todo, de forma segura.</p>
-                            <p>El transporte privado en Punta Cana es la opción número 1 para todos los viajeros, ya que ofrece servicios de primera clase a precios inmejorables.</p>
-                            <p>No importa si te hospedas en Paradisus, Dreams, Secrets, Riu, Iberostar, Meliá, Barceló o Catalonia Resort. Con nosotros, podrás encontrar el servicio de transporte ideal para tus necesidades, con precios desde $12 USD por persona.</p>
+                            <p>Transporte Privado en el Aeropuerto de Cancún</p>
+                            <h2>¿Por qué elegir un servicio de transporte privado en Cancún?</h2>
+                            <p>Reservar un transporte privado desde el Aeropuerto Internacional de Cancún (CUN) es la mejor manera de llegar directamente a tu resort —sin paradas innecesarias— garantizando seguridad y comodidad.</p>
+                            <p>Un servicio de transporte privado en el Aeropuerto de Cancún es la opción preferida por los viajeros, ofreciendo un servicio premium a precios insuperables. Ya sea que te hospedes en Hyatt Ziva, Riu Palace, Secrets Maroma, Grand Fiesta Americana, Hard Rock Hotel, TRS Coral, Moon Palace o Excellence Playa Mujeres, tenemos la solución de traslado perfecta para tus necesidades —desde solo $569.81 MXN por vehículo.</p>
+                            <p>Olvídate de los taxis y los transportes compartidos —¡llega a tu destino en Cancún con estilo y sin complicaciones!</p>
                         @endif
                     </div>
                 </div>
@@ -244,18 +283,31 @@
             <div>
                 <div class="left">
                     @if(app()->getLocale() == "en")
-                        <h2>Word-Class airport transportation service in Punta Cana</h2>
-                        <p>Find the best transportation methods to get from the airport to your destination in Punta Cana. Cab, private transportation, group transportation, car rental, bus and more.</p>
-                        <p>When planning your trip, take into account the activities you plan to do in or near the city. This will help you choose the ideal method of transportation for you.</p>
-                        <p>Why are we the best option for you? We offer a variety of transportation services, which puts us above other agencies, because with us you will be able to find the service that best suits your needs, upon arrival, during your stay, and even when you return to the airport. Contact us today!</p>
-                        <a href="#top" class="btn" title="See all Transportation options">See all Transportation options</a>
+                        <h2>World-Class Cancun Airport Transportation</h2>
+                        <p>Find the best way to get from Cancun International Airport (CUN) to your hotel or resort with a variety of transportation options: private transfers, shared shuttles, taxis, luxury vans, car rentals, and more.</p>
+                        <p>When planning your trip, consider your itinerary—whether you're heading to the Hotel Zone, Riviera Maya, Playa del Carmen, or Tulum—to choose the most convenient transportation for your needs.</p>
+                        <p>Why Choose Us? We stand out from other agencies by offering flexible, reliable, and affordable services tailored to your trip. Whether you need:</p>
+                        <ul>
+                            <li>Private transfers for a fast, direct ride</li>
+                            <li>Group shuttles for budget-friendly travel</li>
+                            <li>Luxury vehicles for VIP comfort</li>
+                            <li>Round-trip service for stress-free airport returns</li>
+                        </ul>
+                        <p>From the moment you land until your departure, we ensure safe, comfortable, and hassle-free transportation. Book today and start your Cancun vacation the right way!</p>
+                        <a href="#top" class="btn" title="See all the Cancun Transportation Options">See all the Cancun Transportation Options</a>
                     @else
-                        <h2>Servicio de transporte al aeropuerto de clase mundial en Punta Cana</h2>
-                        <p>Encuentra los mejores métodos de transporte para llegar desde el aeropuerto a tu destino en Punta Cana. Taxi, transporte privado, transporte de grupos, alquiler de coches, autobús y mucho más.</p>
-                        <p>Cuando planifiques tu viaje, toma en cuenta las actividades que planeas realizar en la ciudad o cerca de ella. Esto te ayudará a elegir el método de transporte ideal para ti.</p>
-                        <h3>¿Por qué somos la mejor opción para ti?</h3>
-                        <p>Ofrecemos una gran variedad de servicios de transporte, lo que nos sitúa por encima de otras agencias, ya que con nosotros podrás encontrar el servicio que mejor se adapte a tus necesidades, a tu llegada, durante tu estancia, e incluso cuando regreses al aeropuerto. ¡ Contáctanos hoy mismo!</p>
-                        <a href="#top" class="btn" title="Ver todas las opciones de Transporte">Ver todas las opciones de Transporte</a>
+                        <h2>Transporte de clase mundial desde el aeropuerto de Cancún</h2>
+                        <p>Encuentre la mejor manera de llegar desde el Aeropuerto Internacional de Cancún (CUN) a su hotel o resort con una variedad de opciones de transporte: traslados privados, traslados compartidas, taxis, camionetas de lujo, alquiler de coches, y mucho más.</p>
+                        <p>Al planear su viaje, tenga en cuenta su itinerario, ya sea que se dirija a la Zona Hotelera, Riviera Maya, Playa del Carmen o Tulum, para elegir el transporte más conveniente para sus necesidades.</p>
+                        <p>¿Por qué elegirnos? Nos distinguimos de otras agencias por ofrecer servicios flexibles, confiables y accesibles adaptados a su viaje. Ya sea que necesite </p>
+                        <ul>
+                            <li>Traslados privados para un viaje rápido y directo</li>
+                            <li>Traslados en grupo para un viaje económico</li>
+                            <li>Vehículos de lujo para un confort VIP</li>
+                            <li>Servicio de ida y vuelta para regresar al aeropuerto sin estrés</li>
+                        </ul>
+                        <p>Al planificar tu viaje, considera tu itinerario —ya sea que vayas a la Zona Hotelera, Riviera Maya, Playa del Carmen o Tulum— para elegir el transporte más conveniente.</p>
+                        <a href="#top" class="btn" title="Ver todas las opciones de Transporte en Cancún">Ver todas las opciones de Transporte en Cancún</a>
                     @endif
                 </div>
                 <div class="right vehicleSwiper">
@@ -267,67 +319,28 @@
                                 <img src="/assets/img/vehicles/kia-k5.png" alt="" title="" width="150" height="150" loading="lazy">
                             </picture>
                             <p>@lang('transportation/main.private_service')</p>
-                            <h3>Kia K5</h3>
+                            <h3>
+                                @if(app()->getLocale() == "en")
+                                    Sedan or similar
+                                @else
+                                    Sedan o similar
+                                @endif
+                            </h3>
                             <div class="five">5/5</div>
                             <p>@lang('transportation/main.vehicle_info', ['pax' => 3])</p>
                             <p>@lang('transportation/main.up_to', ['pax' => 3])</p>
                             <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$37 USD</p>
-                            <p>$29 USD</p>
+                            @if(app()->getLocale() == "en")
+                                <p>$44 USD</p>
+                                <p>$34 USD</p>
+                            @else
+                                <p>$863 MXN</p>
+                                <p>$664 MXN</p>
+                            @endif
                             <p>@lang('transportation/main.taxes_included')</p>
                             <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                         </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <source srcset="/assets/img/vehicles/hyundai-i20.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/hyundai-i20.png" alt="" title="" width="150" height="150" loading="lazy">
-                            </picture>
-                            <p>@lang('transportation/main.private_service')</p>
-                            <h3>Hyundai i20</h3>
-                            <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 3])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 3])</p>
-                            <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$37 USD</p>
-                            <p>$29 USD</p>
-                            <p>@lang('transportation/main.taxes_included')</p>
-                            <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <source srcset="/assets/img/vehicles/hyundai-sonata.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/hyundai-sonata.png" alt="" title="" width="150" height="150" loading="lazy">
-                            </picture>
-                            <p>@lang('transportation/main.private_service')</p>
-                            <h3>Hyundai Sonata</h3>
-                            <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 4])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 4])</p>
-                            <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$42 USD</p>
-                            <p>$32 USD</p>
-                            <p>@lang('transportation/main.taxes_included')</p>
-                            <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <source srcset="/assets/img/vehicles/honda-odyssey.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/honda-odyssey.png" alt="" title="" width="150" height="150" loading="lazy">
-                            </picture>
-                            <p>@lang('transportation/main.private_service')</p>
-                            <h3>Honda Odyssey</h3>
-                            <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 6])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 6])</p>
-                            <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$45 USD</p>
-                            <p>$35 USD</p>
-                            <p>@lang('transportation/main.taxes_included')</p>
-                            <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
-                        </div>
+                        
 
                         <div class="swiper-slide">
                             <picture>
@@ -335,30 +348,24 @@
                                 <img src="/assets/img/vehicles/suburban.png" alt="" title="" width="150" height="150" loading="lazy">
                             </picture>
                             <p>@lang('transportation/main.private_service')</p>
-                            <h3>Chevrolet Suburban</h3>
+                            <h3>
+                                @if(app()->getLocale() == "en")
+                                    SUV Premium or similar
+                                @else
+                                    SUV Premium o similar
+                                @endif
+                            </h3>
                             <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 4])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 4])</p>
+                            <p>@lang('transportation/main.vehicle_info', ['pax' => 5])</p>
+                            <p>@lang('transportation/main.up_to', ['pax' => 5])</p>
                             <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$87 USD</p>
-                            <p>$67 USD</p>
-                            <p>@lang('transportation/main.taxes_included')</p>
-                            <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <source srcset="/assets/img/vehicles/hyundai-h1.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/hyundai-h1.png" alt="" title="" width="150" height="150" loading="lazy">
-                            </picture>
-                            <p>@lang('transportation/main.private_service')</p>
-                            <h3>Hyundai H-1</h3>
-                            <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 8])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 8])</p>
-                            <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$65 USD</p>
-                            <p>$50 USD</p>
+                            @if(app()->getLocale() == "en")
+                                <p>$101 USD</p>
+                                <p>$78 USD</p>
+                            @else
+                                <p>$1,926 MXN</p>
+                                <p>$1,482 MXN</p>
+                            @endif
                             <p>@lang('transportation/main.taxes_included')</p>
                             <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                         </div>
@@ -369,64 +376,52 @@
                                 <img src="/assets/img/vehicles/toyota-hiace.png" alt="" title="" width="150" height="150" loading="lazy">
                             </picture>
                             <p>@lang('transportation/main.private_service')</p>
-                            <h3>Toyota Hiace</h3>
+                            <h3>
+                                @if(app()->getLocale() == "en")
+                                    Van or similar
+                                @else
+                                    Van o similar
+                                @endif
+                            </h3>
                             <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 11])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 11])</p>
+                            <p>@lang('transportation/main.vehicle_info', ['pax' => 8])</p>
+                            <p>@lang('transportation/main.up_to', ['pax' => 8])</p>
                             <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$78 USD</p>
-                            <p>$60 USD</p>
+                            @if(app()->getLocale() == "en")
+                                <p>$37 USD</p>
+                                <p>$29 USD</p>
+                            @else
+                                <p>$739 MXN</p>
+                                <p>$569 MXN</p>
+                            @endif
                             <p>@lang('transportation/main.taxes_included')</p>
                             <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                         </div>
 
                         <div class="swiper-slide">
                             <picture>
-                                <source srcset="/assets/img/vehicles/kia-sedona.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/kia-sedona.png" alt="" title="" width="150" height="150" loading="lazy">
+                                <source srcset="/assets/img/vehicles/vw-crafter.webp" type="image/webp">
+                                <img src="/assets/img/vehicles/vw-crafter.png" alt="" title="" width="150" height="150" loading="lazy">
                             </picture>
                             <p>@lang('transportation/main.private_service')</p>
-                            <h3>Kya Sedona</h3>
+                            <h3>
+                                @if(app()->getLocale() == "en")
+                                    Large Van or similar
+                                @else
+                                    Van Grande o Similar
+                                @endif
+                            </h3>
                             <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 7])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 7])</p>
+                            <p>@lang('transportation/main.vehicle_info', ['pax' => 14])</p>
+                            <p>@lang('transportation/main.up_to', ['pax' => 14])</p>
                             <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$58 USD</p>
-                            <p>$45 USD</p>
-                            <p>@lang('transportation/main.taxes_included')</p>
-                            <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <source srcset="/assets/img/vehicles/toyota-coaster.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/toyota-coaster.png" alt="" title="" width="150" height="150" loading="lazy">
-                            </picture>
-                            <p>@lang('transportation/main.private_service')</p>
-                            <h3>Toyota Coaster</h3>
-                            <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 25])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 25])</p>
-                            <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$143 USD</p>
-                            <p>$110 USD</p>
-                            <p>@lang('transportation/main.taxes_included')</p>
-                            <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <picture>
-                                <source srcset="/assets/img/vehicles/marco-polo-bus.webp" type="image/webp">
-                                <img src="/assets/img/vehicles/marco-polo-bus.png" alt="" title="" width="150" height="150" loading="lazy">
-                            </picture>
-                            <p>@lang('transportation/main.private_service')</p>
-                            <h3>Marco Polo</h3>
-                            <div class="five">5/5</div>
-                            <p>@lang('transportation/main.vehicle_info', ['pax' => 50])</p>
-                            <p>@lang('transportation/main.up_to', ['pax' => 50])</p>
-                            <p>@lang('transportation/main.price_per_vehicle')</p>
-                            <p>$312 USD</p>
-                            <p>$240 USD</p>
+                            @if(app()->getLocale() == "en")
+                                <p>$101 USD</p>
+                                <p>$78 USD</p>
+                            @else
+                                <p>$1,926 MXN</p>
+                                <p>$1,482 MXN</p>
+                            @endif
                             <p>@lang('transportation/main.taxes_included')</p>
                             <a href="#transportation" class="btn" title="@lang('transportation/main.book_now')">@lang('transportation/main.book_now')</a>
                         </div>
@@ -447,20 +442,20 @@
             <div class="container information-map">
                 <div class="wrapper">
                     <div class="left">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.2600005825207!2d-68.37026112458076!3d18.562313382539408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea892172ce48f89%3A0x957aa624da170f8c!2sAeropuerto%20de%20Punta%20Cana!5e0!3m2!1ses!2smx!4v1742590743276!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49650.22599307236!2d-86.8956468271571!3d21.04200895905294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e81bb49b57809%3A0xe7f7d44da1f07a06!2sAeropuerto%20Internacional%20de%20Canc%C3%BAn!5e1!3m2!1ses-419!2smx!4v1749161667173!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="right">
                         @if(app()->getLocale() == "en")
                             <p>MAP</p>
-                            <h2>Punta Cana Airport Transportation - Map</h2>
-                            <p>Get to know the map of Punta Cana and the Punta Cana airport, from where you can move by means of a transportation service to your destination, hotel, or resort without complications.</p>
-                            <p>Below you will find information about the airport location, airport shuttle service schedules, recommended agencies and amenities included in the shuttle service to/from Punta Cana airport.</p>
+                            <h2>Cancun Airport Transportation - Map</h2>
+                            <p>Familiarize yourself with Cancun International Airport (CUN) and its surrounding areas, where you can easily arrange transportation to your hotel or resort without any hassle.</p>
+                            <p>Below, you'll find essential details about the airport's location, shuttle service schedules, trusted transportation providers, and the amenities included in our Cancun airport transfer services.</p>
                             <a href="#top" class="btn" title="Book Now">Book Now</a>
                         @else
                             <p>MAPA</p>
-                            <h2>Transporte Aeropuerto Punta Cana - Mapa</h2>
-                            <p>Conoce el mapa de Punta Cana y el aeropuerto de Punta Cana, desde donde podrás desplazarte mediante un servicio de transporte a tu destino, hotel, o resort sin complicaciones.</p>
-                            <p>A continuación encontrarás información sobre la ubicación del aeropuerto, los horarios de los servicios de enlace con el aeropuerto, las agencias recomendadas y las comodidades que incluye el servicio de transporte desde/hacia el aeropuerto de Punta Cana.</p>
+                            <h2>Transporte al Aeropuerto de Cancún - Mapa</h2>
+                            <p>Familiaricese con el Aeropuerto Internacional de Cancún (CUN) y sus alrededores, donde podrá organizar fácilmente el transporte a su hotel o resort sin ningún problema.</p>
+                            <p>A continuación, encontrará detalles esenciales sobre la ubicación del aeropuerto, los horarios de los servicios de transporte, los proveedores de transporte de confianza y las comodidades incluidas en nuestros servicios de traslado del aeropuerto de Cancún.</p>
                             <a href="#top" class="btn" title="Reservar ahora">Reservar ahora</a>
                         @endif
                         
@@ -468,38 +463,38 @@
                             <tbody>
                                 <tr>
                                     @if(app()->getLocale() == "en")
-                                        <th>Punta Cana Airport Location</th>
-                                        <td>Carr. Aeropuerto, Punta Cana 23000, República Dominicana</td>
+                                        <th>Cancun Airport Location</th>
+                                        <td>Carr. a Aeropuerto Cancún, 77500 Cancún, Q.R, Mx</td>
                                     @else
-                                        <th>Ubicación del aeropuerto de Punta Cana</th>
-                                        <td>Carr. Aeropuerto, Punta Cana 23000, República Dominicana</td>
+                                        <th>Ubicación del Aeropuerto de Cancún</th>
+                                        <td>Carr. a Aeropuerto Cancún, 77500 Cancún, Q.R, Mx</td>
                                     @endif
                                 </tr>
                                 <tr>
                                     @if(app()->getLocale() == "en")
-                                        <th>Punta Cana Airport Schedule</th>
+                                        <th>Cancun Airport  Schedule</th>
                                         <td>24/7</td>
                                     @else
-                                        <th>Horario Aeropuerto Punta Cana</th>
+                                        <th>Horario del Aeropuerto de Cancún</th>
                                         <td>24/7</td>
                                     @endif
                                 </tr>
                                 <tr>
                                     @if(app()->getLocale() == "en")
-                                        <th>Private transportation service available at the Punta Cana airport.</th>
-                                        <td><a title="Punta Cana Airport Transfers" href="https://punta-cana-airport-transfers.com">Punta Cana Airport Transfers</a></td>
+                                        <th>Private transportation service available at the Cancun Airport</th>
+                                        <td><a title="Sacbe Transfers" href="https://sacbetransfers.com/">Sacbe Transfers</a></td>
                                     @else
-                                        <th>Servicio de transporte privado disponible en el aeropuerto de Punta Cana.</th>
-                                        <td><a title="Traslados en Punta Cana" href="https://punta-cana-airport-transfers.com/es">Traslados en Punta Cana</a></td>
+                                        <th>Empresa de transporte privado disponible en el Aeropuerto de Cancún</th>
+                                        <td><a title="Sacbe Transfers" href="https://sacbetransfers.com/es">Sacbe Transfers</a></td>
                                     @endif
                                 </tr>
                                 <tr>
                                     @if(app()->getLocale() == "en")
-                                        <th>Punta Cana Airport Transportation Service Amenities</th>
+                                        <th>Cancun Airport Transportation Service Amenities</th>
                                         <td>Meet and greet at airport, 24/7 service, private trips, no continuous stops</td>
                                     @else
-                                        <th>Amenidades, transporte aeropuerto de Punta Cana</th>
-                                        <td>Recepción en el aeropuerto, servicio 24/7, viajes privados, sin paradas continuas</td>
+                                        <th>Servicios de Transporte en el Aeropuerto de Cancún Amenidades</th>
+                                        <td>Recibimiento en el aeropuerto, servicio 24/7, viajes privados, sin paradas continuas.</td>
                                     @endif
                                 </tr>
                             </tbody>
@@ -515,188 +510,170 @@
                 <div class="left">
                     <h2>
                         @if(app()->getLocale() == "en")
-                            FAQ’s - Punta Cana Airport Transfers
+                            Cancun Airport Transfers - FAQ's
                         @else
-                            Preguntas Frecuentes - Traslados Aeropuerto Punta Cana
+                            Traslados en el Aeropuerto de Cancún - Preguntas Frecuentes
                         @endif
                     </h2>
                     <div class="faq-items">
                         @if(app()->getLocale() == "en")
                             <div>
-                                <h3>Do I have to book my Punta Cana Airport Transfer service in advance?</h3>
+                                <h3>Do I need to book my Cancun Airport Transfer in advance?</h3>
                                 <div>
-                                    <p>It is advisable to book your transfer in advance, either to or from Punta Cana airport or even to other destinations, this will prevent you from facing low or low availability, or high prices for last minute bookings.</p>
+                                    <p>Yes! We strongly recommend booking your transfer in advance—whether arriving at or departing from Cancun International Airport (CUN) or traveling to other destinations like Playa del Carmen or Tulum. Pre-booking ensures availability and avoids last-minute price surges.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>How to reserve a Shuttle service from Punta Cana Airport?</h3>
+                                <h3>How do I reserve a shuttle service from Cancun Airport?</h3>
                                 <div>
-                                    <p><strong>Step 1 </strong>Login to our site</p>
-                                    <p><strong>Step 2 </strong>Enter your data in the booking box</p>
-                                    <p><strong>Step 3 </strong>add your information (remember that all your data is protected)</p>
-                                    <p><strong>Step 4 </strong>Make your payment</p>
-                                    <p><strong>Step 5 </strong>check your email, including your spam folder, where you will receive the confirmation of your reservation.</p>
+                                    <p>Booking is quick and easy:</p>
+                                    <ol>
+                                        <li>Visit our Transfers Section</li>
+                                        <li>Enter your details in the booking form (your information is secure)</li>
+                                        <li>Select your transfer type (private, shared, luxury, etc.)</li>
+                                        <li>Complete payment</li>
+                                        <li>Check your email (including spam folder) for booking confirmation</li>
+                                    </ol>
                                 </div>
                             </div>
                             <div>
-                                <h3>What types of airport transfer options are available in Punta Cana?</h3>
+                                <h3>What types of airport transfer options are available in Cancun?</h3>
                                 <div>
-                                    <p>Travelers can choose from several options:</p>
+                                    <p>Travelers can choose from:</p>
                                     <ul>
-                                        <li>Private Transfers: Non-shared, direct service from the airport to your destination.</li>
-                                        <li>Shared Shuttles: Cost-effective but may involve waiting for other passengers and multiple stops.</li>
-                                        <li>Taxis: Available at the airport with fixed rates depending on the destination.</li>
-                                        <li>Luxury &amp; VIP Transfers: Premium vehicles offering enhanced comfort and amenities.</li>
+                                        <li>Private Transfers - Direct, non-stop service to your hotel</li>
+                                        <li>Shared Shuttles - Budget-friendly with possible stops</li>
+                                        <li>Taxis - Available at the airport with fixed rates</li>
+                                        <li>Luxury &amp; VIP Transfers - Premium vehicles with extra comfort</li>
                                     </ul>
                                 </div>
                             </div>
                             <div>
-                                <h3>How do I find my driver upon arrival at Punta Cana International Airport?</h3>
+                                <h3>What if my flight is delayed or early?</h3>
                                 <div>
-                                    <p>After collecting your luggage and passing through customs, your driver will be waiting in the terminal holding a sign with your name or the logo of the transportation company of your choice. </p>
-                                </div>
-                            </div>
-                            <div>
-                                <h3>What should I do if my flight is delayed or arrives early?</h3>
-                                <div>
-                                    <p>Reputable transfer services monitor flight schedules and adjust pickup times accordingly. If your flight is canceled, they will attempt to reschedule your transfer, though availability cannot be guaranteed. </p>
+                                    <p>Reputable services track flight statuses and adjust pickup times automatically. If your flight is canceled, we’ll try to reschedule, but availability isn’t guaranteed.</p>
                                 </div>
                             </div>
                             <div>
                                 <h3>Are child seats available for airport transfers?</h3>
                                 <div>
-                                    <p>Yes, many transfer services offer child seats. Typically, one seat is included at no additional charge, with extra seats available for a fee. It's advisable to specify the age and weight of your child when booking.</p>
+                                    <p>Yes! Most services provide free child seats (one per booking). Additional seats may require a small fee—please specify your child’s age/weight when booking.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>Do I need to confirm my airport transfer before arrival?</h3>
+                                <h3>How much does a transfers from Cancun Airport cost?</h3>
                                 <div>
-                                    <p>Once you've received electronic confirmation of your booking, pickups and drop-offs are automatically scheduled, eliminating the need for reconfirmation. </p>
-                                </div>
-                            </div>
-                            <div>
-                                <h3>What is the refund policy for canceled transfers?</h3>
-                                <div>
-                                    <p>You may generally cancel your reservation up to 24 hours prior to your scheduled check-in or check-out time for a full refund. Cancellations made less than eight hours in advance may or may not receive a partial refund. Policies may vary, so it is best to check with each supplier.</p>
-                                </div>
-                            </div>
-                            <div>
-                                <h3>How much does a taxi from Punta Cana Airport to local destinations cost?</h3>
-                                <div>
-                                    <p>Taxi fares are typically fixed based on the destination. For example:</p>
+                                    <p>Taxi fares are fixed by zone:</p>
                                     <ul>
-                                        <li>Punta Cana Airport to Cap Cana: $30 USD</li>
-                                        <li>Punta Cana Airport to Bavaro: $30-$35 USD</li>
-                                        <li>Punta Cana Airport to Uvero Alto: $70 USD </li>
+                                        <li>Cancun Airport to Hotel Zone: $29.99 USD</li>
+                                        <li>Cancun Airport to Playa del Carmen: $69.99 USD</li>
+                                        <li>Cancun Airport to Tulum: $127 USD</li>
                                     </ul>
-                                    <p>It is recommended to confirm the fare before starting the trip, in case it is a last minute cab or reservation.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>Is it safe to take a taxi from Punta Cana airport?</h3>
+                                <h3>Is it safe to take a taxi from Cancun Airport?</h3>
                                 <div>
-                                    <p>Yes, taxis in Punta Cana are generally safe. However, to avoid potential overcharging, consider pre-booking a private transfer with a reputable company that offers fixed pricing.</p>
+                                    <p>Taxis are generally safe, but pre-booking a private transfer is recommended to avoid overcharging and ensure a smooth ride.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>Can I use Uber from/to Airport in Punta Cana?</h3>
+                                <h3>Can I use Uber at Cancun Airport?</h3>
                                 <div>
-                                    <p>While Uber operates in Punta Cana, pickups from the airport are restricted. Passengers would need to walk outside the airport premises to meet their Uber driver, which can be inconvenient, especially with luggage.</p>
+                                    <p>Uber operates in Cancun, but airport pickups are restricted. You may need to walk outside the terminal to meet your driver—inconvenient with luggage.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>How do I pay for my airport transfer?</h3>
+                                <h3>What payment methods are accepted?</h3>
                                 <div>
-                                    <p>Most transportation services accept different currencies, such as US dollars, Canadian dollars, Euros and pounds sterling, in the case of Punta Cana, payments are processed in Dominican pesos. It is advisable to confirm in advance the payment methods with the chosen supplier and to make a previous currency exchange.</p>
+                                    <p>Most services accept:</p>
+                                    <ul>
+                                        <li>Credit/debit cards (online booking)</li>
+                                        <li>Confirm payment options with your provider in advance.</li>
+                                    </ul>
                                 </div>
                             </div>
                         @else
                             <div>
-                                <h3>¿Tengo que reservar mi servicio de traslado al aeropuerto de Punta Cana con antelación?</h3>
+                                <h3>¿Necesito reservar mi traslado del aeropuerto con anticipación?</h3>
                                 <div>
-                                    <p>Es recomendable reservar tu traslado con antelación, ya sea desde o hacia el aeropuerto de Punta Cana o incluso a otros destinos, esto evitará que te encuentres con poca o baja disponibilidad, o altos precios por reservas de última hora.</p>
+                                    <p>¡Sí! Recomendamos encarecidamente reservar tu traslado con anticipación, ya sea al llegar o salir del Aeropuerto Internacional de Cancún (CUN) o si viajas a otros destinos como Playa del Carmen o Tulum. Reservar con tiempo garantiza disponibilidad y evita aumentos de último momento.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Cómo reservar un servicio de transporte desde el aeropuerto de Punta Cana?</h3>
+                                <h3>¿Cómo reservar un servicio de transporte desde el aeropuerto de Cancún?</h3>
                                 <div>
-                                    <p><strong>Paso 1</strong> Inicia sesión en nuestro sitio</p>
-                                    <p><strong>Paso 2 </strong>Introduce tus datos en la casilla de reserva</p>
-                                    <p><strong>Paso 3 </strong>Añade tu información (recuerda que todos tus datos están protegidos)</p>
-                                    <p><strong>Paso 4 </strong>Realiza tu pago</p>
-                                    <p><strong>Paso 5</strong> Revisa tu correo electrónico, incluida la carpeta de spam, donde recibirás la confirmación de tu reserva.</p>
+                                    <p>El proceso es rápido y sencillo:</p>
+                                    <ol>
+                                        <li>Visita nuestra sección de Traslados</li>
+                                        <li>Ingresa tus datos en el formulario (tu información está protegida)</li>
+                                        <li>Selecciona el tipo de traslado (privado, compartido, de lujo, etc.)</li>
+                                        <li>Completa el pago</li>
+                                        <li>Revisa tu correo (incluida la bandeja de spam) para confirmar tu reservación</li>
+                                    </ol>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Qué tipos de traslados hay disponibles en Punta Cana?</h3>
+                                <h3>¿Qué tipos de traslados están disponibles en Cancún?</h3>
                                 <div>
-                                    <p>Los viajeros pueden elegir entre varias opciones:</p>
+                                    <p>Los viajeros pueden elegir entre:</p>
                                     <ul>
-                                        <li>Traslados privados: Servicio directo no compartido desde el aeropuerto a cualquier destino.</li>
-                                        <li>Traslados compartidos: Rentables pero pueden implicar la espera de otros pasajeros y múltiples paradas.</li>
-                                        <li>Taxis: Disponibles en el aeropuerto con tarifas fijas según el destino.</li>
-                                        <li>Traslados de lujo y VIP: Vehículos de alta gama que ofrecen mayor comodidad y servicios.</li>
+                                        <li>Traslados privados: Servicio directo sin paradas a tu hotel</li>
+                                        <li>Transporte compartido: Opción económica con posibles paradas</li>
+                                        <li>Taxis: Disponibles en el aeropuerto con tarifas fijas</li>
+                                        <li>Traslados de lujo/VIP: Vehículos premium con mayor comodidad</li>
                                     </ul>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Cómo encontrar a mi conductor al llegar al Aeropuerto Internacional de Punta Cana?</h3>
+                                <h3>¿Cómo encuentro a mi conductor en el aeropuerto de Cancún?</h3>
                                 <div>
-                                    <p>Tras recoger tu equipaje y pasar por aduanas, tu conductor te estará esperando en la terminal con un cartel con tu nombre o bien con el distintivo de la empresa de transporte que elijas. </p>
+                                    <p>Después de recoger tu equipaje y pasar por aduanas, tu conductor te estará esperando en la zona de llegadas con un cartel con tu nombre o el logo de nuestra empresa.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Qué debo hacer si mi vuelo se retrasa o llega antes de lo previsto?</h3>
+                                <h3>¿Qué pasa si mi vuelo se retrasa o llega antes?</h3>
                                 <div>
-                                    <p>Los servicios de traslado acreditados supervisan los horarios de los vuelos y ajustan los horarios de traslado en consecuencia. Si tu vuelo se cancela, intentarán reprogramar tu traslado, aunque no se puede garantizar la disponibilidad. </p>
+                                    <p>Los servicios confiables monitorean el estado de los vuelos y ajustan automáticamente la hora de recogida. Si tu vuelo es cancelado, intentaremos reprogramar, pero la disponibilidad no está garantizada.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Hay sillas para niños en los traslados al aeropuerto?</h3>
+                                <h3>¿Hay sillas para niños disponibles en los traslados?</h3>
                                 <div>
-                                    <p>Sí, muchos servicios de traslado ofrecen sillas para niños. Por lo general, se incluye un asiento sin cargo adicional, y se ofrecen asientos adicionales con sobreprecio. Es recomendable especificar la edad y el peso del niño al reservar. </p>
+                                    <p>¡Sí! La mayoría de los servicios incluyen una silla infantil gratuita por reserva. Si necesitas más, puede haber un costo adicional. Especifica la edad/peso de tu niño al reservar.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Tengo que confirmar mi traslado al aeropuerto antes de llegar?</h3>
+                                <h3>¿Cuánto cuesta un traslado desde el aeropuerto de Cancún?</h3>
                                 <div>
-                                    <p>Una vez que hayas recibido la confirmación electrónica de tu reserva, se programan automáticamente tus traslados, eliminando la necesidad de reconfirmación. </p>
-                                </div>
-                            </div>
-                            <div>
-                                <h3>¿Cuál es la política de reembolso por cancelación?</h3>
-                                <div>
-                                    <p>En general, puede cancelar su reserva hasta 24 horas antes de la hora prevista de recepción o salida para obtener un reembolso completo. Las cancelaciones realizadas con menos de ocho horas de antelación pueden, o no, recibir un reembolso parcial. Las políticas pueden variar, por lo que es mejor consultar con cada proveedor. </p>
-                                </div>
-                            </div>
-                            <div>
-                                <h3>¿Cuánto cuesta un taxi desde el Aeropuerto de Punta Cana a destinos locales?</h3>
-                                <div>
-                                    <p>Las tarifas de taxi suelen ser fijas en función del destino. Por ejemplo.</p>
+                                    <p>Las tarifas de taxis son fijas por zona:</p>
                                     <ul>
-                                        <li>Aeropuerto de Punta Cana a Cap Cana: 30 USD</li>
-                                        <li>Aeropuerto de Punta Cana a Bávaro: $30-$35 USD</li>
-                                        <li>De Aeropuerto de Punta Cana a Uvero Alto: 70 USD</li>
+                                        <li>Aeropuerto a Zona Hotelera: $569.81 MXN</li>
+                                        <li>Aeropuerto a Playa del Carmen: $1329.81 MXN</li>
+                                        <li>Aeropuerto a Tulum: $2546 MXN</li>
                                     </ul>
-                                    <p>Se recomienda confirmar la tarifa antes de iniciar el viaje, en caso de ser este taxi o reserva de último minuto.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Es seguro tomar un taxi desde el aeropuerto de Punta Cana?</h3>
+                                <h3>¿Es seguro tomar un taxi en el aeropuerto de Cancún?</h3>
                                 <div>
-                                    <p>Sí, los taxis de Punta Cana suelen ser seguros. Sin embargo, para evitar posibles sobreprecios, considera reservar con antelación un traslado privado con una empresa de confianza que ofrezca precios fijos.</p>
+                                    <p>Los taxis son generalmente seguros, pero se recomienda reservar un traslado privado para evitar cobros excesivos y garantizar un viaje sin problemas.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Puedo utilizar Uber desde/hasta el Aeropuerto en Punta Cana?</h3>
+                                <h3>¿Puedo usar Uber en el aeropuerto de Cancún?</h3>
                                 <div>
-                                    <p>Aunque Uber opera en Punta Cana, están restringidas sus operaciones de transporte desde el aeropuerto. Habrá que salir del aeropuerto para encontrarse con el conductor de Uber, lo que puede resultar incómodo, sobre todo si llevas equipaje. </p>
+                                    <p>Uber opera en Cancún, pero no puede recoger pasajeros dentro del aeropuerto. Tendrás que caminar fuera del terminal, lo que puede ser incómodo con el equipaje.</p>
                                 </div>
                             </div>
                             <div>
-                                <h3>¿Cómo pago el traslado desde el aeropuerto?</h3>
+                                <h3>¿Qué métodos de pago se aceptan?</h3>
                                 <div>
-                                    <p>La mayoría de los servicios de transporte aceptan diferentes divisas, como dólares estadounidenses, dólares canadienses, euros y libras esterlinas, en el caso de punta cana, los pagos se procesan en pesos dominicanos. Es aconsejable confirmar de antemano los métodos de pago con el proveedor elegido y realizar una previa del cambio de divisas.</p>
+                                    <p>La mayoría de los servicios aceptan:</p>
+                                    <ul>
+                                        <li>Tarjetas de crédito/débito (en reservas online)</li>
+                                        <li>Confirma las opciones de pago con tu proveedor antes del viaje.</li>
+                                    </ul>
                                 </div>
                             </div>
                         @endif
@@ -717,13 +694,27 @@
                         @endif
                     </div>
                     <div class="bottom">
-                        <x-blog.latest :post="$post"/>
+                        <x-blog.general/>
                     </div>
                 </div>
             </div>
         </div>
         
-        <x-reviews/>        
+        @php
+            $review = [];
+            if(app()->getLocale() == "en"):
+                $review['heading'] = "More than <strong>500+ thousand</strong> customers trust Transportation by Cancun Airport";
+                $review['subheading'] = "Discover the best destinations in Cancun";
+                $review['client'] = "Marina K.";
+                $review['comment'] = "Very well signposted and organized...impeccable bathrooms...good attention in general...and the transportation service offered by the airport was excellent. We loved Cancun...";
+            else:
+                $review['heading'] = "Más de <strong>500+ mil</strong> clientes confían en Transportación por el Aeropuerto de Cancún";
+                $review['subheading'] = "Descubre los mejores destinos en Cancún";
+                $review['client'] = "Marina K.";
+                $review['comment'] = "Muy bien señalizado y organizado...baños impecables...buena atención en general...y el servicio de transportación que ofrece el aeropuerto fue excelente. Nos encanto Cancún...";
+            endif;
+        @endphp
+        <x-reviews :review="$review"/>          
     </main>
 
     @include('layouts.footer.general')

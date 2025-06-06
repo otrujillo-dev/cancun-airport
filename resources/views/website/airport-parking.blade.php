@@ -19,10 +19,10 @@
                     <div class="left">
                         @if(app()->getLocale() == "en")
                             <p>Everything you need to know</p>
-                            <h1>Punta Cana Airport Parking</h1>
-                            <p>Punta Cana is one of the most popular vacation destinations, and if you're looking to save time and money, the Punta Cana Airport parking is a convenient and affordable option.</p>
+                            <h1>Cancun Airport Parking</h1>
+                            <p>Punta Cana is one of the most popular vacation destinations, and if you're looking to save time and money, the Cancun Airport parking is a convenient and affordable option.</p>
                             <p>The parking lot is located close to the terminals, with 24/7 security to give you peace of mind. There's no need to worry about shuttle services, as the parking areas are within walking distance. Rates are available by the hour or per day, making it a flexible choice whether you&rsquo;re parking short-term or for an extended stay.</p>
-                            <p>Payment is simple and can be made at kiosks inside the terminal, ensuring a smooth experience. The Punta Cana Airport parking is ideal for long trips or simply for dropping off and picking up passengers with ease.</p>                        
+                            <p>Payment is simple and can be made at kiosks inside the terminal, ensuring a smooth experience. The Cancun Airport parking is ideal for long trips or simply for dropping off and picking up passengers with ease.</p>                        
                             <div>
                                 <p><strong>Security 24 hours:</strong> Service every day all year</p>
                                 <p><strong>An affordable option:</strong> Prices per hour and per day</p>

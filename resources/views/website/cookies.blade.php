@@ -24,7 +24,7 @@
         </div>
         <div class="container items">
             @if(app()->getLocale() == "en")
-                <p>This is the Cookie Policy for Punta Cana Airport, accessible from https://puntacanaairport.com</p>
+                <p>This is the Cookie Policy for Cancun Airport, accessible from https://cuninternationalairport.com</p>
                 <h2>What Are Cookies</h2>
                 <p>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or ‘break’ certain elements of the sites functionality.</p>
 
@@ -52,7 +52,7 @@
                 <p>However if you are still looking for more information then you can contact us through one of our preferred contact methods:</p>
                 <p>Email: {{ config('services.email.main') }}</p>
             @else
-                <p>Esta es la Política de Cookies de Punta Cana Airport, accesible desde https://puntacanaairport.com</p>
+                <p>Esta es la Política de Cookies de Cancun Airport, accesible desde https://cuninternationalairport.com</p>
                 <h2>¿Qué son las cookies?</h2>
                 <p>Como es práctica habitual en casi todos los sitios web profesionales, este sitio utiliza cookies, que son pequeños archivos que se descargan en su ordenador, para mejorar su experiencia. Esta página describe qué información recopilan, cómo la utilizamos y por qué a veces necesitamos almacenar estas cookies. También le explicaremos cómo puede evitar que se almacenen estas cookies, aunque esto puede degradar o «romper» ciertos elementos de la funcionalidad de los sitios web.</p>                
 

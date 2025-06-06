@@ -134,11 +134,11 @@
                     <div class="terms">
                         <div class="top">
                             @if(app()->getLocale() == "en")
-                                <p>By proceeding, I acknowledge that I have read and agree to puntacanaairport.com's <a href="@lang('links.transportation_terms')" title="" target="_blank">Terms & Conditions</a> and <a href="@lang('links.privacy')" title="" target="_blank">Policy</a>.</p>
+                                <p>By proceeding, I acknowledge that I have read and agree to cuninternationalairport.com's <a href="@lang('links.transportation_terms')" title="" target="_blank">Terms & Conditions</a> and <a href="@lang('links.privacy')" title="" target="_blank">Policy</a>.</p>
                                 <p><strong>Special Circumstances</strong></p>
                                 <p>If you have booked an airport transfer service and your flight has been cancelled for reasons beyond your control, you may cancel your reservation at any time prior to the scheduled pick-up time and receive a refund according to the terms and conditions or apply for an open credit for your next trip.</p>
                             @else
-                                <p>Al proceder, reconozco que he leído y estoy de acuerdo con puntacanaairport.com's <a href="@lang('links.transportation_terms')" title="" target="_blank">Términos y condiciones</a> y <a href="@lang('links.privacy')" title="" target="_blank">Políticas</a>.</p>
+                                <p>Al proceder, reconozco que he leído y estoy de acuerdo con cuninternationalairport.com's <a href="@lang('links.transportation_terms')" title="" target="_blank">Términos y condiciones</a> y <a href="@lang('links.privacy')" title="" target="_blank">Políticas</a>.</p>
                                 <p><strong>Circunstancias especiales</strong></p>
                                 <p>Si ha reservado un servicio de traslado al aeropuerto y su vuelo ha sido cancelado por razones ajenas a su voluntad, puede cancelar su reserva en cualquier momento antes de la hora de recogida programada y recibir un reembolso de acuerdo a los términos y condiciones o aplicar para un crédito abierto para su siguiente viaje.</p>
                             @endif
@@ -187,6 +187,6 @@
     </main>
 
     <footer>
-        <p>Copyright © {{ date("Y") }} puntacanaairport.com. All rights reserved</p>
+        <p>Copyright © {{ date("Y") }} cuninternationalairport.com. All rights reserved</p>
     </footer>
 @endsection

@@ -1,5 +1,5 @@
 <div class="gray-bg">
-    <div class="container general-reviews">
+    <div class="general-reviews">
         <div class="wrapper">
             <div>
                 @if(app()->getLocale() == "en")
@@ -8,20 +8,20 @@
                         @if( isset( $review['heading'] ) )
                             {!! $review['heading'] !!}
                         @else
-                            More than <strong>190+ thousand</strong> customers trust <strong>Punta Cana International Airport</strong>
+                            More than <strong>32.5 millions</strong> customers trust <strong>Cancun International Airport</strong>
                         @endif
                     </h4>
                     <p>
                         @if( isset( $review['subheading'] ) )
                             {!! $review['subheading'] !!}
                         @else
-                            Discover the best destinations in the Dominican Republic.
+                            Discover the best destinations in the Riviera Maya.
                         @endif
                     </p>
                 @else
                     <p>Reseñas</p>
-                    <h4>Más de <strong>190 mil</strong> clientes confían en el <strong>Aeropuerto Internacional de Punta Cana</strong></h4>
-                    <p>Descubre los mejores destinos de República Dominicana.</p>
+                    <h4>Más de <strong>32.5 millones</strong> de pasajeros confían en nosotros</h4>
+                    <p>El Aeropuerto Internacional de Cancún es tu puerta de entrada a los mejores destinos de la Riviera Maya.</p>
                 @endif
                 <div class="review">
                     <div>
@@ -46,13 +46,13 @@
                             @if( isset( $review['comment'] ) )
                                 {!! $review['comment'] !!}
                             @else
-                                I traveled to Punta Cana, got the best recommendations from the Punta Cana Airport page, and my experience was much easier.
+                               Cancun International Airport is one of the most modern and busiest airports in Latin America. It stands out for its efficiency, cleanliness, and a wide variety of services for travelers.
                             @endif
                         @else
                             @if( isset( $review['comment'] ) )
                                 {!! $review['comment'] !!}
                             @else
-                                Viajé a Punta Cana, obtuve las mejores recomendaciones de la página del Aeropuerto de Punta Cana y mi experiencia fue mucho más sencilla.
+                                El Aeropuerto Internacional de Cancún destaca por su eficiencia, limpieza y amplia variedad de servicios para viajeros.
                             @endif                            
                         @endif
                     </p>

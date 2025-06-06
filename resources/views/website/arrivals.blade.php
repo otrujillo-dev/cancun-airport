@@ -18,20 +18,20 @@
                         <div class="left">
                             @if(app()->getLocale() == "en")
                                 <p>Everything you need to know</p>
-                                <h1>Punta Cana Airport Arrivals</h1>
-                                <p>Punta Cana International Airport: Arrivals & Flight Status</p>
-                                <p>Arrival Information: All you need to know before arriving in Punta Cana</p>
+                                <h1>Cancun Airport Arrivals</h1>
+                                <p>Cancun International Airport: Arrivals & Flight Status</p>
+                                <p>Arrival Information: All you need to know before arriving in Cancun</p>
                             @else
-                                <p>Todo lo que debes saber</p>
-                                <h1>Llegadas al Aeropuerto de Punta Cana</h1>
-                                <p>Aeropuerto Internacional de Punta Cana: Llegadas y Estado de los Vuelos</p>
-                                <p>Información de Llegada: Todo lo que necesita saber antes de llegar a Punta Cana</p>
+                                <p>Todo lo que necesitas saber</p>
+                                <h1>Llegadas al Aeropuerto de Cancún</h1>
+                                <p>Aeropuerto Internacional de Cancún: Llegadas y Estado de Vuelos</p>
+                                <p>Información de llegadas: Todo lo que debes saber antes de llegar a Cancún</p>
                             @endif
                         </div>
                         <div class="right">
                             <picture>
                                 <source srcset="/assets/img/arrivals-and-departures/flight.webp" type="image/webp">
-                                <img src="/assets/img/arrivals-and-departures/flight.jpg" alt="" title="" width="500" height="500" loading="lazy">
+                                <img src="/assets/img/arrivals-and-departures/flight.jpg" alt="Arrivals" title="Arrivals" width="500" height="500" loading="lazy">
                             </picture>
                         </div>
                     </div>
@@ -68,11 +68,7 @@
             
             <div class="container flights-information">
                 <div class="wrapper">
-                    @if(app()->getLocale() == "en")
-                        <iframe width="100%" height="600px" frameborder="0" src='https://www.avionio.com/widget/en/puj/arrivals?style=2' loading="lazy"></iframe>
-                    @else
-                        <iframe width="100%" height="600px" frameborder="0" src='https://www.avionio.com/widget/es/puj/arrivals?style=2' loading="lazy"></iframe>
-                    @endif
+                    <iframe width="100%" height="600px" frameborder="0" src='https://www.avionio.com/widget/{{ app()->getLocale() }}/cun/arrivals?style=2' loading="lazy"></iframe>                    
                 </div>
             </div>
             
@@ -82,14 +78,14 @@
                         <div class="left">
                             @if(app()->getLocale() == "en")
                                 <p>Arrivals</p>
-                                <h2>Punta Cana Airport (PUJ) Flight Status & Arrivals</h2>
+                                <h2>Cancun Airport (CUN) Flight Status & Arrivals</h2>
                             @else
                                 <p>Llegadas</p>
-                                <h2>Aeropuerto de Punta Cana (PUJ) Estado del vuelo y llegadas</h2>
+                                <h2>Estado de Vuelos y Llegadas del Aeropuerto de Cancún (CUN)</h2>
                             @endif
                             <div>
                                 <div>
-                                    <p>+8 MM</p>
+                                    <p>+30.5 MM</p>
                                     <p>
                                         @if(app()->getLocale() == "en")
                                             Millions of passengers per year
@@ -99,17 +95,17 @@
                                     </p>
                                 </div>
                                 <div>
-                                    <p>+81 Airport</p>
+                                    <p>+100 Airport</p>
                                     <p>
                                         @if(app()->getLocale() == "en")
-                                            With more than 81 airports in 28 countries and 76 cities
+                                            There are more than 100 airports in 100 destinations worldwide, including major cities in the U.S., Canada, Europe, and Latin America.
                                         @else
-                                            Con más de 81 aeropuertos en 28 países y 76 ciudades
+                                            Hay más de 100 aeropuertos en 100 destinos alrededor del mundo, incluyendo ciudades principales en EE.UU., Canadá, Europa y Latinoamérica.
                                         @endif
                                     </p>
                                 </div>
                                 <div>
-                                    <p>+18k</p>
+                                    <p>+50K</p>
                                     <p>
                                         @if(app()->getLocale() == "en")
                                             Transfers
@@ -120,9 +116,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="right">                        
-                            <p>Compruebe las últimas llegadas de vuelos en tiempo real y actualizaciones de estado para el Aeropuerto de Punta Cana a continuación. Si el aeropuerto está cerrado, la tabla de llegadas mostrará la información más actualizada.</p>
-                            <p>Cualquier retraso, cancelación o cambio operativo se actualizará automáticamente en el horario de llegada del Aeropuerto de Punta Cana.</p>
+                        <div class="right">
+                            @if(app()->getLocale() == "en")
+                                <p>Check the latest real-time flight arrivals and status updates for Cancun Airport below. The arrivals table will show the most up-to-date information if the airport is closed.</p>
+                                <p>Any delays, cancellations, or operational changes will be automatically updated in the Cancun Airport arrival schedule.</p>
+                            @else
+                                <p>Consulta a continuación las últimas llegadas en tiempo real y actualizaciones del estado de los vuelos en el Aeropuerto de Cancún. La tabla de llegadas mostrará la información más reciente si el aeropuerto está cerrado.</p>
+                                <p>Cualquier retraso, cancelación o cambio operativo se actualizará automáticamente en el horario de llegada del Aeropuerto de Cancún.</p>
+                            @endif 
                         </div>
                     </div>
                 </div>

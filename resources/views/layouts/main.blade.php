@@ -10,7 +10,7 @@
         <meta name="keywords" content="{{ $seo['meta']['keywords'] }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="application-name" content="Website">
-        <meta name="author" content="Punta Cana Airport">
+        <meta name="author" content="Cancun Airport">
         @if( config('services.no_follow') == 1 || $seo['nofollow'] == true)
             <meta name="robots" content="noindex,nofollow">
         @else
@@ -69,11 +69,11 @@
                 "priceRange": "$$",
                 "description": "Punta Cana International Airport (PUJ) is the busiest and most modern airport in the Dominican Republic, serving as the primary gateway for travelers visiting the country’s world-famous beaches, luxury resorts, and vibrant tourist zones.",
                 "image": [
-                    "https://puntacanaairport.com/assets/img/logo.jpg"
+                    "https://cuninternationalairport.com/assets/img/logo.jpg"
                 ],
                 "hasMap": "https://www.google.com/maps/place/Punta+Cana+International+Airport/@18.5623134,-68.3676862,17z/data=!3m1!4b1!4m6!3m5!1s0x8ea892172ce48f89:0x957aa624da170f8c!8m2!3d18.5623134!4d-68.3676862!16zL20vMDdxNTVm?entry=tts&g_ep=EgoyMDI1MDQwOS4wIPu8ASoASAFQAw%3D%3D&skid=c77bca6e-ad14-4119-8519-7f03b0b03396",
                 "telephone": "+18099592376",
-                "url": "https://puntacanaairport.com",
+                "url": "https://cuninternationalairport.com",
                 "sameAs": [
                     "https://www.facebook.com/PuntaCanaInternationalAirport",
                     "https://www.instagram.com/puntacanaairport/"
@@ -96,11 +96,11 @@
                     "latitude": 18.56232,
                     "longitude": -68.36768
                 },                
-                "Logo": "https://puntacanaairport.com/assets/img/logo.jpg"
+                "Logo": "https://cuninternationalairport.com/assets/img/logo.jpg"
             }
         </script>
 
-        <!-- Hotjar Tracking Code for Punta Cana Airport -->
+        <!-- Hotjar Tracking Code for Cancun Airport -->
         <script>
             (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};

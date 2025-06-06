@@ -14,9 +14,9 @@
         <div class="black-background">
             <div class="container">
                 @if(app()->getLocale() == "en")
-                    <h1>Punta Cana Airport Privacy Policy</h1>
+                    <h1>Cancun Airport Privacy Policy</h1>
                 @else
-                    <h1>Política de Privacidad de Punta Cana Airport</h1>
+                    <h1>Política de Privacidad del Aeropuerto de Cancún</h1>
                 @endif
             </div>
         </div>
@@ -24,8 +24,8 @@
             @if(app()->getLocale() == "en")
                 <h2>Learn more about our privacy policy</h2>
                 <p>
-                    Punta Cana Airport is committed to protecting your privacy. This Privacy Policy describes how we collect, use, disclose and protect your personal information when you use our website and transportation services. In compliance with the
-                    Federal Law of Protection of Personal Data Held by Private Parties of Mexico, Punta Cana Airport is responsible for the processing of your personal data.
+                    Cancun Airport is committed to protecting your privacy. This Privacy Policy describes how we collect, use, disclose and protect your personal information when you use our website and transportation services. In compliance with the
+                    Federal Law of Protection of Personal Data Held by Private Parties of Mexico, Cancun Airport is responsible for the processing of your personal data.
                 </p>
                 <h3>1. Information we collect</h3>
                 <ul>
@@ -76,12 +76,12 @@
                 <p>Use cookies and similar technologies to collect information about your use of our website, improve your user experience, and perform analytics. You can manage your cookie preferences through your browser settings.</p>
                 <h3>8. Links to other websites</h3>
                 <p>
-                    Our website <a href="https://puntacanaairport.com/">https://puntacanaairport.com/</a> may contain links to other websites that are not operated by us. We are not responsible for the privacy practices of these third-party sites. We encourage
+                    Our website <a href="https://cuninternationalairport.com/">https://cuninternationalairport.com/</a> may contain links to other websites that are not operated by us. We are not responsible for the privacy practices of these third-party sites. We encourage
                     you to review the privacy policies of each site you visit.
                 </p>
                 <h3>9. Changes to this privacy policy</h3>
                 <p>
-                    <a href="https://puntacanaairport.com">https://puntacanaairport.com</a> reserves the right to update this Privacy Policy at any time. We will notify you of any significant changes by posting the new Privacy Policy on our website and
+                    <a href="https://cuninternationalairport.com">https://cuninternationalairport.com</a> reserves the right to update this Privacy Policy at any time. We will notify you of any significant changes by posting the new Privacy Policy on our website and
                     updating the effective date.
                 </p>
                 <h3>10. Contact</h3>
@@ -89,8 +89,8 @@
                     <li>If you have any questions or concerns about this Privacy Policy or our privacy practices, you may contact us at:</li>
                 </ul>
                 <p>
-                    <strong>Punta Cana Airport</strong><br />
-                    <strong>Address:</strong> Carr. Transpeninsular Km 43.5, 23420 San José del Cabo, B.C.S.<br />
+                    <strong>Cancun Airport</strong><br />
+                    <strong>Address:</strong> Aeropuerto Internacional de Cancún, Carr. Cancún - Tulum, 77500 Cancún, Q.R.<br />
                     <strong>Mail:</strong> {{ config('services.email.main') }}<br />
                     <strong>Phone: </strong>{{ config('services.phones.MX') }}
                 </p>
@@ -122,8 +122,8 @@
             @else
                 <h2>Conoce nuestra política de Privacidad</h2>
                 <p>
-                    Punta Cana Airport se compromete a proteger tu privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos, divulgamos y protegemos tu información personal cuando utilizas nuestro sitio web y servicios de transportación.
-                    En cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares de México, Punta Cana Airport es responsable del tratamiento de tus datos personales.
+                    Cancun Airport se compromete a proteger tu privacidad. Esta Política de Privacidad describe cómo recopilamos, utilizamos, divulgamos y protegemos tu información personal cuando utilizas nuestro sitio web y servicios de transportación.
+                    En cumplimiento con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares de México, Cancun Airport es responsable del tratamiento de tus datos personales.
                 </p>
                 <h3>1. Información que Recopilamos</h3>
                 <ul>
@@ -180,12 +180,12 @@
                 </p>
                 <h3>8. Enlaces a Otros Sitios Web</h3>
                 <p>
-                    Nuestro sitio web <a href="https://puntacanaairport.com/">https://puntacanaairport.com/</a> puede contener enlaces a otros sitios web que no están operados por nosotros. No somos responsables de las prácticas de privacidad de estos sitios
+                    Nuestro sitio web <a href="https://cuninternationalairport.com/">https://cuninternationalairport.com/</a> puede contener enlaces a otros sitios web que no están operados por nosotros. No somos responsables de las prácticas de privacidad de estos sitios
                     de terceros. Te recomendamos que revises las políticas de privacidad de cada sitio que visites.
                 </p>
                 <h3>9. Cambios a esta Política de Privacidad</h3>
                 <p>
-                    <a href="https://puntacanaairport.com">https://puntacanaairport.com</a> se reserva el derecho de actualizar esta Política de Privacidad en cualquier momento. Notificarte sobre cualquier cambio significativo publicando la nueva Política de
+                    <a href="https://cuninternationalairport.com">https://cuninternationalairport.com</a> se reserva el derecho de actualizar esta Política de Privacidad en cualquier momento. Notificarte sobre cualquier cambio significativo publicando la nueva Política de
                     Privacidad en nuestro sitio web y actualizando la fecha de entrada en vigor.
                 </p>
                 <h3>10. Contacto</h3>
@@ -194,8 +194,8 @@
                 </ul>
                 <p></p>
                 <p>
-                    <strong>Punta Cana Airport</strong><br />
-                    <strong>Dirección:</strong> Carr. Transpeninsular Km 43.5, 23420 San José del Cabo, B.C.S.<br />
+                    <strong>Cancun Airport</strong><br />
+                    <strong>Dirección:</strong> Aeropuerto Internacional de Cancún, Carr. Cancún - Tulum, 77500 Cancún, Q.R.<br />
                     <strong>Correo electrónico:</strong> {{ config('services.email.main') }}<br />
                     <strong>Teléfono: </strong>{{ config('services.phones.MX') }}
                 </p>
