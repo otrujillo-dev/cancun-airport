@@ -350,6 +350,147 @@ div.main-items{
                     }
                 }
             }
+            > div.rate-group-info{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                padding: 16px 20px;
+                > div.top{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    > h2{
+                        font-size: 16pt;
+                    }
+                }
+                > div.bottom{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-column-gap: 15px;
+                    grid-row-gap: 5px;
+                    > div.item{
+                        width: 100%;
+                        background-color: white;
+                        border: 1px solid #e3e0e0;
+                        border-radius: 5px;
+                        box-sizing: border-box;
+                        box-shadow: 0 0 50px 0 hsla(0, 0%, 55.3%, .07), 0 1px 5px 0 rgba(95, 95, 95, .07);
+                        overflow: hidden;
+                        transition: box-shadow .15s ease-in-out;
+                        position: relative;
+                        min-height: 400px;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        z-index: 1;
+                        > div.top{
+                            height: calc(100% - 130px);
+                            > div.heading{
+                                padding: 20px;
+                                min-height: 100px;
+                                position: relative;
+                                > h2{
+                                    font-size: 36px;
+                                    line-height: 1.11;
+                                    color: white;
+                                }
+                                > img{
+                                    position: absolute;
+                                    bottom: 10px;
+                                    right: 10px;
+                                    max-width: 80px;
+                                }
+                            }
+                            > div.content{
+                                padding: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                > ul{
+                                    margin: 0px;
+                                    padding: 0px;
+                                    padding-left: 15px;
+                                    > li{
+                                        line-height: 2;
+                                        font-size: 11pt;
+                                    }
+                                }
+                            }
+                        }
+                        > div.bottom{
+                            height: 130px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;
+                            padding: 15px;
+                            gap: 15px;
+                            > p{
+                                align-self: flex-end;
+                                text-align: right;
+                                font-size: 15pt;
+                                font-weight: bold;
+                                color: #002612;
+                                line-height: 1.3;
+                                letter-spacing: 1.5px;
+                                > span{
+                                    color: #cacaca;
+                                    display: block;
+                                    font-size: 10pt;
+                                    &::before{
+                                        content: '';
+                                    }
+                                }
+                            }
+                            > button{
+                                outline: none;
+                                border-radius: 10px;
+                                cursor: pointer;
+                                padding: 15px;
+                            }
+                        }
+
+                        &.flexible{
+                            > div.top{
+                                > div.heading{
+                                    background-color: #002612;
+                                }
+                            }                            
+                            > div.bottom{
+                                > button{
+                                    background-color: #002612;
+                                    border: 1px solid #002612;
+                                    color: white;
+                                    &:hover{
+                                        background-color: rgba(#002612,.75);
+                                    }
+                                }
+                            }
+                        }
+                        &.standard{
+                            > div.top{
+                                > div.heading{
+                                    background-color: #00853f;
+                                }
+                            }                            
+                            > div.bottom{
+                                border-top: 1px solid #e5e5e5;
+                                > button{
+                                    border: 0px;
+                                    color: #004a23;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                    @media (max-width: 600px) {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            }
+
             > div.terms{
                 display: flex;
                 flex-direction: column;

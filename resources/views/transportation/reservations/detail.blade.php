@@ -130,6 +130,59 @@
                             </div>
                         </div>
                     @endif
+                    
+                    <div class="rate-group-info">
+                        <div class="top">
+                            <h2>Elige tu forma de viajar</h2>
+                            <p>Selecciona la opción que mejor se adapte a tus necesidades de viaje.</p>
+                        </div>
+                        <div class="bottom">
+                            <div class="item checked flexible" data-rate="flexible">
+                                <div class="top">
+                                    <div class="heading">
+                                        <h2>Flexible</h2>
+                                        <img src="https://images.ctfassets.net/1sv59kqumaqp/5zUABcAW3GLLSUe4W1ef7Q/2d4be98a355e0be0328b9077d832bff3/BOOKING_IMG_COMBO-SMART.svg">
+                                    </div>
+                                    <div class="content">
+                                        <p>Tarifa regular</p>
+                                        <ul>
+                                            <li>All Standard benefits</li>
+                                            <li>Priority boarding</li>
+                                            <li>Courtesy stop at convenience store on the route</li>
+                                            <li>Free cancellation (24 hours in advance)</li>
+                                            <li>Unlimited changes (24 hours in advance)</li>                                      
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <p>+$8 <span>USD/</span></p>
+                                    <button type="button">Elegir Smart</button>
+                                </div>
+                            </div>
+                            <div class="item standard" data-rate="standard">
+                                <div class="top">
+                                    <div class="heading">
+                                        <h2>Standard</h2>
+                                        <img src="https://images.ctfassets.net/1sv59kqumaqp/5zUABcAW3GLLSUe4W1ef7Q/2d4be98a355e0be0328b9077d832bff3/BOOKING_IMG_COMBO-SMART.svg">
+                                    </div>
+                                    <div class="content">
+                                        <p>Tarifa preferencial</p>
+                                        <ul>
+                                            <li>100% private service</li>
+                                            <li>Wait time: Up to 15 minutes</li>
+                                            <li>Airport taxes included</li>
+                                            <li>Traveler insurance included</li>
+                                            <li>Flight monitoring</li>
+                                            <li>24/7 customer support</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <button type="button">Rechazar beneficios</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="terms">
                         <div class="top">
