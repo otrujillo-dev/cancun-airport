@@ -20,24 +20,31 @@
                         @if(app()->getLocale() == "en")
                             <p>Everything you need to know</p>
                             <h1>Cancun Airport Parking</h1>
-                            <p>Punta Cana is one of the most popular vacation destinations, and if you're looking to save time and money, the Cancun Airport parking is a convenient and affordable option.</p>
-                            <p>The parking lot is located close to the terminals, with 24/7 security to give you peace of mind. There's no need to worry about shuttle services, as the parking areas are within walking distance. Rates are available by the hour or per day, making it a flexible choice whether you&rsquo;re parking short-term or for an extended stay.</p>
-                            <p>Payment is simple and can be made at kiosks inside the terminal, ensuring a smooth experience. The Cancun Airport parking is ideal for long trips or simply for dropping off and picking up passengers with ease.</p>                        
+                            <p>Cancun is one of the world's top vacation destinations, and if you're looking for a hassle-free way to park your car, Cancún International Airport (CUN) offers secure and convenient parking options. Whether you're traveling for a short getaway or an extended trip, the airport’s parking facilities provide flexibility, safety, and easy access to the terminals.</p>
+                            <h2>Parking Options at Cancún Airport</h2>
+                            <p>Short-Term Parking - Ideal for quick drop-offs and pickups, located steps away from the terminals.</p>
+                            <p>Long-Term Parking - Perfect for travelers going on extended trips, with affordable daily rates.</p>
+                            <p>Covered Parking - Protects your vehicle from sun and rain for added convenience.</p>
                             <div>
-                                <p><strong>Security 24 hours:</strong> Service every day all year</p>
-                                <p><strong>An affordable option:</strong> Prices per hour and per day</p>
-                                <p><strong>Parking lots in each terminal:</strong> Easy as that, takes just a few minutes</p>
+                                <p><strong>24/7 Security :</strong> Monitored parking areas for peace of mind.</p>
+                                <p><strong>Walking Distance to Terminals:</strong> No shuttle needed; just a short walk to check-in.</p>
+                                <p><strong>Flexible Rates:</strong> Pay by the hour or by the day, depending on your needs.</p>
+                                <p><strong>Easy Payment:</strong> Pay at automated kiosks inside the terminal or via mobile options.</p>
                             </div>
                         @else
-                            <p>Todo lo que debe saber</p>
-                            <h1>Estacionamiento del Aeropuerto de Punta Cana</h1>
-                            <p>Punta Cana es uno de los destinos vacacionales más populares, y si buscas ahorrar tiempo y dinero, el estacionamiento del Aeropuerto de Punta Cana es una opción conveniente y económica.</p>
-                            <p>El estacionamiento está ubicado cerca de las terminales, con vigilancia las 24 horas para tu tranquilidad. No hay necesidad de preocuparse por servicios de transporte, ya que las áreas de estacionamiento están a poca distancia caminando. Las tarifas están disponibles por hora o por día, lo que lo convierte en una opción flexible, ya sea que necesites estacionar por poco tiempo o por una estadía prolongada.</p>
-                            <p>El pago es sencillo y puede realizarse en los quioscos dentro de la terminal, garantizando una experiencia sin complicaciones. El estacionamiento del Aeropuerto de Punta Cana es ideal para viajes largos o simplemente para dejar y recoger pasajeros con facilidad.</p>
+                            <p>Todo lo que necesita saber</p>
+                            <h1>Estacionamiento en el Aeropuerto de Cancún</h1>
+                            <p>Cancún es uno de los destinos vacacionales más populares del mundo, y si buscas una forma sencilla de estacionar tu auto, el Aeropuerto Internacional de Cancún (CUN) ofrece opciones de estacionamiento seguras y convenientes. Ya sea que viajes por unos días o por un período más largo, las instalaciones de estacionamiento del aeropuerto brindan flexibilidad, seguridad y fácil acceso a las terminales.</p>
+                            <h2>Opciones de Estacionamiento en el Aeropuerto de Cancún</h2>
+                            <p>Estacionamiento de corta estancia: Ideal para recoger o dejar pasajeros rápidamente, ubicado a pocos pasos de las terminales.</p>
+                            <p>Estacionamiento de larga estancia: Perfecto para viajeros que se ausentan por más tiempo, con tarifas diarias accesibles.</p>
+                            <p>Estacionamiento cubierto: Protege tu vehículo del sol y la lluvia para mayor comodidad.</p>
+                            <p>Beneficios del Estacionamiento:</p>
                             <div>
-                                <p><strong>Seguridad 24 horas:</strong> Servicio disponible todos los días del año.</p>
-                                <p><strong>Una opción económica:</strong> Precios por hora y por día.</p>
-                                <p><strong>Estacionamientos en cada terminal:</strong> Así de fácil, solo toma unos minutos.</p>
+                                <p><strong>Vigilancia 24/7:</strong> Áreas de estacionamiento monitoreadas para tu tranquilidad.</p>
+                                <p><strong>A poca distancia de las terminales:</strong> No necesitas transporte; solo un corto camino hacia el check-in.</p>
+                                <p><strong>Tarifas flexibles:</strong> Paga por hora o por día, según tus necesidades.</p>
+                                <p><strong>Pago sencillo:</strong> Realiza tu pago en los kioskos automáticos dentro de la terminal o mediante opciones móviles.</p>
                             </div>
                         @endif
                     </div>
@@ -47,76 +54,104 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th>Time Parked:</th>
-                                            <th>Rates: (Dominican Pesos)</th>
+                                            <th>Description</th>
+                                            <th>Rates</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>0-30 Minutes</td>
-                                            <td>$50 DOP</td>
+                                            <td>First hour or fraction</td>
+                                            <td>MXN$48</td>
                                         </tr>
                                         <tr>
-                                            <td>First Day</td>
-                                            <td>$750 DOP</td>
+                                            <td>Fraction of 20 minutes after the first hour</td>
+                                            <td>MXN$16</td>
                                         </tr>
                                         <tr>
-                                            <td>Additional Days</td>
-                                            <td>$750 DOP</td>
+                                            <td>Maximum rate for 24 hours</td>
+                                            <td>MXN$290</td>
                                         </tr>
                                         <tr>
-                                            <td>Lost Ticket Fee</td>
-                                            <td>$750 DOP</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tire Lock</td>
-                                            <td>$1000 DOP</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Damage to the bars</td>
-                                            <td>$3500 DOP</td>
+                                            <td>Lost ticket</td>
+                                            <td>MXN$290</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p>Prices are in Dominican pesos*</p>
+                                <p> Prices are in Mexican Pesos*</p>
                             @else
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th>Time Parked:</th>
-                                            <th>Rates: (Dominican Pesos)</th>
+                                            <th>Descripción</th>
+                                            <th>Precios</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>0-30 Minutos</td>
-                                            <td>$50 DOP</td>
+                                            <td>Primera hora o fracción</td>
+                                            <td>MXN$48</td>
                                         </tr>
                                         <tr>
-                                            <td>Primer Día</td>
-                                            <td>$750 DOP</td>
+                                            <td>Fracción de 20 minutos después de la primera hora</td>
+                                            <td>MXN$16</td>
                                         </tr>
                                         <tr>
-                                            <td>Días Adicionales</td>
-                                            <td>$750 DOP</td>
+                                            <td>Tarifa máxima durante 24 horas</td>
+                                            <td>MXN$290</td>
                                         </tr>
                                         <tr>
-                                            <td>Tasa por Ticket Perdido</td>
-                                            <td>$750 DOP</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Bloqueo de neumáticos</td>
-                                            <td>$1000 DOP</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Daños a las barras</td>
-                                            <td>$3500 DOP</td>
+                                            <td>Ticket Perdido</td>
+                                            <td>MXN$290</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p>Precios en pesos dominicanos*.</p>
+                                <p>Precios en pesos mexicanos*.</p>
                             @endif 
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container more-information">
+            <div class="wrapper">
+                <div class="top">
+                    @if(app()->getLocale() == "en")
+                        <h2>Off-Airport Parking at Cancún International Airport</h2>
+                        <p>For travelers seeking a budget-friendly and convenient parking solution, off-site parking near Cancún International Airport (CUN) provides an excellent alternative to on-airport lots. These secure facilities are located just minutes from the terminals, with quick and reliable shuttle services ensuring a smooth connection to your departure gate.</p>
+                    @else
+                        <h2>Estacionamiento Externo en el Aeropuerto Internacional de Cancún</h2>
+                        <p>Para viajeros que buscan una solución económica y conveniente, el estacionamiento externo cerca del Aeropuerto Internacional de Cancún (CUN) ofrece una excelente alternativa a los lotes del aeropuerto. Estas instalaciones seguras se ubican a solo minutos de las terminales, con servicios de transporte rápido y confiable que garantizan una conexión sin problemas hacia tu puerta de embarque.</p>
+                    @endif
+                </div>
+                <div class="bottom">
+                    <div class="item">
+                        <div>
+                            <picture>
+                                <source srcset="/assets/img/parking/parkinn.webp" type="image/webp">
+                                <img src="/assets/img/home/parkinn.png" alt="Parkinn" title="Parkinn" width="150" height="150" loading="lazy">
+                            </picture>
+                        </div>
+                        <h3>Parkinn</h3>
+                        @if(app()->getLocale() == "en")
+                            <p>Price: MNX$180 Day</p>
+                        @else
+                            <p>Precio: MNX$180 Día</p>
+                        @endif
+                    </div>
+                    <div class="item">
+                        <div>
+                            <picture>
+                                <source srcset="/assets/img/parking/ipark.webp" type="image/webp">
+                                <img src="/assets/img/home/ipark.png" alt="iPark" title="iPark" width="150" height="150" loading="lazy">
+                            </picture>
+                        </div>
+                        <h3>iPark</h3>
+                        @if(app()->getLocale() == "en")
+                            <p>Price: MNX$215 Day</p>
+                        @else
+                            <p>Precio: MNX$215 Día</p>
+                        @endif
                     </div>
                 </div>
             </div>

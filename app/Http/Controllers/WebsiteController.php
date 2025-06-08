@@ -20,17 +20,24 @@ class WebsiteController extends Controller{
     
     public function terminals(){
         $this->makeSeo("terminals");        
-        return view('website.terminals', ['seo' => $this->seo]);
+        return view('website.terminals.general', ['seo' => $this->seo]);
     }
 
-    public function terminalone(){
+    public function terminalOne(){
         $this->makeSeo("terminal-one");
         return view('website.terminals.terminal-one', ['seo' => $this->seo]);
     }
-
-    public function terminalB(){
-        $this->makeSeo("terminal-b");
-        return view('website.terminal-b', ['seo' => $this->seo]);
+    public function terminalTwo(){
+        $this->makeSeo("terminal-two");
+        return view('website.terminals.terminal-two', ['seo' => $this->seo]);
+    }
+    public function terminalThree(){
+        $this->makeSeo("terminal-three");
+        return view('website.terminals.terminal-three', ['seo' => $this->seo]);
+    }
+    public function terminalFour(){
+        $this->makeSeo("terminal-four");
+        return view('website.terminals.terminal-four', ['seo' => $this->seo]);
     }
 
     public function arrivals(){

@@ -476,7 +476,7 @@
                         @endif
                     </div>
                     <div class="bottom">
-                        <x-blog.general/>
+                        <x-blog.latest :post="$post"/>
                     </div>
                 </div>
             </div>

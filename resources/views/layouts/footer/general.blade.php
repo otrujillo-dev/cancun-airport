@@ -23,6 +23,8 @@
                 <a href="@lang('links.terminals')" title="@lang('main.terminals')">@lang('main.terminals')</a>
                 <a href="@lang('links.terminal-1')" title="Terminal 1">Terminal 1</a>
                 <a href="@lang('links.terminal-2')" title="Terminal 2">Terminal 2</a>
+                <a href="@lang('links.terminal-3')" title="Terminal 3">Terminal 3</a>
+                <a href="@lang('links.terminal-4')" title="Terminal 4">Terminal 4</a>
             </div>
             <div>
                 <h2>@lang('main.transportation')</h2>

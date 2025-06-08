@@ -89,7 +89,7 @@ class SanityService
                 }
             }
         }';
-
+        
         $path = "post.single.".$language.".".$slug;
         $data = $this->handler($path, $query);
         if(sizeof( $data ) > 0):

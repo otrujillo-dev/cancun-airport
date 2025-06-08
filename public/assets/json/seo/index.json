@@ -98,7 +98,7 @@
     "terminal-one": {
         "languages": {
             "en": {
-                "path": "/terminals/terminal-1",
+                "path": "/terminal-1",
                 "metas": {
                     "title": "Cancun Airport Terminal 1| Information About Terminal 1 at Cancun International Airport",
                     "description": "All the information about Cancun Airport Terminal 1, This terminal is an FBO: Airport Map, arrivals, departures, services, gate, and airlines.",
@@ -106,7 +106,7 @@
                 }
             },
             "es": {
-                "path": "/es/terminales/terminal-1",
+                "path": "/es/terminal-1",
                 "metas": {
                     "title": "Cancun Airport Terminal 1| Información sobre la Terminal 1 del Aeropuerto Internacional de Cancún",
                     "description": "Toda la información sobre el Aeropuerto de Cancún Terminal 1. Esta terminal es un FBO: Mapa del aeropuerto, llegadas, salidas, servicios, puerta de embarque y aerolíneas.",
@@ -115,32 +115,80 @@
             }           
         },
         "alternates": {
-            "en": "/terminals/terminal-1",
-            "es": "/es/terminales/terminal-1"
+            "en": "/terminal-1",
+            "es": "/es/terminal-1"
         }
     },
-    "terminal-b": {
+    "terminal-two": {
         "languages": {
             "en": {
-                "path": "/terminals/terminal-b-punta-cana",
+                "path": "/terminal-2",
                 "metas": {
-                    "title": "Cancun Airport, information about Terminal B (TB)",
-                    "description": "All information about Cancun Airport Terminal B, Terminal B airport map, arrivals, departures, services, boarding gates, airlines, and more.",
+                    "title": "Cancun Airport Terminal 2 | Information about Terminal 2 at Cancun International Airport",
+                    "description": "Information about Cancun International Airport Terminal 2: Airport Map, Arrivals, Departures, services, gate, and airlines.",
                     "keywords": ""
                 }
             },
             "es": {
-                "path": "/es/terminales/terminal-b-punta-cana",
+                "path": "/es/terminal-2",
                 "metas": {
-                    "title": "Aeropuerto de Punta Cana, información sobre la Terminal B (TB)",
-                    "description": "Toda la información sobre la terminal B del Aeropuerto de Punta Cana, mapa del aeropuerto Terminal B, llegadas, salidas, servicios, puertas de embarque, aerolíneas y más.",
+                    "title": "Cancún Aeropuerto Terminal 2 | Información sobre la Terminal 2 del Aeropuerto Internacional de Cancún",
+                    "description": "Información sobre la Terminal 2 del Aeropuerto Internacional de Cancún: Mapa del aeropuerto, llegadas, salidas, servicios, puerta de embarque y aerolíneas.",
                     "keywords": ""
                 }
             }           
         },
         "alternates": {
-            "en": "/terminals/terminal-b-punta-cana",
-            "es": "/es/terminales/terminal-b-punta-cana"
+            "en": "/terminal-2",
+            "es": "/es/terminal-2"
+        }
+    },
+    "terminal-three": {
+        "languages": {
+            "en": {
+                "path": "/terminal-3",
+                "metas": {
+                    "title": "Cancun Airport Terminal 3 | Information about Terminal 3 at Cancun International Airport",
+                    "description": "Information about Cancun International Airport Terminal 3: Airport Map, Arrivals, Departures, services, gate, and airlines.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/terminal-3",
+                "metas": {
+                    "title": "Aeropuerto de Cancún Terminal 3 | Información sobre la Terminal 3 del Aeropuerto Internacional de Cancún",
+                    "description": "Información sobre la Terminal 3 del Aeropuerto Internacional de Cancún: Mapa del aeropuerto, llegadas, salidas, servicios, puerta de embarque y aerolíneas.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/terminal-3",
+            "es": "/es/terminal-3"
+        }
+    },
+    "terminal-four": {
+        "languages": {
+            "en": {
+                "path": "/terminal-4",
+                "metas": {
+                    "title": "Cancun Airport Terminal 4 | Information about Terminal 4 at Cancun International Airport",
+                    "description": "Information about Cancun International Airport Terminal 4: Airport Map, Arrivals, Departures, services, gate, and airlines.",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/terminal-4",
+                "metas": {
+                    "title": "Aeropuerto de Cancún Terminal 4 | Información sobre la Terminal 4 del Aeropuerto Internacional de Cancún",
+                    "description": "Información sobre la Terminal 4 del Aeropuerto Internacional de Cancún: Mapa del aeropuerto, llegadas, salidas, servicios, puerta de embarque y aerolíneas.",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/terminal-4",
+            "es": "/es/terminal-4"
         }
     },
     "arrivals": {
@@ -196,16 +244,16 @@
             "en": {
                 "path": "/parking",
                 "metas": {
-                    "title": "Cancun Airport - Parking Information",
-                    "description": "Information about parking at Punta Cana International Airport. Location and cost of parking",
+                    "title": "Cancun Airport Parking - Cancun International Airport Parking Information and Prices",
+                    "description": "Information about parking at Cancun International Airport. Location, cost of parking, convenient options for both short-term and long-term stays for all your travel needs at Cancun Airport",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/estacionamiento",
                 "metas": {
-                    "title": "Aeropuerto de Punta Cana - Información de Estacionamiento",
-                    "description": "Información sobre el estacionamiento en el Aeropuerto Internacional de Punta Cana. Ubicación y coste del aparcamiento",
+                    "title": "Estacionamiento en el Aeropuerto de Cancún - Información y Precios del Estacionamiento en el Aeropuerto Internacional de Cancún",
+                    "description": "Información sobre el estacionamiento en el Aeropuerto Internacional de Cancún. Ubicación, costo del estacionamiento, opciones convenientes tanto para estancias cortas como largas para todas sus necesidades de viaje en el Aeropuerto de Cancún.",
                     "keywords": ""
                 }
             }           

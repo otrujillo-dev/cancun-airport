@@ -21,8 +21,10 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
     Route::get('/', [WebsiteController::class, 'index'])->name('home.en');
     Route::get('/transportation', [Transportation\IndexController::class, 'index'])->name('transportation.index.en');
     Route::get('/terminals', [WebsiteController::class, 'terminals'])->name('terminals.en');
-    Route::get('/terminals/terminal-1', [WebsiteController::class, 'terminalOne'])->name('terminalOne.en');
-    Route::get('/terminals/terminal-b-punta-cana', [WebsiteController::class, 'terminalB'])->name('terminalB.en');
+    Route::get('/terminal-1', [WebsiteController::class, 'terminalOne'])->name('terminalOne.en');
+    Route::get('/terminal-2', [WebsiteController::class, 'terminalTwo'])->name('terminalTwo.en');
+    Route::get('/terminal-3', [WebsiteController::class, 'terminalThree'])->name('terminalThree.en');
+    Route::get('/terminal-4', [WebsiteController::class, 'terminalFour'])->name('terminalFour.en');
     Route::get('/arrivals', [WebsiteController::class, 'arrivals'])->name('arrivals.en');
     Route::get('/departures', [WebsiteController::class, 'departures'])->name('departures.en');
     Route::get('/parking', [WebsiteController::class, 'airportParking'])->name('parking.en');
@@ -54,8 +56,10 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
         Route::get('/', [WebsiteController::class, 'index'])->name('home.es');
         Route::get('/transportacion', [Transportation\IndexController::class, 'index'])->name('transportation.index.es');
         Route::get('/terminales', [WebsiteController::class, 'terminals'])->name('terminals.es');
-        Route::get('/terminales/terminal-1', [WebsiteController::class, 'terminalOne'])->name('terminalOne.es');
-        Route::get('/terminales/terminal-b-punta-cana', [WebsiteController::class, 'terminalB'])->name('terminalB.es');       
+        Route::get('/terminal-1', [WebsiteController::class, 'terminalOne'])->name('terminalOne.es');
+        Route::get('/terminal-2', [WebsiteController::class, 'terminalTwo'])->name('terminalTwo.es');
+        Route::get('/terminal-3', [WebsiteController::class, 'terminalThree'])->name('terminalThree.es');
+        Route::get('/terminal-4', [WebsiteController::class, 'terminalFour'])->name('terminalFour.es');
         Route::get('/llegadas', [WebsiteController::class, 'arrivals'])->name('arrivals.es');
         Route::get('/salidas', [WebsiteController::class, 'departures'])->name('departures.es');
         Route::get('/estacionamiento', [WebsiteController::class, 'airportParking'])->name('parking.es');

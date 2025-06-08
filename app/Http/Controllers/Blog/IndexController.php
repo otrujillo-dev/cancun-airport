@@ -42,15 +42,16 @@ class IndexController extends Controller{
 
         $params = request()->route()->parameters();        
         $post = $this->sanityService->getSinglePost( $params['slug'] );
+        //dd($post);
         $language = app()->getLocale();
 
         if( $post == false ):
             return redirect( trans('links.home') );
         endif;
-        
+            
         $this->seo['meta']['title'] = $post['seo'][$language]['title'];
         $this->seo['meta']['description'] = $post['seo'][$language]['description'];        
-
+        
         $this->seo['alternate']['en'] = '/press/'.$post['fixed_tag']['en']['slug'].'/'.$post['seo']['en']['slug'];
         $this->seo['alternate']['es'] = '/es/prensa/'.$post['fixed_tag']['es']['slug'].'/'.$post['seo']['es']['slug'];        
 

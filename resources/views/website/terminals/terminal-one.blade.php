@@ -83,10 +83,22 @@
                             </div>
                             @if(app()->getLocale() == "en")
                                 <h3>Building</h3>
-                                <p>Terminal 1 is an FBO and used only for private flights</p>
+                                <p>Terminal 1 is an FBO and is only used for private flights.</p>
                                 @else
                                 <h3>Edificio</h3>
-                                <p>La terminal 1 es un FBO y sólo se utiliza para vuelos privados</p>
+                                <p>La Terminal 1 es un FBO y sólo se utiliza para vuelos privados.</p>
+                            @endif
+                        </div>
+                        <div>
+                            <div>
+                                <img src="/assets/img/terminals/svg/plane.svg" width="25" height="25" alt="" title="" loading="lazy">                                                                
+                            </div>
+                            @if(app()->getLocale() == "en")
+                                <h3>Type of flights</h3>
+                                <p>It operates exclusively private, charter, and general aviation flights.</p>
+                            @else
+                                <h3>Tipo de vuelos</h3>
+                                <p>Opera exclusivamente vuelos privados, chárter y aviación general.</p>
                             @endif
                         </div>
                         <div>
@@ -94,23 +106,11 @@
                                 <img src="/assets/img/terminals/svg/doors.svg" width="25" height="25" alt="" title="" loading="lazy">
                             </div>
                             @if(app()->getLocale() == "en")
-                                <h3>Location</h3>
-                                <p>It's located next to terminal 4 and shares its parking lot.</p>
+                                <h3>Available services</h3>
+                                <p>It offers VIP lounges, immigration and customs services, and personalized attention for private passengers.</p>
                             @else
-                                <h3>Ubicación</h3>
-                                <p>Está situado junto a la terminal 4 y comparte su aparcamiento.</p>
-                            @endif
-                        </div>
-                        <div>
-                            <div>
-                                <img src="/assets/img/terminals/svg/plane.svg" width="25" height="25" alt="" title="" loading="lazy">
-                            </div>
-                            @if(app()->getLocale() == "en")
-                                <h3>Airport Amenities</h3>
-                                <p>It has banks and cafeterias in the documentation area and several stores, restaurants, fast food and duty-free stores in the boarding area.</p>
-                            @else
-                                <h3>Servicios del aeropuerto</h3>
-                                <p>Dispone de bancos y cafeterías en la zona de documentación y de varias tiendas, restaurantes, comida rápida y tiendas.</p>
+                                <h3>Servicios disponibles</h3>
+                                <p>Cuenta con salas VIP, servicio de migración y aduanas, y atención personalizada para pasajeros privados.</p>
                             @endif
                         </div>
                         <div>
@@ -118,11 +118,11 @@
                                 <img src="/assets/img/terminals/svg/facilities.svg" width="25" height="25" alt="" title="" loading="lazy">
                             </div>
                             @if(app()->getLocale() == "en")
-                                <h3>Customs facilities</h3>
-                                <p>This terminal houses Migration and Customs facilities.</p>
+                                <h3>Location</h3>
+                                <p>It is separated from the commercial terminals, with exclusive access for private operators.</p>
                             @else
-                                <h3>Instalaciones aduaneras</h3>
-                                <p>Esta terminal alberga las instalaciones de Migración y Aduanas.</p>
+                                <h3>Ubicación</h3>
+                                <p>Se encuentra separada de las terminales comerciales, con acceso exclusivo para operadores privados.</p>
                             @endif
                         </div>
                         <div>
@@ -130,11 +130,11 @@
                                 <img src="/assets/img/terminals/svg/globe.svg" width="25" height="25" alt="" title="" loading="lazy">
                             </div>
                             @if(app()->getLocale() == "en")
-                                <h3>Additional information</h3>
-                                <p>Private or non-commercial aircraft may apply for single or multiple entry permits at local D.G.A.C.</p>
+                                <h3>Ground access</h3>
+                                <p>It has a dedicated area for private transportation and transfers coordinated directly with flight operators.</p>
                             @else
-                                <h3>Información adicional</h3>
-                                <p>Las aeronaves privadas o no comerciales pueden solicitar permisos de entrada simple o múltiple en las oficinas locales de la D.G.A.C.</p>
+                                <h3>Acceso terrestre</h3>
+                                <p>Dispone de un área especial para transporte privado y traslados coordinados directamente con los operadores de vuelo.</p>
                             @endif
                         </div>
                     </div>
