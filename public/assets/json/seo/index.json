@@ -532,16 +532,16 @@
             "en": {
                 "path": "/press",
                 "metas": {
-                    "title": "Press | Blog and info about Punta Cana",
-                    "description": "Explore the gateway to paradise at Punta Cana International Airport. Get information about flights, services, and amenities. Plan your trip with us and enjoy an unparalleled travel experience in the Caribbean.",
+                    "title": "Cancun Airport Press | News and info about Cancun International Airport",
+                    "description": "Welcome to Cancun International Airport, your gateway to sun, sand, and unforgettable adventures. Find everything you need to know about flights, top-notch services, and premium amenities.",
                     "keywords": ""
                 }
             },
             "es": {
                 "path": "/es/prensa",
                 "metas": {
-                    "title": "Prensa | Blog e info sobre Punta Cana",
-                    "description": "Explora la puerta de entrada al paraíso en el Aeropuerto Internacional de Punta Cana. Obtén información sobre vuelos, servicios, y comodidades. Planifica tu viaje con nosotros y disfruta de una experiencia de viaje sin igual en el Caribe.",
+                    "title": "Novedades Cancun Aeropuerto | Noticias e información sobre el Aeropuerto Internacional de Cancún",
+                    "description": "Bienvenido al Aeropuerto Internacional de Cancún, su puerta de entrada al sol, la arena y las aventuras inolvidables. Encuentre todo lo que necesita saber sobre vuelos, servicios de primera y comodidades premium.",
                     "keywords": ""
                 }
             }           

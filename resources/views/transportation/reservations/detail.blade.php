@@ -89,7 +89,7 @@
                                 <label for="last_name" class="form__label">@lang('transportation/reservations/detail.last_name')</label>
                             </div>
                             <div class="phone_">
-                                <select name="client_country">
+                                <select name="client_phone_code">
                                     @foreach($countries as $key => $value)
                                             <option value="{{ $value['phone_code'] }}" {{ (( isset( $form->client_phone_code) && $form->client_phone_code ==  $value['phone_code']  )?'selected':'') }} >(+{{ $value['phone_code'] }}) {{ $value['name'] }}</option>
                                     @endforeach
@@ -102,6 +102,14 @@
                             <div>
                                 <input type="text" class="form__input" id="email" placeholder="E-mail" name="client_email" {{ $form->client_email ?? '' }}/>
                                 <label for="email" class="form__label">Email <span>*</span></label>
+                            </div>
+                            <div class="country_">
+                                <select class="form-control" name="client_country">
+                                    @foreach($countries as $key => $value)
+                                        <option value="{{ $value['code'] }}" {{ (( isset($form['client_country']) && $form['client_country'] == $value['code'])?'selected':'') }}>{{ $value['name'] }}</option>
+                                    @endforeach
+                                </select>
+                                <label for="email" class="form__label">@lang('transportation/reservations/detail.where_are_you_from') <span>*</span></label>
                             </div>
                         </div>
                     </div>
@@ -136,11 +144,11 @@
                             @if(app()->getLocale() == "en")
                                 <p>By proceeding, I acknowledge that I have read and agree to cuninternationalairport.com's <a href="@lang('links.transportation_terms')" title="" target="_blank">Terms & Conditions</a> and <a href="@lang('links.privacy')" title="" target="_blank">Policy</a>.</p>
                                 <p><strong>Special Circumstances</strong></p>
-                                <p>If you have booked an airport transfer service and your flight has been cancelled for reasons beyond your control, you may cancel your reservation at any time prior to the scheduled pick-up time and receive a refund according to the terms and conditions or apply for an open credit for your next trip.</p>
+                                <p>If you have booked an airport transfer service and your flight has been canceled for reasons beyond your control, you may cancel your reservation and we will issue an open credit for your next trip.</p>
                             @else
                                 <p>Al proceder, reconozco que he leído y estoy de acuerdo con cuninternationalairport.com's <a href="@lang('links.transportation_terms')" title="" target="_blank">Términos y condiciones</a> y <a href="@lang('links.privacy')" title="" target="_blank">Políticas</a>.</p>
                                 <p><strong>Circunstancias especiales</strong></p>
-                                <p>Si ha reservado un servicio de traslado al aeropuerto y su vuelo ha sido cancelado por razones ajenas a su voluntad, puede cancelar su reserva en cualquier momento antes de la hora de recogida programada y recibir un reembolso de acuerdo a los términos y condiciones o aplicar para un crédito abierto para su siguiente viaje.</p>
+                                <p>Si ha reservado un servicio de traslado al aeropuerto y su vuelo ha sido cancelado por razones ajenas a su voluntad, puede cancelar su reserva y le otorgaremos un crédito abierto para su siguiente viaje.</p>
                             @endif
                             <div class="price">
                                 <p>Total <span>{{ $data['items']['currency'] }}${{ number_format($data['items']['price'],2) }}</span></p>

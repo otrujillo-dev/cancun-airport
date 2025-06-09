@@ -107,7 +107,7 @@ window.handler = async function(){
 }
 
 window.checkReservation = function(){
-    return fetch(`${ ((language == "en") ? '/transportation/check' : '/transportacion/check') }`, {
+    return fetch(`${ ((language == "en") ? '/transportation/check' : '/es/transportacion/check') }`, {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

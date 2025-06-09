@@ -16,16 +16,16 @@
             <div class="wrapper">
                 @if(app()->getLocale() == "en")
                     <div class="top">
-                        <h1>PRESS - Cancun Airport</h1>
+                        <h1>News About Cancun Airport</h1>
                         <div>
-                            <p>Located on the east coast of the Dominican Republic, Punta Cana International Airport is your gateway to Caribbean paradise. Known for its efficiency, comfort and world-class services, we are here to make your travel experience unforgettable from the moment you land.</p>
+                            <p>Welcome to Cancun International Airport, your gateway to sun, sand, and unforgettable adventures. Find everything you need about flights, top-notch services, and premium amenities. Plan your journey with us and dive into the vibrant beauty of Cancun and the Riviera Maya. Your perfect tropical escape starts here!</p>
                         </div>
                     </div>
                 @else
                     <div class="top">
-                        <h1>PRENSA - Aeropuerto de Punta Cana</h1>
+                        <h1>Novedades sobre el Aeropuerto de Cancún</h1>
                         <div>
-                            <p>Ubicado en la costa este de la República Dominicana, el Aeropuerto Internacional de Punta Cana es tu entrada al paraíso caribeño. Conocido por su eficiencia, comodidad y servicios de clase mundial, estamos aquí para hacer que tu experiencia de viaje sea inolvidable desde el momento en que aterrizas.</p>
+                            <p>Bienvenido al Aeropuerto Internacional de Cancún, tu puerta de entrada al sol, la arena y aventuras inolvidables. Encuentra aquí todo lo que necesitas sobre vuelos, servicios de primera clase y amenidades premium. Planea tu viaje con nosotros y sumérgete en la vibrante belleza de Cancún y la Riviera Maya. ¡Tu escape tropical perfecto comienza aquí!</p>
                         </div>
                     </div>
                 @endif
@@ -75,21 +75,19 @@
 
                 <div class="bottom">
                     @if(app()->getLocale() == "en")
-                        <h2>SERVICES</h2>
-                        <p>From renowned restaurants to exclusive boutiques and first-class services, Punta Cana International Airport is designed to meet all your needs during your stay. Whether you're passing through or staying for a while, you'll find everything you need to make your trip a pleasant and comfortable experience.</p>
-                        <h2>PLAN YOUR TRIP, LEARN MORE ABOUT PUNTA CANA</h2>
-                        <p>Learn more about flight schedules, airlines operating at our airport, and services available prior to your arrival. Our goal is to ensure that every detail of your trip is carefully planned so that you can relax and enjoy yourself from the moment you decide to visit us.</p>
-                        <p>Destinations, attractions, tips, safety and more.</p>
+                        <h2>Services</h2>
+                        <p>Cancún International Airport (CUN) offers world-class amenities to enhance your travel experience. Enjoy a variety of dining options, from local Mexican flavors to international cuisine, along with duty-free shopping, luxury boutiques, and VIP lounges. Whether you're arriving, departing, or connecting, our facilities are designed for your comfort and convenience.</p>
+                        <h2>Plan Your Trip - Discover Cancun</h2>
+                        <p>Check real-time flight schedules, explore the airlines serving our airport, and learn about the services available before your trip. We’re here to help you organize every detail, so you can enjoy Cancún’s stunning beaches, vibrant nightlife, and Mayan cultural treasures when you arrive. Destinations, attractions, travel tips, safety, and more.</p>
                         <h2>Contact and More Information</h2>
-                        <p>For more details about our facilities, updated flight schedules, and directions, please visit our website or <u>contact us</u> directly. We are here to help you have the perfect travel experience at Punta Cana International Airport.</p>
+                        <p>For details on airport facilities, updated flight information, or directions, visit our official website or contact us directly. At Cancún International Airport, we’re committed to making your journey seamless and unforgettable.</p>
                     @else
-                        <h2>SERVICIOS</h2>
-                        <p>Desde restaurantes de renombre hasta boutiques exclusivas y servicios de primer nivel, el Aeropuerto Internacional de Punta Cana está diseñado para satisfacer todas tus necesidades durante tu estancia. Ya sea que estés de paso o te quedes un tiempo, encontrarás todo lo que necesitas para hacer de tu viaje una experiencia placentera y cómoda.</p>
-                        <h2>PLANIFICA TU VIAJE, CONOCE MÁS SOBRE PUNTA CANA</h2>
-                        <p>Conoce más sobre los horarios de vuelos, aerolíneas que operan en nuestro aeropuerto, y servicios disponibles antes de tu llegada. Nuestro objetivo es asegurar que cada detalle de tu viaje esté cuidadosamente planificado para que puedas relajarte y disfrutar desde el momento en que decidas visitarnos.</p>
-                        <p>Destinos, atracciones, consejos, seguridad y mucho más.</p>
+                        <h2>Servicios</h2>
+                        <p>El Aeropuerto Internacional de Cancún (CUN) ofrece instalaciones de clase mundial para mejorar tu experiencia de viaje. Disfruta de variedad de opciones gastronómicas, desde sabores mexicanos hasta cocina internacional, además de compras duty-free, boutiques de lujo y salas VIP. Ya sea que llegues, partas o hagas conexión, nuestras instalaciones están diseñadas para tu comodidad y conveniencia.</p>
+                        <h2>Planea tu viaje - Descubre Cancún</h2>
+                        <p>Consulta horarios de vuelos en tiempo real, explora las aerolíneas que operan en nuestro aeropuerto y conoce los servicios disponibles antes de tu viaje. Estamos aquí para ayudarte a organizar cada detalle, para que al llegar disfrutes de las playas espectaculares, la vibrante vida nocturna y los tesoros culturales mayas de Cancún. Destinos, atracciones, tips de viaje, seguridad y más. </p>
                         <h2>Contacto y Más Información</h2>
-                        <p>Para más detalles sobre nuestras instalaciones, horarios de vuelo actualizados y cómo llegar, visita nuestro sitio web o <u>contáctanos</u> directamente. Estamos aquí para ayudarte a tener una experiencia de viaje perfecta en el Aeropuerto Internacional de Punta Cana.</p>
+                        <p>Para detalles sobre las instalaciones del aeropuerto, información actualizada de vuelos o indicaciones, visita nuestro sitio web oficial o contáctanos directamente. En el Aeropuerto Internacional de Cancún, estamos comprometidos a hacer tu viaje sin complicaciones e inolvidable.</p>
                     @endif
                 </div>
             </div>

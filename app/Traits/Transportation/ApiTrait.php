@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Session;
 trait ApiTrait
 {   
     public static $env = "live";
-    public static $channel = 12;
+    public static $channel = 20;
     public static $rate_group = 1;
     public static $api_key = 'JKLQETGVC1';
 

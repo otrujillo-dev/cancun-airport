@@ -196,12 +196,12 @@ class ProcessController extends Controller{
         }
 
         $data = ApiTrait::create($request);
-
+        
         if(isset( $data['error'] )):      
             return redirect()->to(
                 trans('links.transportation_process_detail') . '?' . http_build_query([
                     'code' => $data['error']['code'],
-                    'message' => $data['error']['message'][0]
+                    'message' => $data['error']['message']
                 ])
             );
         endif;

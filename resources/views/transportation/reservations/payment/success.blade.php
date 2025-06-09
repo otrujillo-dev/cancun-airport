@@ -6,15 +6,6 @@
 @endpush
 @push("push-bottom")
     <x-tawk-to.chat/>
-    <!-- Event snippet for purchase punta cana conversion page -->
-    <script>
-        gtag('event', 'conversion', {
-            'send_to': 'AW-16715849430/v-bMCK6Jr4QaENa93qI-',
-            'value': 1.0,
-            'currency': 'MXN',
-            'transaction_id': ''
-        });
-    </script>
 @endpush
 
 @section('content')

@@ -19,4 +19,5 @@
         "flight_number" => "Flight number",
         "continue" => "Continue",
         "price_details" => "Price Details",
+        "where_are_you_from" => "From which country you are visiting us?",
     ];

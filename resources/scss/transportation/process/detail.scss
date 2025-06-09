@@ -316,6 +316,17 @@ div.main-items{
                                 min-height: 50px;
                             }
                         }
+                        &.country_{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;                            
+                            > select{
+                                order: 2;
+                            }
+                            > label{
+                                transform: inherit;
+                            }
+                        }
                     }
                     @media (max-width: 600px) {
                         grid-template-columns: 1fr;
