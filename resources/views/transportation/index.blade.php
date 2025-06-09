@@ -230,7 +230,7 @@
                             <a href="#transportation-bookingbox" class="btn" title="See all Destinations">See all Destinations</a>
                         @else
                             <p>Destinos</p>
-                            <h2>Visita otros destinos cerca de Punta Cana</h2>
+                            <h2>Visita otros destinos cerca de Cancun</h2>
                             <a href="#transportation-bookingbox" class="btn" title="Ver todos los destinos">Ver todos los destinos</a>
                         @endif
                     </div>
@@ -240,11 +240,9 @@
                             <a href="#transportation-bookingbox" class="btn" title="Playa del Carmen from $69.99 USD">Playa del Carmen from $69.99 USD</a>
                             <a href="#transportation-bookingbox" class="btn" title="Tulum from $127 USD">Tulum from $127 USD</a>
                         @else
-                            <a href="#transportation-bookingbox" class="btn" title="Punta Cana desde $29 USD">Punta Cana desde $29 USD</a>
-                            <a href="#transportation-bookingbox" class="btn" title="Bavaro desde $30 USD">Bavaro desde $30 USD</a>
-                            <a href="#transportation-bookingbox" class="btn" title="Santo Domingo desde $114 USD">Santo Domingo desde $114 USD</a>
-                            <a href="#transportation-bookingbox" class="btn" title="Puerto Plata">Puerto Plata</a>
-                            <a href="#transportation-bookingbox" class="btn" title="La Romana">La Romana</a>
+                             <a href="#transportation-bookingbox" class="btn" title="Zona Hotelera de Cancún desde $29.99 USD">Zona Hotelera de Cancún desde $29.99 USD</a>
+                            <a href="#transportation-bookingbox" class="btn" title="Playa del Carmen desde $69.99 USD">Playa del Carmen desde $69.99 USD</a>
+                            <a href="#transportation-bookingbox" class="btn" title="Tulum desde $127 USD">Tulum desde $127 USD</a>
                         @endif 
                     </div>
                 </div>
@@ -256,8 +254,8 @@
                 <div class="wrapper">
                     <div class="left">
                         <picture>
-                            <source srcset="/assets/img/transportation/punta-cana-places.webp" type="image/webp">
-                            <img src="/assets/img/transportation/punta-cana-places.jpg" alt="" title="" width="" height="" loading="lazy">
+                            <source srcset="/assets/img/transportation/cancun-airport-places.webp" type="image/webp">
+                            <img src="/assets/img/transportation/cancun-airport-places.jpg" alt="" title="" width="" height="" loading="lazy">
                         </picture>
                     </div>
                     <div class="right">
@@ -694,7 +692,7 @@
                         @endif
                     </div>
                     <div class="bottom">
-                        <x-blog.general/>
+                        <x-blog.latest :post="$post"/>
                     </div>
                 </div>
             </div>

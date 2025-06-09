@@ -65,26 +65,22 @@
             {
                 "@context": "https://schema.org",
                 "@type": "LocalBusiness",
-                "name": "Punta Cana International Airport",
+                "name": "Cancun International Airport",
                 "priceRange": "$$",
-                "description": "Punta Cana International Airport (PUJ) is the busiest and most modern airport in the Dominican Republic, serving as the primary gateway for travelers visiting the country’s world-famous beaches, luxury resorts, and vibrant tourist zones.",
+                "description": "Cancun International Airport (CUN) is the busiest and most modern airport in the México, serving as the primary gateway for travelers visiting the country’s world-famous beaches, luxury resorts, and vibrant tourist zones.",
                 "image": [
                     "https://cuninternationalairport.com/assets/img/logo.jpg"
                 ],
-                "hasMap": "https://www.google.com/maps/place/Punta+Cana+International+Airport/@18.5623134,-68.3676862,17z/data=!3m1!4b1!4m6!3m5!1s0x8ea892172ce48f89:0x957aa624da170f8c!8m2!3d18.5623134!4d-68.3676862!16zL20vMDdxNTVm?entry=tts&g_ep=EgoyMDI1MDQwOS4wIPu8ASoASAFQAw%3D%3D&skid=c77bca6e-ad14-4119-8519-7f03b0b03396",
-                "telephone": "+18099592376",
+                "hasMap": "https://www.google.com/maps/place/Aeropuerto+Internacional+de+Canc%C3%BAn/@21.0420101,-86.8801971,2663m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8f4e81bb49b57809:0xe7f7d44da1f07a06!8m2!3d21.0419232!4d-86.8743844!16zL20vMDVma3pz?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D",
+                "telephone": "+525552840400",
                 "url": "https://cuninternationalairport.com",
-                "sameAs": [
-                    "https://www.facebook.com/PuntaCanaInternationalAirport",
-                    "https://www.instagram.com/puntacanaairport/"
-                ],
                 "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Carr. Aeropuerto",
-                    "addressLocality": "Punta Cana",
-                    "addressRegion": "La Altagracia",
-                    "postalCode": "23000",
-                    "addressCountry": "DO"
+                    "streetAddress": "Carretera Cancun-Chetumal KM.22",
+                    "addressLocality": "Cancún",
+                    "addressRegion": "Quintana Roo",
+                    "postalCode": "77500",
+                    "addressCountry": "MX"
                 },                    
                 "openingHoursSpecification": {
                     "@type": "OpeningHoursSpecification",
@@ -93,8 +89,8 @@
                 },
                 "geo": {
                     "@type": "GeoCoordinates",
-                    "latitude": 18.56232,
-                    "longitude": -68.36768
+                    "latitude": 21.0417033,
+                    "longitude": -86.8740062
                 },                
                 "Logo": "https://cuninternationalairport.com/assets/img/logo.jpg"
             }

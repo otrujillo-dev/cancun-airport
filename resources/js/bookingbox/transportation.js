@@ -91,9 +91,9 @@
                 "quote.from.date": "Please, enter your pickup date",
                 "quote.to.input": "Please, enter the destination",
                 "quote.to.date": "Please, enter your return date",
-                "place.name": "Cancun Airport (PUJ)",
-                "place.lat": "18.5623134",
-                "place.lng": "-68.3676862"
+                "place.name": "Cancun Airport",
+                "place.lat": "21.0442754",
+                "place.lng": "-86.8772972"
             },
             es: {
                 "quote.url": "/es/transportacion/listado",
@@ -101,9 +101,9 @@
                 "quote.from.date": "Por favor, introduzca su fecha de recogida",
                 "quote.to.input": "Por favor, introduzca el destino",
                 "quote.to.date": "Por favor, introduzca su fecha de regreso",
-                "place.name":"Aeropuerto de Punta Cana (PUJ)",
-                "place.lat": "18.5623134",
-                "place.lng": "-68.3676862"
+                "place.name":"Aeropuerto de Cancun",
+                "place.lat": "21.0442754",
+                "place.lng": "-86.8772972"
             }
         },
         setup: {
