@@ -221,7 +221,7 @@
         </div>
 
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3782.259663168033!2d-68.37026112485694!3d18.56232860369164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spunta%20cana%20airport%20car%20rental!5e0!3m2!1ses!2smx!4v1742698260020!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5361.693445077284!2d-86.87340887914858!3d21.04146117520041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scancun%20airport%20car%20rental!5e1!3m2!1ses-419!2smx!4v1749488218647!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div>
                 @if(app()->getLocale() == "en")
                     <h2>Car Rental Locations in Cancun Airport</h2>
