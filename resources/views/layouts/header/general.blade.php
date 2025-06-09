@@ -50,7 +50,7 @@
                 </div>
                 <div class="two">
                     <div>
-                        <p><svg width="15" height="15"><use xlink:href="/assets/img/icons.svg#globe"></use></svg> @lang('main.destinations')</p>
+                        <p><svg width="15" height="15"><use xlink:href="/assets/img/icons.svg#globe"></use></svg> @lang('main.general')</p>
                         <div>
                             <a href="@lang('links.home')" class="menu_opener" title="@lang('main.home')">@lang('main.home')</a>
                             <a href="@lang('links.transportation')" class="menu_opener" title="@lang('main.airport_transfers')">@lang('main.airport_transfers')</a>                            

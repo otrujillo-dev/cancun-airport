@@ -17,4 +17,5 @@
         "transportation" => "Transportation",
         "go_top" => "Back to top",
         "blog" => "Press",
+        "general" => "General",
     ];
