@@ -33,18 +33,14 @@
                             <a href="@lang('links.airport_parking')" class="tourist" title="@lang('main.airport_parking')">@lang('main.airport_parking')</a>
                             <a href="@lang('links.arrivals')" class="terminals" title="@lang('main.arrivals')">@lang('main.arrivals')</a>
                             <a href="@lang('links.departures')" class="fbo" title="@lang('main.departures')">@lang('main.departures')</a>
-                            @if(false)
-                                <a href="#" class="blog" title="Blog">Blog</a>
-                            @endif
+                            <a href="@lang('links.blog')" class="blog" title="@lang('main.blog')">@lang('main.blog')</a>
                         @else
                             <a href="@lang('links.transportation')" class="transportation" title="@lang('main.airport_transfers')">@lang('main.airport_transfers')</a>
                             <a href="@lang('links.car_rental')" class="cars" title="@lang('main.car_rental')">@lang('main.car_rental')</a>
                             <a href="@lang('links.airport_parking')" class="tourist" title="@lang('main.airport_parking')">@lang('main.airport_parking')</a>
                             <a href="@lang('links.arrivals')" class="terminals" title="@lang('main.arrivals')">@lang('main.arrivals')</a>
                             <a href="@lang('links.departures')" class="fbo" title="@lang('main.departures')">@lang('main.departures')</a>
-                            @if(false)
-                                <a href="#" class="blog" title="Blog">Blog</a>
-                            @endif
+                            <a href="@lang('links.blog')" class="blog" title="@lang('main.blog')">@lang('main.blog')</a>
                         @endif
                     </div>
                 </div>
