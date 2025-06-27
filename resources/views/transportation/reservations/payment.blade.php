@@ -76,7 +76,7 @@
 
                             <div class="element" data-type="paypal">
                                 <div class="top">
-                                    <h3>PayPal</h3>
+                                    <h3>PayPal @lang('transportation/reservations/payment.no_account_required') <small>@lang('transportation/reservations/payment.amex_payment')</small></h3>
                                     <div>
                                         <img src="/assets/img/payments/AMEX.png" width="24" height="16" alt="" title="" loading="lazy">
                                         <img src="/assets/img/payments/VISA.png" width="24" height="16" alt="" title="" loading="lazy">

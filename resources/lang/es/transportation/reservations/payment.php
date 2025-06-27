@@ -11,4 +11,6 @@
         "customer_info" => "Información del cliente",
         "name" => "Name",
         "phone" => "Teléfono",
+        "amex_payment" => "¿necesita pagar con AMEX? aquí",     
+        "no_account_required" => "(No requiere cuenta)",   
     ];
