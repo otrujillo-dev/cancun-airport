@@ -56,7 +56,6 @@
                                 <div class="top">
                                     <h3>@lang('transportation/reservations/payment.credit_debit_card')</h3>
                                     <div>
-                                        <img src="/assets/img/payments/AMEX.png" width="24" height="16" alt="" title="" loading="lazy">
                                         <img src="/assets/img/payments/MC.png" width="24" height="16" alt="" title="" loading="lazy">
                                         <img src="/assets/img/payments/VISA.png" width="24" height="16" alt="" title="" loading="lazy">
                                         <img src="/assets/img/payments/JCB.png" width="24" height="16" alt="" title="" loading="lazy">
