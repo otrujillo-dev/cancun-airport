@@ -36,6 +36,7 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
     Route::post('/transportation/detail', [Transportation\ProcessController::class, 'handlerDetail'])->name('transportation.process.detail.handler.en');
     Route::post('/transportation/check', [Transportation\ProcessController::class, 'check'])->name('transportation.process.book.check.en');
     Route::post('/transportation/book', [Transportation\ProcessController::class, 'handlerBook'])->name('transportation.process.book.handler.en');
+    Route::get('/payment/{uuid}', [Transportation\ProcessController::class, 'payment'])->name('transportation.process.payment.link.en');
     Route::get('/transportation/payment/{uuid}', [Transportation\ProcessController::class, 'payment'])->name('transportation.process.payment.en');
     Route::get('/transportation/success', [Transportation\ProcessController::class, 'success'])->name('transportation.process.payment.success.en');
     Route::get('/transportation/error', [Transportation\ProcessController::class, 'error'])->name('transportation.process.payment.error.en');
@@ -71,6 +72,7 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
         Route::post('/transportacion/detalle', [Transportation\ProcessController::class, 'handlerDetail'])->name('transportation.process.detail.handler.es');
         Route::post('/transportacion/check', [Transportation\ProcessController::class, 'check'])->name('transportation.process.book.check.es');
         Route::post('/transportacion/reservar', [Transportation\ProcessController::class, 'handlerBook'])->name('transportation.process.book.handler.es');
+        Route::get('/pago/{uuid}', [Transportation\ProcessController::class, 'payment'])->name('transportation.process.payment.link.es');
         Route::get('/transportacion/pago/{uuid}', [Transportation\ProcessController::class, 'payment'])->name('transportation.process.payment.es');
         Route::get('/transportacion/exitoso', [Transportation\ProcessController::class, 'success'])->name('transportation.process.payment.success.es');
         Route::get('/transportacion/error', [Transportation\ProcessController::class, 'error'])->name('transportation.process.payment.error.es');
