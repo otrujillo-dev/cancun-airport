@@ -32,4 +32,6 @@
         "blog" => "/press",
         "blog_category" => "/press/:slug",
         "blog_post" => "/press/:category/:slug",
+
+        "tours" => "/cancun-excursions",
     ];

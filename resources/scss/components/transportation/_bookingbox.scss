@@ -54,7 +54,7 @@ form#transportation-bookingbox{
     }
     > div.middle{
         display: grid;
-        grid-template-columns: 50% 12% 12% 80px 1fr;
+        grid-template-columns: 50% 12% 12% 80px 79px 1fr;
         gap: 8px;
         background-color: #febb02;
         padding: 5px;
@@ -214,6 +214,9 @@ form#transportation-bookingbox{
                 background-color: #eae9e9;
                 cursor: no-drop;
             }
+            @media (max-width: 1034px) {
+                grid-column: 1 / 3;
+            }
         }
         > div.four{
             background-color: white;
@@ -276,9 +279,23 @@ form#transportation-bookingbox{
                     width: 14px;
                     height: 14px;
                 }
-            }
-            @media (max-width: 1034px) {
-                grid-column: 1 / 3;
+            }            
+        }
+        > div.five{
+            background-color: white;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            position: relative;
+            > select{
+                width: 100%;
+                height: 100%;
+                border: 0px;
+                color: #000403;
+                font-weight: bold;
+                padding: 10px 12px;
+                cursor: pointer;
             }
         }
         > button{
@@ -299,7 +316,7 @@ form#transportation-bookingbox{
             @media (max-width: 1034px) {
                 grid-column: 1 / 3;
             }
-            @media (max-width: 767px) {
+            @media (max-width: 1034px) {
                 padding: 15px;
             }
         }

@@ -43,6 +43,9 @@ mix.sass(DATA.RESOURCES+'/scss/press/index.scss', DATA.PUBLIC_FOLDER + "/css/pre
 mix.sass(DATA.RESOURCES+'/scss/press/post.scss', DATA.PUBLIC_FOLDER + "/css/press/post.min.css");
 mix.sass(DATA.RESOURCES+'/scss/press/category.scss', DATA.PUBLIC_FOLDER + "/css/press/category.min.css");
 
+//Tours
+mix.sass(DATA.RESOURCES+'/scss/tours/index.scss', DATA.PUBLIC_FOLDER + "/css/tours/index.min.css");
+
 /*
 
 

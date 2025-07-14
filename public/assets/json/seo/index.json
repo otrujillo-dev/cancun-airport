@@ -550,5 +550,29 @@
             "en": "/press",
             "es": "/es/prensa"
         }
+    },
+    "tours": {
+        "languages": {
+            "en": {
+                "path": "/cancun-excursions",
+                "metas": {
+                    "title": "Official Cancun Excursions, Tours, and Activities Information by Cancun Airport",
+                    "description": "Information about Cancun Excursions in Cancun, Tours in Cancun, and Activities available in Cancun, Riviera Maya, and Tulum",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/tours-en-cancun",
+                "metas": {
+                    "title": "Información Oficial de Excursiones, Actividades, y Tours en Cancún por el Aeropuerto de Cancún",
+                    "description": "Información sobre Excursiones en Cancun, Tours en Cancun, y Actividades disponibles en Cancun, Riviera Maya, y Tulum",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/cancun-excursions",
+            "es": "/es/tours-en-cancun"
+        }
     }
 }

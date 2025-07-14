@@ -11,6 +11,7 @@
                 <h2>@lang('main.services')</h2>                
                 <a href="@lang('links.transportation')" title="@lang('main.airport_transfers')">@lang('main.airport_transfers')</a>                
                 <a href="@lang('links.car_rental')" title="@lang('main.car_rental')">@lang('main.car_rental')</a>
+                <a href="@lang('links.tours')" title="@lang('main.tours')">@lang('main.tours')</a>
                 <a href="@lang('links.airport_parking')" title="@lang('main.airport_parking')">@lang('main.airport_parking')</a>
             </div>
             <div>

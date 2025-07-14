@@ -81,6 +81,7 @@
         input_passengers: document.getElementById('xyz-input-passengers'),
         input_from_date: document.getElementById('xyz-input-from-date'),
         input_to_date: document.getElementById('xyz-input-to-date'),
+        input_currency: document.getElementById('xyz-input-currency'),
         errors: document.getElementById('xyz-bookingbox-errors'),
         btn_book_now: document.getElementById('xyz-btn-book'),
         service_type: document.querySelectorAll('input[name="xyz-input-service-type"]'),
@@ -223,7 +224,10 @@
 
             },
             setPassengers: function(pax){
-                this.passengers = pax;            
+                this.passengers = pax;
+            },
+            setCurrency: function(currency){
+                this.currency = currency;            
             },
             setServiceType: function(element){
                 this.serviceType = element.value;
@@ -394,7 +398,10 @@
                     });
 
                     window.shuttle.input_passengers.value = data.passengers;
-                    window.shuttle.setup.passengers = data.passengers;    
+                    window.shuttle.setup.passengers = data.passengers;
+
+                    window.shuttle.input_currency.value = data.currency;
+                    window.shuttle.setup.currency = data.currency;
 
                     window.shuttle.input_from.value = data.from.name;                    
                     window.shuttle.setup.items.from.name = data.from.name;
@@ -533,6 +540,10 @@
     // Set Passengers
     window.shuttle.input_passengers.addEventListener('change', function(){
         window.shuttle.setup.setPassengers(this.value);        
+    });
+    // Set Currency
+    window.shuttle.input_currency.addEventListener('change', function(){
+        window.shuttle.setup.setCurrency(this.value);
     });
 
     // Book now btn

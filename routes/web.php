@@ -13,6 +13,7 @@ use App\Http\Controllers\DestinationsController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ProcessController;
 use App\Http\Controllers\Blog;
+use App\Http\Controllers\Tours;
 use App\Http\Controllers\RedirectController;
 
 Route::post('/api/transportation/autocomplete', [TransportationAPI\AutocompleteController::class,'index']);
@@ -53,6 +54,8 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
     Route::get('/press/{category}', [Blog\IndexController::class, 'category'])->name('blog.category.en');
     Route::get('/press/{category}/{slug}', [Blog\IndexController::class, 'post'])->name('blog.post.en');
 
+    Route::get('/cancun-excursions', [Tours\IndexController::class, 'index'])->name('tours.en');
+
     Route::prefix('{locale}')->where(['locale' => '[a-zA-Z]{2}'])->group(function () {
         Route::get('/', [WebsiteController::class, 'index'])->name('home.es');
         Route::get('/transportacion', [Transportation\IndexController::class, 'index'])->name('transportation.index.es');
@@ -88,6 +91,8 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
         Route::get('/prensa', [Blog\IndexController::class, 'index'])->name('blog.es');
         Route::get('/prensa/{category}', [Blog\IndexController::class, 'category'])->name('blog.category.es');
         Route::get('/prensa/{category}/{slug}', [Blog\IndexController::class, 'post'])->name('blog.post.es');
+
+        Route::get('/tours-en-cancun', [Tours\IndexController::class, 'index'])->name('tours.es');
     });
 });
 
