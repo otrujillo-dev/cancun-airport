@@ -39,6 +39,12 @@
             </select>
             <div class="arrow"></div>
         </div>
+         <div class="five">
+            <select class="form-control" id="xyz-input-currency">
+                <option value="USD">USD</option>
+                <option value="MXN">MXN</option>
+            </select>
+         </div>
         <button class="btn" id="xyz-btn-book">@lang('transportation/bookingbox.search')</button>
     </div>
     <div id="xyz-bookingbox-errors"></div>

@@ -31,4 +31,6 @@
         "blog" => "/es/prensa",
         "blog_category" => "/es/prensa/:slug",
         "blog_post" => "/es/prensa/:category/:slug",
+
+        "tours" => "/es/tours-en-cancun",
     ];
