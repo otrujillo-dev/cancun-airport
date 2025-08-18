@@ -35,6 +35,12 @@
                 <p>Flexibility in our arrival services includes waiting for delayed flights up to 2 hours, waiting for lost luggage and/or immigration problems up to 1 hour.</p>
                 <p>The right to service is reserved if denied at specific times: 21:00 hrs - 06:00 hrs.&nbsp;</p>
                 <p>Waiting time on departure services: 15 minutes before being marked as No Show.</p>
+
+                <p>Due to heavy traffic, weather conditions and road accidents, whose responsibility is beyond our operation, "The Company" has a maximum waiting time for the unit to reach the customer of 40 minutes after the time agreed on the purchase ticket. After this waiting period, the customer may request a claim for non-compliance of the service.</p>
+                <p>The company is not responsible for refunds related to air transportation, lodging, food, entrance fees to tours, activities and/or archaeological sites, any other damage or interest.</p>
+                <p>The company has the option to omit reimbursements and instead offer open credits in case of weather conditions, natural disasters, pandemics, wars, total or partial road closures due to strikes, work stoppages or demonstrations, road blockages due to traffic accidents or natural disasters, port and airport closures, Once "the company" has provided the transportation service, it will be considered accepted and used by the client; therefore, this service will not be refundable for any reason.</p>
+                <p>The client whose name appears on the purchase ticket will be the only one authorized to present questions, clarifications, cancellations, or request a refund.</p>
+
                 <p><strong>Cancellation Policy</strong></p>
                 <p>All cancellation requests must be requested in writing to {{ config('services.email.main') }} with the following content.</p>
                 <ul>
@@ -79,6 +85,13 @@
                 <p>La flexibilidad en nuestros servicios de llegada incluye espera en vuelos demorados de hasta 2 horas, espera por p&eacute;rdida de equipaje y/o problemas en migraci&oacute;n de hasta 1 hora.</p>
                 <p>El derecho al servicio queda reservado de negarse en horarios espec&iacute;ficos: 21:00 hrs - 06:00 hrs</p>
                 <p>Tiempo de espera en servicios de <strong>salida</strong>: 15 minutos antes de ser marcado como <strong>No Show</strong></p>
+
+                <p>Ningún reembolso será emitido en caso de ser víctima de estafa, por favor lea su cupón de servicio y siga las indicaciones que vienen en él, no deje que terceras personas se comuniquen por usted a nuestros teléfonos oficiales.</p>
+                <p>Debido al tráfico intenso, las condiciones meteorológicas y los accidentes de tráfico, cuya responsabilidad escapa a nuestro control, «la empresa» establece un tiempo máximo de espera para que la unidad llegue al cliente de 40 minutos después de la hora acordada en el ticket de compra. Transcurrido este tiempo de espera, el cliente podrá solicitar una reclamación por incumplimiento del servicio.</p>
+                <p>La empresa no se hace responsable de los reembolsos relacionados con el transporte aéreo, transporte marítimo, el alojamiento, la comida, las entradas a excursiones, actividades y/o yacimientos arqueológicos, ni de cualquier otro daño o interés.</p>
+                <p>La empresa tiene la opción de omitir los reembolsos y, en su lugar, ofrecer créditos abiertos en caso de condiciones meteorológicas, desastres naturales, pandemias, guerras, cierres totales o parciales de carreteras debido a huelgas, paros laborales o manifestaciones, bloqueos de carreteras debido a accidentes de tráfico o desastres naturales, cierres de puertos y aeropuertos. Una vez que «la empresa» haya prestado el servicio de transporte, se considerará aceptado y utilizado por el cliente; por lo tanto, este servicio no será reembolsable por ningún motivo.</p>
+                <p>El cliente cuyo nombre aparece en el ticket de compra será el único autorizado para presentar preguntas, aclaraciones, cancelaciones o solicitar un reembolso.</p>
+                
                 <p><strong>Pol&iacute;ticas de Cancelaci&oacute;n</strong></p>
                 <p>Toda solicitud de cancelaci&oacute;n se debe solicitar por escrito al correo electr&oacute;nico <a href="mailto:{{ config('services.email.main') }}">{{ config('services.email.main') }}</a> con el siguiente contenido.</p>
                 <ul>
