@@ -32,6 +32,7 @@ mix.sass(DATA.RESOURCES+'/scss/car-rental/index.scss', DATA.PUBLIC_FOLDER + "/cs
 mix.sass(DATA.RESOURCES+'/scss/website/arrivals.scss', DATA.PUBLIC_FOLDER + "/css/website/arrivals.min.css");
 mix.sass(DATA.RESOURCES+'/scss/website/departures.scss', DATA.PUBLIC_FOLDER + "/css/website/departures.min.css");
 mix.sass(DATA.RESOURCES+'/scss/website/airport-parking.scss', DATA.PUBLIC_FOLDER + "/css/website/airport-parking.min.css");
+mix.sass(DATA.RESOURCES+'/scss/website/money-exchange.scss', DATA.PUBLIC_FOLDER + "/css/website/money-exchange.min.css");
 
 mix.js(DATA.RESOURCES+'/js/base/index.js', DATA.PUBLIC_FOLDER + "/js/base/index.min.js");
 mix.combine([DATA.RESOURCES+'/js/libs/swiper.js', DATA.RESOURCES+'/js/home/index.js'], DATA.PUBLIC_FOLDER + '/js/home/index.min.js');

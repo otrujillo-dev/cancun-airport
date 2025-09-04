@@ -84,4 +84,9 @@ class WebsiteController extends Controller{
         return view('website.reviews', ['seo' => $this->seo]);
     }
 
+    public function moneyExchange(){
+        $this->makeSeo("money-exchange");
+        return view('website.money-exchange', ['seo' => $this->seo]);
+    }
+
 }

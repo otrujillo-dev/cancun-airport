@@ -263,6 +263,30 @@
             "es": "/es/estacionamiento"
         }
     },
+    "money-exchange": {
+        "languages": {
+            "en": {
+                "path": "/money-exchange",
+                "metas": {
+                    "title": "Cancun Airport Money Exchange - Cancun International Airport Currency Exchange & Money services",
+                    "description": "Information about Money Exchange at Cancun International Airport for all passengers. Exchange your money in Cancun at ATMs, hotels, or local banks. Obtain the most favorable rates at the Cancun Airport and avoid dynamic currency conversion fees",
+                    "keywords": ""
+                }
+            },
+            "es": {
+                "path": "/es/cambio-de-divisas",
+                "metas": {
+                    "title": "Cambio de Divisas en el Aeropuerto de Cancún: Cambio de moneda y servicios en el Aeropuerto Internacional de Cancún",
+                    "description": "Información sobre el cambio de divisas en el Aeropuerto Internacional de Cancún para todos los pasajeros. Obtenga los tipos de cambio más favorables en el aeropuerto de Cancún y evite las comisiones por conversión dinámica de divisas",
+                    "keywords": ""
+                }
+            }           
+        },
+        "alternates": {
+            "en": "/money-exchange",
+            "es": "/es/cambio-de-divisas"
+        }
+    },
     "transportation.process.list": {
         "languages": {
             "en": {

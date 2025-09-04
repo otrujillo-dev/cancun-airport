@@ -29,6 +29,7 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
     Route::get('/arrivals', [WebsiteController::class, 'arrivals'])->name('arrivals.en');
     Route::get('/departures', [WebsiteController::class, 'departures'])->name('departures.en');
     Route::get('/parking', [WebsiteController::class, 'airportParking'])->name('parking.en');
+    Route::get('/money-exchange', [WebsiteController::class, 'moneyExchange'])->name('money-exchange.en');
     Route::get('/car-rental', [CarRental\IndexController::class, 'index'])->name('car-rental.en');
 
     Route::get('/transportation/list', [Transportation\ProcessController::class, 'list'])->name('transportation.process.search.en');
@@ -67,6 +68,7 @@ Route::middleware([Locale::class, BeforeMiddleware::class])->group(function () {
         Route::get('/llegadas', [WebsiteController::class, 'arrivals'])->name('arrivals.es');
         Route::get('/salidas', [WebsiteController::class, 'departures'])->name('departures.es');
         Route::get('/estacionamiento', [WebsiteController::class, 'airportParking'])->name('parking.es');
+        Route::get('/cambio-de-divisas', [WebsiteController::class, 'moneyExchange'])->name('money-exchange.es');
         Route::get('/renta-de-autos', [CarRental\IndexController::class, 'index'])->name('car-rental.es');
 
         Route::get('/transportacion/listado', [Transportation\ProcessController::class, 'list'])->name('transportation.process.search.es');
